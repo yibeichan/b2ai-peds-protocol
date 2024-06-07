@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "generative_naming_task_schema_10_plus",
+    "@id": "generative_naming_task_10_plus_schema",
     "prefLabel": "generative_naming_task_10_plus",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc1",
