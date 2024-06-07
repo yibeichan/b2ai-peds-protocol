@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Item",
+    "@id": "passage_8_10_plus",
+    "prefLabel": "passage_8_10_plus",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Taking a trip to the amusement park and riding on the Caterpillar was my MOST memorable moment ever!"
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    }
+}

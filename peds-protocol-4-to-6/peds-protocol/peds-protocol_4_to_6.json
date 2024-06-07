@@ -9,44 +9,44 @@
   "ui": {
     "addProperties": [
       {
-        "isAbout": "../activities/conversation/conversation_schema_4_to_6",
-        "variableName": "conversation_schema_4_to_6",
+        "isAbout": "../activities/conversation/conversation_4_to_6_schema",
+        "variableName": "conversation_4_to_6_schema",
         "prefLabel": "Peds age 4 - 6 Conversation",
         "isVis": true
       },
       {
-        "isAbout": "../activities/silly_sounds/silly_sounds_schema_4_to_6",
-        "variableName": "silly_sounds_schema_4_to_6",
+        "isAbout": "../activities/silly_sounds/silly_sounds_4_to_6_schema",
+        "variableName": "silly_sounds_4_to_6_schema",
         "prefLabel": "Peds age 4 - 6 silly sounds",
         "isVis": true
       },
       {
-        "isAbout": "../activities/identifying_pictures/identifying_pictures_schema_4_to_6",
-        "variableName": "identifying_pictures_schema_4_to_6",
+        "isAbout": "../activities/identifying_pictures/identifying_pictures_4_to_6_schema",
+        "variableName": "identifying_pictures_4_to_6_schema",
         "prefLabel": "Peds age 4 - 6 identifying pictures",
         "isVis": true
       },
       {
-        "isAbout": "../activities/repeating_sentences/repeating_sentences_schema_4_to_6",
-        "variableName": "repeating_sentences_schema_4_to_6",
+        "isAbout": "../activities/repeating_sentences/repeating_sentences_4_to_6_schema",
+        "variableName": "repeating_sentences_4_to_6_schema",
         "prefLabel": "Peds age 4 - 6 repeating sentences",
         "isVis": true
       },
       {
-        "isAbout": "../activities/picture_description/picture_description_schema_4_to_6",
-        "variableName": "picture_description_schema_4_to_6",
+        "isAbout": "../activities/picture_description/picture_description_4_to_6_schema",
+        "variableName": "picture_description_4_to_6_schema",
         "prefLabel": "Peds age 4 - 6 picture description",
         "isVis": true
       }
     ],
     "order": [
-      "../activities/conversation/conversation_schema_4_to_6",
-      "../activities/role_naming_tasks/role_naming_tasks_schema_4_to_6",
-      "../activities/noisy_sounds/noisy_sounds_schema_4_to_6",
-      "../activities/silly_sounds/silly_sounds_schema_4_to_6",
-      "../activities/identifying_pictures/identifying_pictures_schema_4_to_6",
-      "../activities/repeating_sentences/repeating_sentences_schema_4_to_6",
-      "../activities/picture_description/picture_description_schema_4_to_6"
+      "../activities/conversation/conversation_4_to_6_schema",
+      "../activities/role_naming_tasks/role_naming_tasks_4_to_6_schema",
+      "../activities/noisy_sounds/noisy_sounds_4_to_6_schema",
+      "../activities/silly_sounds/silly_sounds_4_to_6_schema",
+      "../activities/identifying_pictures/identifying_pictures_4_to_6_schema",
+      "../activities/repeating_sentences/repeating_sentences_4_to_6_schema",
+      "../activities/picture_description/picture_description_4_to_6_schema"
     ]
   },
   "shuffle": false

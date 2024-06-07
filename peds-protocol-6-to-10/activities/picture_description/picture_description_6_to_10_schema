@@ -1,14 +1,14 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "picture_description__6_to_10_schema",
+    "@id": "picture_description_6_to_10_schema",
     "prefLabel": "picture_description_schema_6_to_10",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {
         "order": [
-            "items/picture_description"
+            "items/picture_description_6_to_10"
         ],
         "addProperties": [
             {
