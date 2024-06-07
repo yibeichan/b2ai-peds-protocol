@@ -14,8 +14,8 @@
       ],
       "addProperties": [
           {
-              "variableName": "choose_book_4_to_6_4_to_6",
-              "isAbout": "items/choose_book_4_to_6_4_to_6",
+              "variableName": "choose_book_4_to_6",
+              "isAbout": "items/choose_book_4_to_6",
               "isVis": true
           },
           {

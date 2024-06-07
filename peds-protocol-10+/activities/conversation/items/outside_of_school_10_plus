@@ -1,8 +1,8 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "outside_of_school_10+",
-    "prefLabel": "outside_of_school_10+",
+    "@id": "outside_of_school_10_plus",
+    "prefLabel": "outside_of_school_10_plus",
     "description": {
         "en": "outside_of_school"
     },
