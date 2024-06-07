@@ -13,7 +13,7 @@
         "addProperties": [
             {
                 "variableName": "picture_description_6_to_10",
-                "isAbout": "picture_description_6_to_10",
+                "isAbout": "items/picture_description_6_to_10",
                 "isVis": true
             }
         ],
