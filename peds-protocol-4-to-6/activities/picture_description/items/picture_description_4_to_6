@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "The last thing we're going to do today is look at a picture with, you guessed it, lots of silly things that are going wrong. Take a look and tell me what you see happening – there are no right or wrong answers. Whatever you want to tell me about is perfect!"
+        "en": "The last thing we're going to do today is look at a picture with, you guessed it, lots of silly things that are going wrong. Take a look and tell me what you see happening - there are no right or wrong answers. Whatever you want to tell me about is perfect!"
     },
     "ui": {
         "inputType": "text"

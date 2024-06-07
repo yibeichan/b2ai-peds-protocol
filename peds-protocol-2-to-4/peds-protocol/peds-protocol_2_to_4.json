@@ -15,8 +15,8 @@
         "isVis": true
       },
       {
-        "isAbout": "../activities/reading_passage/abcs_and_2_to_4_123s_2_to_4_schema",
-        "variableName": "abcs_and_2_to_4_123s_schema",
+        "isAbout": "../activities/abcs_and_123s/abcs_and_123s_2_to_4_schema",
+        "variableName": "abcs_and_123s_2_to_4_schema",
         "prefLabel": "Peds age 2 - 4 abcs and 123s",
         "isVis": true
       },
