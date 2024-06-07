@@ -1,0 +1,20 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+  "@type": "reproschema:Item",
+  "@id": "pictures_and_doors_4_to_6",
+  "prefLabel": "pictures_and_doors_4_to_6",
+  "description": {
+    "en": "pictures and doors"
+  },
+  "schemaVersion": "1.0.0-rc1",
+  "version": "0.0.1",
+  "ui": {
+    "inputType": "text"
+  },
+  "responseOptions": {
+    "valueType": "xsd:string"
+  },
+  "question": {
+    "en": "There are lots of pictures and doors to open in this book – let’s see what we can find!"
+  }
+}

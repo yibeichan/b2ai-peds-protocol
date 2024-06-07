@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "identifying_pictures_6_to_10_schema",
+    "prefLabel": "identifying_pictures_6_to_10",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/pictures_6_to_10"
+        ],
+        "addProperties": [
+            {
+                "variableName": "pictures_6_to_10",
+                "isAbout": "items/pictures_6_to_10",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}
