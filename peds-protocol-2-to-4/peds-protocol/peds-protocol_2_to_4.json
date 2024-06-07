@@ -15,7 +15,7 @@
         "isVis": true
       },
       {
-        "isAbout": "../activities/reading_passage/reading_passage_2_to_4_schema",
+        "isAbout": "../activities/reading_passage/abcs_and_2_to_4_123s_2_to_4_schema",
         "variableName": "abcs_and_2_to_4_123s",
         "prefLabel": "Peds age 2 - 4 abcs and 123s",
         "isVis": true
@@ -35,10 +35,9 @@
     ],
     "order": [
       "../activities/conversation/conversation_2_to_4_schema",
-      "../activities/silly_sounds/silly_sounds_2_to_4_schema",
-      "../activities/identifying_pictures/identifying_pictures_2_to_4_schema",
-      "../activities/repeating_sentences/repeating_sentences_2_to_4_schema",
-      "../activities/picture_description/picture_description_2_to_4_schema"
+      "../activities/reading_passage/abcs_and_2_to_4_123s_2_to_4_schema",
+      "../activities/noisy_sounds/noisy_sounds_2_to_4_schema",
+      "../activities/identifying_pictures/identifying_pictures_2_to_4_schema"
     ]
   },
   "shuffle": false
