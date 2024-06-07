@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "conversation_4_to_6",
+    "@id": "conversation_4_to_6_schema",
     "prefLabel": "conversation_4_to_6",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc1",

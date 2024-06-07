@@ -9,51 +9,51 @@
   "ui": {
     "addProperties": [
       {
-        "isAbout": "../activities/conversation/conversation_schema_6_to_10",
-        "variableName": "conversation_schema_6_to_10",
+        "isAbout": "../activities/conversation/conversation_6_to_10_schema",
+        "variableName": "conversation_6_to_10_schema",
         "prefLabel": "Peds age 6 - 10 Conversation",
         "isVis": true
       },
       {
-        "isAbout": "../activities/silly_sounds/silly_sounds_schema_6_to_10",
-        "variableName": "silly_sounds_schema_6_to_10",
+        "isAbout": "../activities/silly_sounds/silly_sounds_6_to_10_schema",
+        "variableName": "silly_sounds_6_to_10_schema",
         "prefLabel": "Peds age 6 - 10 silly sounds",
         "isVis": true
       },
       {
-        "isAbout": "../activities/identifying_pictures/identifying_pictures_schema_6_to_10",
-        "variableName": "identifying_pictures_schema_6_to_10",
+        "isAbout": "../activities/identifying_pictures/identifying_pictures_6_to_10_schema",
+        "variableName": "identifying_pictures_6_to_10_schema",
         "prefLabel": "Peds age 6 - 10 identifying pictures",
         "isVis": true
       },
       {
-        "isAbout": "../activities/repeating_sentences/repeating_sentences_schema_6_to_10",
-        "variableName": "repeating_sentences_schema_6_to_10",
+        "isAbout": "../activities/repeating_sentences/repeating_sentences_6_to_10_schema",
+        "variableName": "repeating_sentences_6_to_10_schema",
         "prefLabel": "Peds age 6 - 10 repeating sentences",
         "isVis": true
       },
       {
-        "isAbout": "../activities/picture_description/picture_description_schema_6_to_10",
-        "variableName": "picture_description_schema_6_to_10",
+        "isAbout": "../activities/picture_description/picture_description_6_to_10_schema",
+        "variableName": "picture_description_6_to_10_schema",
         "prefLabel": "Peds age 6 - 10 picture description",
         "isVis": true
       },
       {
-        "isAbout": "../activities/reading_passage/reading_passage_schema_6_to_10",
-        "variableName": "reading_passage_schema_6_to_10",
+        "isAbout": "../activities/reading_passage/reading_passage_6_to_10_schema",
+        "variableName": "reading_passage_6_to_10_schema",
         "prefLabel": "Peds age 6 - 10 reading passage",
         "isVis": true
       }
     ],
     "order": [
-      "../activities/conversation/conversation_schema_6_to_10",
-      "../activities/generative_naming_tasks/generative_naming_tasks_schema_6_to_10",
-      "../activities/sustained_phonation/sustained_phonation_schema_6_to_10",
-      "../activities/silly_sounds/silly_sounds_schema_6_to_10",
-      "../activities/identifying_pictures/identifying_pictures_schema_6_to_10",
-      "../activities/repeating_sentences/repeating_sentences_schema_6_to_10",
-      "../activities/picture_description/picture_description_schema_6_to_10",
-      "../activities/reading_passage/reading_passage_schema_6_to_10"
+      "../activities/conversation/conversation_6_to_10_schema",
+      "../activities/generative_naming_tasks/generative_naming_tasks_6_to_10_schema",
+      "../activities/sustained_phonation/sustained_phonation_6_to_10_schema",
+      "../activities/silly_sounds/silly_sounds_6_to_10_schema",
+      "../activities/identifying_pictures/identifying_pictures_6_to_10_schema",
+      "../activities/repeating_sentences/repeating_sentences_6_to_10_schema",
+      "../activities/picture_description/picture_description_6_to_10_schema",
+      "../activities/reading_passage/reading_passage_6_to_10_schema"
     ]
   },
   "shuffle": false
