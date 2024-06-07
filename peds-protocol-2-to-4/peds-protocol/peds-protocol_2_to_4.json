@@ -35,7 +35,7 @@
     ],
     "order": [
       "../activities/conversation/conversation_2_to_4_schema",
-      "../activities/reading_passage/abcs_and_2_to_4_123s_2_to_4_schema",
+      "../activities/reading_passage/abcs_and_123s_2_to_4_schema",
       "../activities/noisy_sounds/noisy_sounds_2_to_4_schema",
       "../activities/identifying_pictures/identifying_pictures_2_to_4_schema"
     ]
