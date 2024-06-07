@@ -1,0 +1,40 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+  "@type": "reproschema:Activity",
+  "@id": "conversation_10_plus",
+  "prefLabel": "conversation_10_plus",
+  "description": "Default description",
+  "schemaVersion": "1.0.0-rc1",
+  "version": "0.0.1",
+  "ui": {
+    "order": [
+        "items/ready_for_school_10_plus",   
+        "items/favorite_show_movie_game_10_plus",
+        "items/favorite_food_10_plus",
+        "items/outside_of_school_10_plus"
+    ],
+    "addProperties": [
+        {
+            "variableName": "ready_for_school_10_plus",
+            "isAbout": "items/ready_for_school_10_plus",
+            "isVis": true
+        },
+        {
+            "variableName": "favorite_show_movie_game_10_plus",
+            "isAbout": "items/favorite_show_movie_game_10_plus",
+            "isVis": true
+        },
+        {
+            "variableName": "favorite_food_10_plus",
+            "isAbout": "items/favorite_food_10_plus",
+            "isVis": true
+        },
+        {
+            "variableName": "outside_of_school_10_plus",
+            "isAbout": "items/outside_of_school_10_plus",
+            "isVis": true
+        }
+    ],
+    "shuffle": false
+}
+}

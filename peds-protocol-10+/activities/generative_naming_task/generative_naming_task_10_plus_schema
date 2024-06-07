@@ -1,25 +1,25 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "sustained_phonation_10_plus_schema",
-    "prefLabel": "sustained_phonation_10_plus",
+    "@id": "generative_naming_task_schema_10_plus",
+    "prefLabel": "generative_naming_task_10_plus",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {
       "order": [
-          "items/phonation_task_1_10_plus",   
-          "items/phonation_task_2_10_plus"
+          "items/naming_animals_10_plus",   
+          "items/naming_food_10_plus"
       ],
       "addProperties": [
           {
-              "variableName": "phonation_task_1_10_plus",
-              "isAbout": "items/phonation_task_1_10_plus",
+              "variableName": "naming_animals_10_plus",
+              "isAbout": "items/naming_animals_10_plus",
               "isVis": true
           },
           {
-              "variableName": "phonation_task_2_10_plus",
-              "isAbout": "items/phonation_task_2_10_plus",
+              "variableName": "naming_food_10_plus",
+              "isAbout": "items/naming_food_10_plus",
               "isVis": true
           }
       ],

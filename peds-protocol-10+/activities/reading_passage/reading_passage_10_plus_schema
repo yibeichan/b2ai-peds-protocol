@@ -1,0 +1,64 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "reading_passage_schema_10_plus",
+    "prefLabel": "reading_passage_10_plus",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/passage_1_10_plus",
+            "items/passage_2_10_plus",
+            "items/passage_3_10_plus",
+            "items/passage_4_10_plus",
+            "items/passage_5_10_plus",
+            "items/passage_6_10_plus",
+            "items/passage_7_10_plus",
+            "items/passage_8_10_plus"
+        ],
+        "addProperties": [
+            {
+                "variableName": "passage_1_10_plus",
+                "isAbout": "items/passage_1_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_2_10_plus",
+                "isAbout": "items/passage_2_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_3_10_plus",
+                "isAbout": "items/passage_3_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_4_10_plus",
+                "isAbout": "items/passage_4_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_5_10_plus",
+                "isAbout": "items/passage_5_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_6_10_plus",
+                "isAbout": "items/passage_6_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_7_10_plus",
+                "isAbout": "items/passage_7_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_8_10_plus",
+                "isAbout": "items/passage_8_10_plus",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

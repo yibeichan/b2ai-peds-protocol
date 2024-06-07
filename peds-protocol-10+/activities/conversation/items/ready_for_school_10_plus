@@ -1,0 +1,20 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+  "@type": "reproschema:Item",
+  "@id": "ready_for_school_10_plus",
+  "prefLabel": "ready_for_school_10_plus",
+  "description": {
+    "en": "ready for school"
+  },
+  "schemaVersion": "1.0.0-rc1",
+  "version": "0.0.1",
+  "ui": {
+    "inputType": "text"
+  },
+  "responseOptions": {
+    "valueType": "xsd:string"
+  },
+  "question": {
+    "en": "To start, let's learn a little more about you! Tell me about how you get ready for school in the morning"
+  }
+}

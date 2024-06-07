@@ -1,19 +1,19 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "picture_description__6_to_10_schema",
-    "prefLabel": "picture_description_schema_6_to_10",
+    "@id": "identifying_pictures_schema_10_plus",
+    "prefLabel": "identifying_pictures_10_plus",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {
         "order": [
-            "items/picture_description_6_to_10"
+            "items/pictures_10_plus"
         ],
         "addProperties": [
             {
-                "variableName": "picture_description_6_to_10",
-                "isAbout": "picture_description_6_to_10",
+                "variableName": "pictures_10_plus",
+                "isAbout": "items/pictures_10_plus",
                 "isVis": true
             }
         ],
