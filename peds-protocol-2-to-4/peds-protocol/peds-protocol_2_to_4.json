@@ -9,39 +9,39 @@
   "ui": {
     "addProperties": [
       {
-        "isAbout": "../activities/conversation/conversation_schema_2_to_4",
-        "variableName": "conversation_schema_2_to_4",
+        "isAbout": "../activities/conversation/conversation_2_to_4_schema",
+        "variableName": "conversation_2_to_4_schema",
         "prefLabel": "Peds age 2_to_4 Conversation",
         "isVis": true
       },
       {
-        "isAbout": "../activities/reading_passage/reading_passage_schema_2_to_4",
-        "variableName": "abcs_and_123s_2_to_4",
+        "isAbout": "../activities/reading_passage/reading_passage_2_to_4_schema",
+        "variableName": "abcs_and_2_to_4_123s",
         "prefLabel": "Peds age 2 - 4 abcs and 123s",
         "isVis": true
       },
       {
-        "isAbout": "../activities/noisy_sounds/noisy_sounds_schema_2_to_4",
-        "variableName": "noisy_sounds_schema_2_to_4",
+        "isAbout": "../activities/noisy_sounds/noisy_sounds_2_to_4_schema",
+        "variableName": "noisy_sounds_2_to_4_schema",
         "prefLabel": "Peds age 2 - 4 noisy sounds",
         "isVis": true
       },
       {
-        "isAbout": "../activities/identifying_pictures/identifying_pictures_schema_2_to_4",
-        "variableName": "identifying_pictures_schema_2_to_4",
+        "isAbout": "../activities/identifying_pictures/identifying_pictures_2_to_4_schema",
+        "variableName": "identifying_pictures_2_to_4_schema",
         "prefLabel": "Peds age 2 - 4 identifying pictures",
         "isVis": true
       }
     ],
     "order": [
-      "../activities/conversation/conversation_schema_2_to_4",
-      "../activities/generative_naming_tasks/generative_naming_tasks_schema_2_to_4",
-      "../activities/sustained_phonation/sustained_phonation_schema_2_to_4",
-      "../activities/silly_sounds/silly_sounds_schema_2_to_4",
-      "../activities/identifying_pictures/identifying_pictures_schema_2_to_4",
-      "../activities/repeating_sentences/repeating_sentences_schema_2_to_4",
-      "../activities/picture_description/picture_description_schema_2_to_4",
-      "../activities/reading_passage/reading_passage_schema_2_to_4"
+      "../activities/conversation/conversation__2_to_4_schema",
+      "../activities/generative_naming_tasks/generative_naming_tasks__2_to_4_schema",
+      "../activities/sustained_phonation/sustained_phonation__2_to_4_schema",
+      "../activities/silly_sounds/silly_sounds__2_to_4_schema",
+      "../activities/identifying_pictures/identifying_pictures__2_to_4_schema",
+      "../activities/repeating_sentences/repeating_sentences__2_to_4_schema",
+      "../activities/picture_description/picture_description__2_to_4_schema",
+      "../activities/reading_passage/reading_passage__2_to_4_schema"
     ]
   },
   "shuffle": false
