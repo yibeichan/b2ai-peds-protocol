@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Item",
+    "@id": "choose_book_4_to_6",
+    "prefLabel": "choose_book_4_to_6",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "To start, we have a few books for you to choose from – you can choose which book you want to look at."
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    }
+}

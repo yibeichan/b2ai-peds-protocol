@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "silly_sounds_schema_10+",
+    "prefLabel": "silly_sounds_10+",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/silly_sounds_task_1_10+",
+            "items/silly_sounds_task_2_10+",
+            "items/silly_sounds_task_3_10+",
+            "items/silly_sounds_task_4_10+",
+            "items/silly_sounds_task_5_10+"
+        ],
+        "addProperties": [
+            {
+                "variableName": "silly_sounds_task_1_10+",
+                "isAbout": "items/silly_sounds_task_1_10+",
+                "isVis": true
+            },
+            {
+                "variableName": "silly_sounds_task_2_10+",
+                "isAbout": "items/silly_sounds_task_2_10+",
+                "isVis": true
+            },
+            {
+                "variableName": "silly_sounds_task_3_10+",
+                "isAbout": "items/silly_sounds_task_3_10+",
+                "isVis": true
+            },
+            {
+                "variableName": "silly_sounds_task_4_10+",
+                "isAbout": "items/silly_sounds_task_4_10+",
+                "isVis": true
+            },
+            {
+                "variableName": "silly_sounds_task_5_10+",
+                "isAbout": "items/silly_sounds_task_5_10+",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+  "@type": "reproschema:Protocol",
+  "@id": "peds-protocol_2_to_4",
+  "prefLabel": "peds protocol_2_to_4",
+  "description": "peds protocol",
+  "schemaVersion": "1.0.0-rc1",
+  "version": "0.0.1",
+  "ui": {
+    "addProperties": [
+      {
+        "isAbout": "../activities/conversation/conversation_schema_2_to_4",
+        "variableName": "conversation_schema_2_to_4",
+        "prefLabel": "Peds age 2_to_4 Conversation",
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/reading_passage/reading_passage_schema_2_to_4",
+        "variableName": "abcs_and_123s_2_to_4",
+        "prefLabel": "Peds age 2 - 4 abcs and 123s",
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/noisy_sounds/noisy_sounds_schema_2_to_4",
+        "variableName": "noisy_sounds_schema_2_to_4",
+        "prefLabel": "Peds age 2 - 4 noisy sounds",
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/identifying_pictures/identifying_pictures_schema_2_to_4",
+        "variableName": "identifying_pictures_schema_2_to_4",
+        "prefLabel": "Peds age 2 - 4 identifying pictures",
+        "isVis": true
+      }
+    ],
+    "order": [
+      "../activities/conversation/conversation_schema_2_to_4",
+      "../activities/generative_naming_tasks/generative_naming_tasks_schema_2_to_4",
+      "../activities/sustained_phonation/sustained_phonation_schema_2_to_4",
+      "../activities/silly_sounds/silly_sounds_schema_2_to_4",
+      "../activities/identifying_pictures/identifying_pictures_schema_2_to_4",
+      "../activities/repeating_sentences/repeating_sentences_schema_2_to_4",
+      "../activities/picture_description/picture_description_schema_2_to_4",
+      "../activities/reading_passage/reading_passage_schema_2_to_4"
+    ]
+  },
+  "shuffle": false
+}

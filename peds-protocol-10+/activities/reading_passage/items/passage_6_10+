@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Item",
+    "@id": "passage_6_10+",
+    "prefLabel": "passage_6_10+",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "As quickly as it started, the Caterpillar came to a stop. Unfortunately, it was time to pack the car  and drive home."
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    }
+}

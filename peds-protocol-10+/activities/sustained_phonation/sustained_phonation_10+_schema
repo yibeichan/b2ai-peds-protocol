@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "sustained_phonation_10+_schema",
+    "prefLabel": "sustained_phonation_10+",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+      "order": [
+          "items/phonation_task_1_10+",   
+          "items/phonation_task_2_10+"
+      ],
+      "addProperties": [
+          {
+              "variableName": "phonation_task_1_10+",
+              "isAbout": "items/phonation_task_1_10+",
+              "isVis": true
+          },
+          {
+              "variableName": "phonation_task_2_10+",
+              "isAbout": "items/phonation_task_2_10+",
+              "isVis": true
+          }
+      ],
+      "shuffle": false
+  }
+  }
+  

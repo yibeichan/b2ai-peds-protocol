@@ -1,0 +1,30 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "conversation_4_to_6",
+    "prefLabel": "conversation_4_to_6",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+      "order": [
+          "items/choose_book_4_to_6",   
+          "items/pictures_and_doors_4_to_6"
+  
+      ],
+      "addProperties": [
+          {
+              "variableName": "choose_book_4_to_6_4_to_6",
+              "isAbout": "items/choose_book_4_to_6_4_to_6",
+              "isVis": true
+          },
+          {
+              "variableName": "pictures_and_doors_4_to_6",
+              "isAbout": "items/pictures_and_doors_4_to_6",
+              "isVis": true
+          }
+      ],
+      "shuffle": false
+  }
+  }
+  

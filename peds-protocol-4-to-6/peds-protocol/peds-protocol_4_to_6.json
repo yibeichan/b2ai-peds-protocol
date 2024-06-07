@@ -1,0 +1,53 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+  "@type": "reproschema:Protocol",
+  "@id": "peds-protocol_4_to_6",
+  "prefLabel": "peds protocol_4_to_6",
+  "description": "peds protocol",
+  "schemaVersion": "1.0.0-rc1",
+  "version": "0.0.1",
+  "ui": {
+    "addProperties": [
+      {
+        "isAbout": "../activities/conversation/conversation_schema_4_to_6",
+        "variableName": "conversation_schema_4_to_6",
+        "prefLabel": "Peds age 4 - 6 Conversation",
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/silly_sounds/silly_sounds_schema_4_to_6",
+        "variableName": "silly_sounds_schema_4_to_6",
+        "prefLabel": "Peds age 4 - 6 silly sounds",
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/identifying_pictures/identifying_pictures_schema_4_to_6",
+        "variableName": "identifying_pictures_schema_4_to_6",
+        "prefLabel": "Peds age 4 - 6 identifying pictures",
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/repeating_sentences/repeating_sentences_schema_4_to_6",
+        "variableName": "repeating_sentences_schema_4_to_6",
+        "prefLabel": "Peds age 4 - 6 repeating sentences",
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/picture_description/picture_description_schema_4_to_6",
+        "variableName": "picture_description_schema_4_to_6",
+        "prefLabel": "Peds age 4 - 6 picture description",
+        "isVis": true
+      }
+    ],
+    "order": [
+      "../activities/conversation/conversation_schema_4_to_6",
+      "../activities/role_naming_tasks/role_naming_tasks_schema_4_to_6",
+      "../activities/noisy_sounds/noisy_sounds_schema_4_to_6",
+      "../activities/silly_sounds/silly_sounds_schema_4_to_6",
+      "../activities/identifying_pictures/identifying_pictures_schema_4_to_6",
+      "../activities/repeating_sentences/repeating_sentences_schema_4_to_6",
+      "../activities/picture_description/picture_description_schema_4_to_6"
+    ]
+  },
+  "shuffle": false
+}

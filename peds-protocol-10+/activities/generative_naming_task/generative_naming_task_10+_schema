@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "generative_naming_task_schema_10+",
+    "prefLabel": "generative_naming_task_10+",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+      "order": [
+          "items/naming_animals_10+",   
+          "items/naming_food_10+"
+      ],
+      "addProperties": [
+          {
+              "variableName": "naming_animals_10+",
+              "isAbout": "items/naming_animals_10+",
+              "isVis": true
+          },
+          {
+              "variableName": "naming_food_10+",
+              "isAbout": "items/naming_food_10+",
+              "isVis": true
+          }
+      ],
+      "shuffle": false
+  }
+  }
+  

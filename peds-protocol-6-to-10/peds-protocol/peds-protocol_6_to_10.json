@@ -1,0 +1,60 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+  "@type": "reproschema:Protocol",
+  "@id": "peds-protocol_6_to_10",
+  "prefLabel": "peds protocol_6_to_10",
+  "description": "peds protocol",
+  "schemaVersion": "1.0.0-rc1",
+  "version": "0.0.1",
+  "ui": {
+    "addProperties": [
+      {
+        "isAbout": "../activities/conversation/conversation_schema_6_to_10",
+        "variableName": "conversation_schema_6_to_10",
+        "prefLabel": "Peds age 6 - 10 Conversation",
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/silly_sounds/silly_sounds_schema_6_to_10",
+        "variableName": "silly_sounds_schema_6_to_10",
+        "prefLabel": "Peds age 6 - 10 silly sounds",
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/identifying_pictures/identifying_pictures_schema_6_to_10",
+        "variableName": "identifying_pictures_schema_6_to_10",
+        "prefLabel": "Peds age 6 - 10 identifying pictures",
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/repeating_sentences/repeating_sentences_schema_6_to_10",
+        "variableName": "repeating_sentences_schema_6_to_10",
+        "prefLabel": "Peds age 6 - 10 repeating sentences",
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/picture_description/picture_description_schema_6_to_10",
+        "variableName": "picture_description_schema_6_to_10",
+        "prefLabel": "Peds age 6 - 10 picture description",
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/reading_passage/reading_passage_schema_6_to_10",
+        "variableName": "reading_passage_schema_6_to_10",
+        "prefLabel": "Peds age 6 - 10 reading passage",
+        "isVis": true
+      }
+    ],
+    "order": [
+      "../activities/conversation/conversation_schema_6_to_10",
+      "../activities/generative_naming_tasks/generative_naming_tasks_schema_6_to_10",
+      "../activities/sustained_phonation/sustained_phonation_schema_6_to_10",
+      "../activities/silly_sounds/silly_sounds_schema_6_to_10",
+      "../activities/identifying_pictures/identifying_pictures_schema_6_to_10",
+      "../activities/repeating_sentences/repeating_sentences_schema_6_to_10",
+      "../activities/picture_description/picture_description_schema_6_to_10",
+      "../activities/reading_passage/reading_passage_schema_6_to_10"
+    ]
+  },
+  "shuffle": false
+}

@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Item",
+    "@id": "sentence_1_4_to_6",
+    "prefLabel": "sentence_1_4_to_6",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "I have a few sentences that I'd like you to look at. If you want to read them aloud on your  own – go right ahead! If you want to repeat the sentences instead of reading them, you can press the ‘volume’ button under the words on the screen / someone in the room with you can read the sentence aloud first: The blue spot is on the key again"
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "repeating_sentences_4_to_6_schema",
+    "prefLabel": "repeating_sentences_4_to_6",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+      "order": [
+          "items/sentence_1_4_to_6",   
+          "items/sentence_2_4_to_6",   
+          "items/sentence_3_4_to_6",   
+          "items/sentence_4_4_to_6",   
+          "items/sentence_5_4_to_6",   
+          "items/sentence_6_4_to_6"
+      ],
+      "addProperties": [
+          {
+              "variableName": "sentence_1_4_to_6",
+              "isAbout": "items/sentence_1_4_to_6",
+              "isVis": true
+          },
+          {
+              "variableName": "sentence_2_4_to_6",
+              "isAbout": "items/sentence_2_4_to_6",
+              "isVis": true
+          },
+          {
+              "variableName": "sentence_3_4_to_6",
+              "isAbout": "items/sentence_3_4_to_6",
+              "isVis": true
+          },
+          {
+              "variableName": "sentence_4_4_to_6",
+              "isAbout": "items/sentence_4_4_to_6",
+              "isVis": true
+          },
+          {
+              "variableName": "sentence_5_4_to_6",
+              "isAbout": "items/sentence_5_4_to_6",
+              "isVis": true
+          },
+          {
+              "variableName": "sentence_6_4_to_6",
+              "isAbout": "items/sentence_6_4_to_6",
+              "isVis": true
+          }
+      ],
+      "shuffle": false
+  }
+  }
+  
