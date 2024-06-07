@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "ui": {
         "order": [
-            "items/picture_description"
+            "items/picture_description_4_to_6"
         ],
         "addProperties": [
             {
