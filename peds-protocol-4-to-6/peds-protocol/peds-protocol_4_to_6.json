@@ -15,6 +15,18 @@
         "isVis": true
       },
       {
+        "isAbout": "../activities/role_naming_tasks/role_naming_tasks_4_to_6_schema",
+        "variableName": "role_naming_tasks_4_to_6_schema",
+        "prefLabel": "Peds age 4 - 6 role naming tasks",
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/noisy_sounds/noisy_sounds_4_to_6_schema",
+        "variableName": "noisy_sounds_4_to_6_schema",
+        "prefLabel": "Peds age 4 - 6 noisy sounds",
+        "isVis": true
+      },
+      {
         "isAbout": "../activities/silly_sounds/silly_sounds_4_to_6_schema",
         "variableName": "silly_sounds_4_to_6_schema",
         "prefLabel": "Peds age 4 - 6 silly sounds",
