@@ -34,14 +34,14 @@
       }
     ],
     "order": [
-      "../activities/conversation/conversation__2_to_4_schema",
-      "../activities/generative_naming_tasks/generative_naming_tasks__2_to_4_schema",
-      "../activities/sustained_phonation/sustained_phonation__2_to_4_schema",
-      "../activities/silly_sounds/silly_sounds__2_to_4_schema",
-      "../activities/identifying_pictures/identifying_pictures__2_to_4_schema",
-      "../activities/repeating_sentences/repeating_sentences__2_to_4_schema",
-      "../activities/picture_description/picture_description__2_to_4_schema",
-      "../activities/reading_passage/reading_passage__2_to_4_schema"
+      "../activities/conversation/conversation_2_to_4_schema",
+      "../activities/generative_naming_tasks/generative_naming_tasks_2_to_4_schema",
+      "../activities/sustained_phonation/sustained_phonation_2_to_4_schema",
+      "../activities/silly_sounds/silly_sounds_2_to_4_schema",
+      "../activities/identifying_pictures/identifying_pictures_2_to_4_schema",
+      "../activities/repeating_sentences/repeating_sentences_2_to_4_schema",
+      "../activities/picture_description/picture_description_2_to_4_schema",
+      "../activities/reading_passage/reading_passage_2_to_4_schema"
     ]
   },
   "shuffle": false

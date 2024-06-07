@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "picture_description__4_to_6_schema",
+    "@id": "picture_description_4_to_6_schema",
     "prefLabel": "picture_description_schema_4_to_6",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc1",
