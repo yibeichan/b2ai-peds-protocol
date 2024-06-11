@@ -1,8 +1,8 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "picture_description_10_plus",
-    "prefLabel": "picture_description_10_plus",
+    "@id": "picture_description_2_10_plus",
+    "prefLabel": "picture_description_2_10_plus",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
@@ -16,5 +16,6 @@
     },
     "description": {
         "en": "@READONLY-FORM"
-    }
+    },
+    "image": "../../../pictures/pic2.png"
 }
