@@ -9,7 +9,7 @@
         "en": "Next say the sound 'eeee' as steady as you can for ~5-8sec. we'll do this sound three times as well"
     },
     "ui": {
-        "inputType": "audioImageRecord"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",

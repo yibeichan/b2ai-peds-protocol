@@ -9,7 +9,7 @@
         "en": "Now I'm going to ask you to make some long vowel sounds. You'll begin by saying 'ahhhh' for around 5-8sec. We're going to do this task three times. You'll have the chance to take a break and a breath in between each attempt."
     },
     "ui": {
-        "inputType": "audioImageRecord"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",

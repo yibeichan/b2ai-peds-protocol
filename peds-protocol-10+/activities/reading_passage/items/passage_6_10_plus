@@ -9,7 +9,7 @@
         "en": "As quickly as it started, the Caterpillar came to a stop. Unfortunately, it was time to pack the car  and drive home."
     },
     "ui": {
-        "inputType": "audioImageRecord"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",

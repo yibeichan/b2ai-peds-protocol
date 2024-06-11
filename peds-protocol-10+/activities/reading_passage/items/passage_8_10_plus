@@ -9,7 +9,7 @@
         "en": "Taking a trip to the amusement park and riding on the Caterpillar was my MOST memorable moment ever!"
     },
     "ui": {
-        "inputType": "audioImageRecord"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",

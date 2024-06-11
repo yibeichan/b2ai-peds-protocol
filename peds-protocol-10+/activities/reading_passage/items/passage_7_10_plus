@@ -9,7 +9,7 @@
         "en": "That night I dreamt of the wild ride on the Caterpillar."
     },
     "ui": {
-        "inputType": "audioImageRecord"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
