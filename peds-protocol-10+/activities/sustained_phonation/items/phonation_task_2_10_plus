@@ -9,10 +9,12 @@
         "en": "Next say the sound 'eeee' as steady as you can for ~5-8sec. we'll do this sound three times as well"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 60000,
+        "maxValue": 60000
     },
     "description": {
         "en": "@READONLY-FORM"

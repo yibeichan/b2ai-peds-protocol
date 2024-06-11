@@ -9,10 +9,12 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {
-        "inputType": "text"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 60000
     },
     "question": {
         "en": "Do you have a favourite movie, tv show or video game? Tell me about it!"
