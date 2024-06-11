@@ -12,11 +12,13 @@
         "inputType": "audioImageRecord"
     },
     "responseOptions": {
-        "valueType": "schema:AudioObject"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 60000
     },
     "description": {
         "en": "@READONLY-FORM"
     },
-    "image": "https://github.com/kind-lab/b2ai-peds-protocol/blob/main/peds-protocol-10%2B/pictures/pic1.png"
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-10%2B/pictures/pic1.png"
 
 }
