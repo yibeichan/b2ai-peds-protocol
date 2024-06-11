@@ -9,10 +9,12 @@
         "en": "Fantastic! You did so well with those sounds, let's try to put them together and say PUH TUH KUH over and over until the timer stops."
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 10000
     },
     "description": {
         "en": "@READONLY-FORM"

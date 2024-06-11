@@ -9,10 +9,12 @@
         "en": "This last task is a reading passage. It is a story about a roller coaster called The Caterpillar. A sentence or two will appear on the screen - read it aloud as if you were reading any regular story book. If you're not sure about a word, just skip it and keep going. Do you like amusement parks? Well, I sure do. To amuse myself, I went twice last spring."
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 40000
     },
     "description": {
         "en": "@READONLY-FORM"

@@ -9,10 +9,12 @@
         "en": "I have a few sentences that I'd like you to look at. If you want to read them aloud on your  own – go right ahead! If you want to repeat the sentences instead of reading them, you can press the ‘volume’ button under the words on the screen / someone in the room with you can read the sentence aloud first: The blue spot is on the key again"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 20000
     },
     "description": {
         "en": "@READONLY-FORM"
