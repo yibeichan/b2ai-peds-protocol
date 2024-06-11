@@ -3,7 +3,7 @@
     "@type": "reproschema:Activity",
     "@id": "sustained_phonation_10_plus_schema",
     "prefLabel": "sustained_phonation_10_plus",
-    "description": "Default description",
+    "description": "Try to have the child produce the sound at a habitual pitch – some tend to use a higher “note” or create vibrato if they have any singing background. The sound produced should be as steady/consistent as possible.",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {
