@@ -3,7 +3,7 @@
     "@type": "reproschema:Activity",
     "@id": "identifying_pictures_10_plus_schema",
     "prefLabel": "identifying_pictures_10_plus",
-    "description": "Default description",
+    "description": "Pictures presented one at a time on the screen – option to swipe/click to “next” once the child has named the item or if it is an unknown for the child it may be skipped.",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {
