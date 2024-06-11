@@ -9,7 +9,7 @@
         "en": "Next I want you to name as many food items that you can think of in 30sec"
     },
     "ui": {
-        "inputType": "audioImageRecord"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",

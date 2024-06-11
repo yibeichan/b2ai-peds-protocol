@@ -9,7 +9,7 @@
         "en": "First, we're going to say PUH PUH PUH over and over for about 10 seconds. Remember to take a breath if you need one!"
     },
     "ui": {
-        "inputType": "audioImageRecord"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",

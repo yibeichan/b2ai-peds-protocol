@@ -9,7 +9,7 @@
         "en": "Next I'm going to ask you to name a bunch of items in different categories. You'll have 30 sec for each question. If you run out of ideas before the timer runs out that's ok. First, tell me the names of as many animals as you can in 30 sec"
     },
     "ui": {
-        "inputType": "audioImageRecord"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
