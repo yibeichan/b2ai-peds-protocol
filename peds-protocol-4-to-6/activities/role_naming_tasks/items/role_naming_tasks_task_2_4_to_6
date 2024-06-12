@@ -9,10 +9,12 @@
         "en": "Fantastic! I bet you know the days of the week too!"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 60000
     },
     "description": {
         "en": "@READONLY-FORM"

@@ -9,10 +9,12 @@
         "en": "“ee” as in me"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 90000
     },
     "description": {
         "en": "@READONLY-FORM"

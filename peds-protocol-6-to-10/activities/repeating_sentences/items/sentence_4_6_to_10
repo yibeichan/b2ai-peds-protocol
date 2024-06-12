@@ -9,10 +9,12 @@
         "en": "We eat eggs every eve"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 10000
     },
     "description": {
         "en": "@READONLY-FORM"

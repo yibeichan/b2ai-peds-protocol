@@ -9,10 +9,12 @@
         "en": "To start, we have a few books for you to choose from – you can choose which book you want to look at."
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 60000
     },
     "description": {
         "en": "@READONLY-FORM"

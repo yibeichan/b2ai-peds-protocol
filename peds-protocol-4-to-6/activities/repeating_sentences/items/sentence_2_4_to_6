@@ -9,10 +9,12 @@
         "en": "How hard did he hug him"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 20000
     },
     "description": {
         "en": "@READONLY-FORM"

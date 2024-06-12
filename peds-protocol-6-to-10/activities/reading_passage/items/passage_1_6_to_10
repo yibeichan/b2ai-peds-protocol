@@ -9,10 +9,12 @@
         "en": "Since you did so well reading the sentences earlier, let’s try a few more. This is a story about a roller coaster ride called The Caterpillar. A sentence or two will appear on the screen – read it aloud as if you were reading any regular story book. If you’re not sure about a word, just skip it and keep going. Do you like amusement parks? Well, I sure do. To amuse myself, I went twice last spring."
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 37500
     },
     "description": {
         "en": "@READONLY-FORM"

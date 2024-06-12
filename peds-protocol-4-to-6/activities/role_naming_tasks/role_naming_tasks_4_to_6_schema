@@ -3,7 +3,7 @@
     "@type": "reproschema:Activity",
     "@id": "role_naming_tasks_4_to_6_schema",
     "prefLabel": "role_naming_tasks_4_to_6",
-    "description": "Default description",
+    "description": "Communication partner may join for first few letters, numbers, etc to get the child started, but should try to limit verbal commenting whenever possible Accuracy is not important here – our goal is gathering some spontaneous vocalizations/sounds no matter how clear, in order or complete the list might be",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {

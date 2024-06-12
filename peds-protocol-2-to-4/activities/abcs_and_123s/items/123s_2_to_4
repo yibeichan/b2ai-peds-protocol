@@ -9,10 +9,12 @@
         "en": "I wonder how high you can count? Let's start at 1, 2…"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 30000
     },
     "description": {
         "en": "@READONLY-FORM"
