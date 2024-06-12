@@ -9,10 +9,12 @@
         "en": "My most MEMORABLE moment was riding on the Caterpillar, which is a gigantic rollercoaster high above the ground. When I saw how high the Caterpillar rose into the bright blue sky I knew it was for me."
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 37500
     },
     "description": {
         "en": "@READONLY-FORM"

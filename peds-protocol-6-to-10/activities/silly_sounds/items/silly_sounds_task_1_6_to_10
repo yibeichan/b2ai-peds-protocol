@@ -9,10 +9,12 @@
         "en": "First, we're going to say PUH PUH PUH over and over for about 10 seconds. Remember to take a breath if you need one!"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 10000
     },
     "description": {
         "en": "@READONLY-FORM"

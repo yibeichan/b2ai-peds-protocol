@@ -9,10 +9,12 @@
         "en": "If that word seems a little too tricky, you can say 'PATTYCAKE' over and over instead."
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 10000
     },
     "description": {
         "en": "@READONLY-FORM"

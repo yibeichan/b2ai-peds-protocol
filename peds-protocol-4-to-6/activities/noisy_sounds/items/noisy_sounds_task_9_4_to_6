@@ -9,10 +9,12 @@
         "en": "“oo” as in boo"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 60000
     },
     "description": {
         "en": "@READONLY-FORM"

@@ -1,0 +1,24 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Item",
+    "@id": "picture_description_3_6_to_10",
+    "prefLabel": "picture_description_3_6_to_10",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Next we're going to look at a picture that has a lot of details to look at. Look at the picture and describe what you see - there are no right or wrong answers. Whatever you want to tell me about is perfect!"
+    },
+    "ui": {
+        "inputType": "audioImageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 60000
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    },
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-10%2B/pictures/pic3.png"
+
+}
