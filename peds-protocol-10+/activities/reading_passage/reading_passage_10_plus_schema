@@ -22,7 +22,8 @@
             {
                 "variableName": "passage_instructions_10_plus",
                 "isAbout": "items/passage_instructions_10_plus",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true
             },
             {
                 "variableName": "passage_1_10_plus",

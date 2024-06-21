@@ -16,7 +16,8 @@
             {
                 "variableName": "generative_naming_tasks_instructions_10_plus",
                 "isAbout": "items/generative_naming_tasks_instructions_10_plus",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true
             },
             {
                 "variableName": "naming_animals_10_plus",

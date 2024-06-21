@@ -9,13 +9,18 @@
         "en": "Next I'm going to ask you to name a bunch of items in different categories. You'll have 30 sec for each question. If you run out of ideas before the timer runs out that's ok."
     },
     "ui": {
-        "inputType": "static",
-        "readOnly": true
+        "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:boolean",
         "minValue": 0,
-        "maxValue": 1
+        "maxValue": 1,
+        "choices": [
+            {
+                "name": "I understand",
+                "value": 1
+            }
+        ]
     },
     "description": {
         "en": "@READONLY-FORM"
