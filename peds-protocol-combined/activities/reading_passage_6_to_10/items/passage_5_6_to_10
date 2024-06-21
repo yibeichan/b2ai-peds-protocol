@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Item",
+    "@id": "passage_5_6_to_10",
+    "prefLabel": "passage_5_6_to_10",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "People were so scared they screamed as we swiftly zoomed fast, fast, and faster along the tracks."
+    },
+    "ui": {
+        "inputType": "audioRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 37500
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    }
+}

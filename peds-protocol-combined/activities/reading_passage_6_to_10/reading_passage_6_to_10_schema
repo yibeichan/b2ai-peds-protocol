@@ -1,0 +1,71 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "reading_passage_6_to_10_schema",
+    "prefLabel": "reading_passage_6_to_10",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/passage_instructions_6_to_10",
+            "items/passage_1_6_to_10",
+            "items/passage_2_6_to_10",
+            "items/passage_3_6_to_10",
+            "items/passage_4_6_to_10",
+            "items/passage_5_6_to_10",
+            "items/passage_6_6_to_10",
+            "items/passage_7_6_to_10",
+            "items/passage_8_6_to_10"
+        ],
+        "addProperties": [
+            {
+                "variableName": "passage_instructions_6_to_10",
+                "isAbout": "items/passage_instructions_6_to_10",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "passage_1_6_to_10",
+                "isAbout": "items/passage_1_6_to_10",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_2_6_to_10",
+                "isAbout": "items/passage_2_6_to_10",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_3_6_to_10",
+                "isAbout": "items/passage_3_6_to_10",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_4_6_to_10",
+                "isAbout": "items/passage_4_6_to_10",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_5_6_to_10",
+                "isAbout": "items/passage_5_6_to_10",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_6_6_to_10",
+                "isAbout": "items/passage_6_6_to_10",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_7_6_to_10",
+                "isAbout": "items/passage_7_6_to_10",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_8_6_to_10",
+                "isAbout": "items/passage_8_6_to_10",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

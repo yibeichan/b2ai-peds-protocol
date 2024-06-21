@@ -1,0 +1,35 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "generative_naming_task_10_plus_schema",
+    "prefLabel": "generative_naming_task_10_plus",
+    "description": "Accuracy is not important here – our goal is gathering some spontaneous vocalizations/sounds no matter how clear, in order or complete the list might be",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/generative_naming_tasks_instructions_10_plus",
+            "items/naming_animals_10_plus",
+            "items/naming_food_10_plus"
+        ],
+        "addProperties": [
+            {
+                "variableName": "generative_naming_tasks_instructions_10_plus",
+                "isAbout": "items/generative_naming_tasks_instructions_10_plus",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "naming_animals_10_plus",
+                "isAbout": "items/naming_animals_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "naming_food_10_plus",
+                "isAbout": "items/naming_food_10_plus",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

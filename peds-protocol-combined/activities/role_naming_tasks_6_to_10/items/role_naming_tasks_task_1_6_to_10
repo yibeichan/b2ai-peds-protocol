@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Item",
+    "@id": "role_naming_tasks_task_1_6_to_10",
+    "prefLabel": "role_naming_tasks_task_1_6_to_10",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Let's try some other questions that you probably already know the answers to. What are the days in the week (starting with Sunday)?"
+    },
+    "ui": {
+        "inputType": "audioRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 60000
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    }
+}

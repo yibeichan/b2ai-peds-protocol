@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Item",
+    "@id": "silly_sounds_task_3_4_to_6",
+    "prefLabel": "silly_sounds_task_3_4_to_6",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Great! We've got one more to try. Tell me KUH KUH KUH until the timer stops."
+    },
+    "ui": {
+        "inputType": "audioRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 36000
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    }
+}
