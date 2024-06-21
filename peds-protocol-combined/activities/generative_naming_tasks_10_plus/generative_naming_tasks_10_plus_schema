@@ -16,18 +16,18 @@
             {
                 "variableName": "generative_naming_tasks_instructions_10_plus",
                 "isAbout": "items/generative_naming_tasks_instructions_10_plus",
-                "isVis": true,
+                "isVis": "peds_age == 4",
                 "valueRequired": true
             },
             {
                 "variableName": "naming_animals_10_plus",
                 "isAbout": "items/naming_animals_10_plus",
-                "isVis": true
+                "isVis": "peds_age == 4"
             },
             {
                 "variableName": "naming_food_10_plus",
                 "isAbout": "items/naming_food_10_plus",
-                "isVis": true
+                "isVis": "peds_age == 4"
             }
         ],
         "shuffle": false
