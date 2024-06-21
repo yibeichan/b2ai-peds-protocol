@@ -20,7 +20,8 @@
             {
                 "variableName": "repeating_sentences_instructions_10_plus",
                 "isAbout": "items/repeating_sentences_instructions_10_plus",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true
             },
             {
                 "variableName": "sentence_1_10_plus",
