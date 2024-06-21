@@ -25,62 +25,62 @@
             {
                 "variableName": "noisy_sounds_task_1_4_to_6",
                 "isAbout": "items/noisy_sounds_task_1_4_to_6",
-                "isVis": true
+                "isVis": "peds_age == 2"
             },
             {
                 "variableName": "noisy_sounds_task_2_4_to_6",
                 "isAbout": "items/noisy_sounds_task_2_4_to_6",
-                "isVis": true
+                "isVis": "peds_age == 2"
             },
             {
                 "variableName": "noisy_sounds_task_3_4_to_6",
                 "isAbout": "items/noisy_sounds_task_3_4_to_6",
-                "isVis": true
+                "isVis": "peds_age == 2"
             },
             {
                 "variableName": "noisy_sounds_task_4_4_to_6",
                 "isAbout": "items/noisy_sounds_task_4_4_to_6",
-                "isVis": true
+                "isVis": "peds_age == 2"
             },
             {
                 "variableName": "noisy_sounds_task_5_4_to_6",
                 "isAbout": "items/noisy_sounds_task_5_4_to_6",
-                "isVis": true
+                "isVis": "peds_age == 2"
             },
             {
                 "variableName": "noisy_sounds_task_6_4_to_6",
                 "isAbout": "items/noisy_sounds_task_6_4_to_6",
-                "isVis": true
+                "isVis": "peds_age == 2"
             },
             {
                 "variableName": "noisy_sounds_task_7_4_to_6",
                 "isAbout": "items/noisy_sounds_task_7_4_to_6",
-                "isVis": true
+                "isVis": "peds_age == 2"
             },
             {
                 "variableName": "noisy_sounds_task_8_4_to_6",
                 "isAbout": "items/noisy_sounds_task_8_4_to_6",
-                "isVis": true
+                "isVis": "peds_age == 2"
             },
             {
                 "variableName": "noisy_sounds_task_9_4_to_6",
                 "isAbout": "items/noisy_sounds_task_9_4_to_6",
-                "isVis": true
+                "isVis": "peds_age == 2"
             },
             {
                 "variableName": "noisy_sounds_task_10_4_to_6",
                 "isAbout": "items/noisy_sounds_task_10_4_to_6",
-                "isVis": true
+                "isVis": "peds_age == 2"
             },
             {
                 "variableName": "noisy_sounds_task_11_4_to_6",
                 "isAbout": "items/noisy_sounds_task_11_4_to_6",
-                "isVis": true
+                "isVis": "peds_age == 2"
             },
             {
                 "variableName": "noisy_sounds_task_12_4_to_6",
                 "isAbout": "items/noisy_sounds_task_12_4_to_6",
-                "isVis": true
+                "isVis": "peds_age == 2"
             }
         ],
         "shuffle": false

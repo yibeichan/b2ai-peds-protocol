@@ -16,17 +16,17 @@
             {
                 "variableName": "picture_description_1_4_to_6",
                 "isAbout": "items/picture_description_1_4_to_6",
-                "isVis": true
+                "isVis": "peds_age == 2"
             },
             {
                 "variableName": "picture_description_2_4_to_6",
                 "isAbout": "items/picture_description_2_4_to_6",
-                "isVis": true
+                "isVis": "peds_age == 2"
             },
             {
                 "variableName": "picture_description_3_4_to_6",
                 "isAbout": "items/picture_description_3_4_to_6",
-                "isVis": true
+                "isVis": "peds_age == 2"
             }
         ],
         "shuffle": false

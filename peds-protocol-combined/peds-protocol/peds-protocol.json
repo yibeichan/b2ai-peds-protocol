@@ -18,49 +18,49 @@
                 "isAbout": "../activities/conversation_10_plus/conversation_10_plus_schema",
                 "variableName": "conversation_10_plus_schema",
                 "prefLabel": "Peds age 10+ Conversation",
-                "isVis": "peds_age == 4"
+                "isVis": true
             },
             {
                 "isAbout": "../activities/generative_naming_tasks_10_plus/generative_naming_tasks_10_plus_schema",
                 "variableName": "generative_naming_tasks_10_plus_schema",
                 "prefLabel": "Peds age 10+ generative naming tasks",
-                "isVis": "peds_age == 4"
+                "isVis": true
             },
             {
                 "isAbout": "../activities/sustained_phonation_10_plus/sustained_phonation_10_plus/_10_plus_schema",
                 "variableName": "sustained_phonation_10_plus_schema",
                 "prefLabel": "Peds age 10+ sustained phonation",
-                "isVis": "peds_age == 4"
+                "isVis": true
             },
             {
                 "isAbout": "../activities/silly_sounds_10_plus/silly_sounds_10_plus_schema",
                 "variableName": "silly_sounds_10_plus_schema",
                 "prefLabel": "Peds age 10+ silly sounds",
-                "isVis": "peds_age == 4"
+                "isVis": true
             },
             {
                 "isAbout": "../activities/identifying_pictures_10_plus/identifying_pictures_10_plus_schema",
                 "variableName": "identifying_pictures_10_plus_schema",
                 "prefLabel": "Peds age 10+ identifying pictures",
-                "isVis": "peds_age == 4"
+                "isVis": true
             },
             {
                 "isAbout": "../activities/repeating_sentences_10_plus/repeating_sentences_10_plus_schema",
                 "variableName": "repeating_sentences_10_plus_schema",
                 "prefLabel": "Peds age 10+ repeating sentences",
-                "isVis": "peds_age == 4"
+                "isVis": true
             },
             {
                 "isAbout": "../activities/picture_description_10_plus/picture_description_10_plus_schema",
                 "variableName": "picture_description_10_plus_schema",
                 "prefLabel": "Peds age 10+ picture description",
-                "isVis": "peds_age == 4"
+                "isVis": true
             },
             {
                 "isAbout": "../activities/reading_passage_10_plus/reading_passage_10_plus_schema",
                 "variableName": "reading_passage_10_plus_schema",
                 "prefLabel": "Peds age 10+ reading passage",
-                "isVis": "peds_age == 4"
+                "isVis": true
             },
 
 
@@ -74,49 +74,49 @@
                 "isAbout": "../activities/conversation_6_to_10/conversation_6_to_10_schema",
                 "variableName": "conversation_6_to_10_schema",
                 "prefLabel": "Peds age 6 - 10 Conversation",
-                "isVis": "peds_age == 3"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/role_naming_tasks_6_to_10/role_naming_tasks_6_to_10_schema",
                 "variableName": "role_naming_tasks_6_to_10_schema",
                 "prefLabel": "Peds age 6 - 10 role naming tasks sounds",
-                "isVis": "peds_age == 3"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/noisy_sounds_6_to_10/noisy_sounds_6_to_10_schema",
                 "variableName": "noisy_sounds_6_to_10_schema",
                 "prefLabel": "Peds age 6 - 10 noisy sounds",
-                "isVis": "peds_age == 3"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/silly_sounds_6_to_10/silly_sounds_6_to_10_schema",
                 "variableName": "silly_sounds_6_to_10_schema",
                 "prefLabel": "Peds age 6 - 10 silly sounds",
-                "isVis": "peds_age == 3"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/identifying_pictures_6_to_10/identifying_pictures_6_to_10_schema",
                 "variableName": "identifying_pictures_6_to_10_schema",
                 "prefLabel": "Peds age 6 - 10 identifying pictures",
-                "isVis": "peds_age == 3"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/repeating_sentences_6_to_10/repeating_sentences_6_to_10_schema",
                 "variableName": "repeating_sentences_6_to_10_schema",
                 "prefLabel": "Peds age 6 - 10 repeating sentences",
-                "isVis": "peds_age == 3"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/picture_description_6_to_10/picture_description_6_to_10_schema",
                 "variableName": "picture_description_6_to_10_schema",
                 "prefLabel": "Peds age 6 - 10 picture description",
-                "isVis": "peds_age == 3"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/reading_passage_6_to_10/reading_passage_6_to_10_schema",
                 "variableName": "reading_passage_6_to_10_schema",
                 "prefLabel": "Peds age 6 - 10 reading passage",
-                "isVis": "peds_age == 3"
+                "isVis": true
               },
 
               
@@ -126,43 +126,43 @@
                 "isAbout": "../activities/conversation_4_to_6/conversation_4_to_6_schema",
                 "variableName": "conversation_4_to_6_schema",
                 "prefLabel": "Peds age 4 - 6 Conversation",
-                "isVis": "peds_age == 2"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/role_naming_tasks_4_to_6/role_naming_tasks_4_to_6_schema",
                 "variableName": "role_naming_tasks_4_to_6_schema",
                 "prefLabel": "Peds age 4 - 6 role naming tasks",
-                "isVis": "peds_age == 2"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/noisy_sounds_4_to_6/noisy_sounds_4_to_6_schema",
                 "variableName": "noisy_sounds_4_to_6_schema",
                 "prefLabel": "Peds age 4 - 6 noisy sounds",
-                "isVis": "peds_age == 2"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/silly_sounds_4_to_6/silly_sounds_4_to_6_schema",
                 "variableName": "silly_sounds_4_to_6_schema",
                 "prefLabel": "Peds age 4 - 6 silly sounds",
-                "isVis": "peds_age == 2"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/identifying_pictures_4_to_6/identifying_pictures_4_to_6_schema",
                 "variableName": "identifying_pictures_4_to_6_schema",
                 "prefLabel": "Peds age 4 - 6 identifying pictures",
-                "isVis": "peds_age == 2"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/repeating_sentences_4_to_6/repeating_sentences_4_to_6_schema",
                 "variableName": "repeating_sentences_4_to_6_schema",
                 "prefLabel": "Peds age 4 - 6 repeating sentences",
-                "isVis": "peds_age == 2"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/picture_description_4_to_6/picture_description_4_to_6_schema",
                 "variableName": "picture_description_4_to_6_schema",
                 "prefLabel": "Peds age 4 - 6 picture description",
-                "isVis": "peds_age == 2"
+                "isVis": true
               },
 
 
@@ -176,25 +176,25 @@
                 "isAbout": "../activities/conversation_2_to_4/conversation_2_to_4_schema",
                 "variableName": "conversation_2_to_4_schema",
                 "prefLabel": "Peds age 2_to_4 Conversation",
-                "isVis": "peds_age == 1"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/abcs_and_123s_2_to_4/abcs_and_123s_2_to_4_schema",
                 "variableName": "abcs_and_123s_2_to_4_schema",
                 "prefLabel": "Peds age 2 - 4 abcs and 123s",
-                "isVis": "peds_age == 1"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/noisy_sounds_2_to_4/noisy_sounds_2_to_4_schema",
                 "variableName": "noisy_sounds_2_to_4_schema",
                 "prefLabel": "Peds age 2 - 4 noisy sounds",
-                "isVis": "peds_age == 1"
+                "isVis": true
               },
               {
                 "isAbout": "../activities/identifying_pictures_2_to_4/identifying_pictures_2_to_4_schema",
                 "variableName": "identifying_pictures_2_to_4_schema",
                 "prefLabel": "Peds age 2 - 4 identifying pictures",
-                "isVis": "peds_age == 1"
+                "isVis": true
               }
 
 

@@ -14,7 +14,7 @@
             {
                 "variableName": "pictures_2_to_4",
                 "isAbout": "items/pictures_2_to_4",
-                "isVis": true
+                "isVis": "peds_age == 1"
             }
         ],
         "shuffle": false
