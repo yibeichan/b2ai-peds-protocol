@@ -7,47 +7,52 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {
-      "order": [
-          "items/sentence_1_10_plus",   
-          "items/sentence_2_10_plus",   
-          "items/sentence_3_10_plus",   
-          "items/sentence_4_10_plus",   
-          "items/sentence_5_10_plus",   
-          "items/sentence_6_10_plus"
-      ],
-      "addProperties": [
-          {
-              "variableName": "sentence_1_10_plus",
-              "isAbout": "items/sentence_1_10_plus",
-              "isVis": true
-          },
-          {
-              "variableName": "sentence_2_10_plus",
-              "isAbout": "items/sentence_2_10_plus",
-              "isVis": true
-          },
-          {
-              "variableName": "sentence_3_10_plus",
-              "isAbout": "items/sentence_3_10_plus",
-              "isVis": true
-          },
-          {
-              "variableName": "sentence_4_10_plus",
-              "isAbout": "items/sentence_4_10_plus",
-              "isVis": true
-          },
-          {
-              "variableName": "sentence_5_10_plus",
-              "isAbout": "items/sentence_5_10_plus",
-              "isVis": true
-          },
-          {
-              "variableName": "sentence_6_10_plus",
-              "isAbout": "items/sentence_6_10_plus",
-              "isVis": true
-          }
-      ],
-      "shuffle": false
-  }
-  }
-  
+        "order": [
+            "items/repeating_sentences_instructions_10_plus",
+            "items/sentence_1_10_plus",
+            "items/sentence_2_10_plus",
+            "items/sentence_3_10_plus",
+            "items/sentence_4_10_plus",
+            "items/sentence_5_10_plus",
+            "items/sentence_6_10_plus"
+        ],
+        "addProperties": [
+            {
+                "variableName": "repeating_sentences_instructions_10_plus",
+                "isAbout": "items/repeating_sentences_instructions_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "sentence_1_10_plus",
+                "isAbout": "items/sentence_1_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "sentence_2_10_plus",
+                "isAbout": "items/sentence_2_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "sentence_3_10_plus",
+                "isAbout": "items/sentence_3_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "sentence_4_10_plus",
+                "isAbout": "items/sentence_4_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "sentence_5_10_plus",
+                "isAbout": "items/sentence_5_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "sentence_6_10_plus",
+                "isAbout": "items/sentence_6_10_plus",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

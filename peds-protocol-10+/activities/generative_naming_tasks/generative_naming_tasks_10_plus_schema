@@ -8,10 +8,16 @@
     "version": "0.0.1",
     "ui": {
         "order": [
+            "items/generative_naming_tasks_instructions_10_plus",
             "items/naming_animals_10_plus",
             "items/naming_food_10_plus"
         ],
         "addProperties": [
+            {
+                "variableName": "generative_naming_tasks_instructions_10_plus",
+                "isAbout": "items/generative_naming_tasks_instructions_10_plus",
+                "isVis": true
+            },
             {
                 "variableName": "naming_animals_10_plus",
                 "isAbout": "items/naming_animals_10_plus",

@@ -9,10 +9,13 @@
         "en": "I'm going to show you some pictures on the screen - if you know what it is, say it out loud so we can hear you! Remember, this time you’re going to tell me the name of the picture, not the sound that it makes."
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "static",
+        "readonlyValue": true
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "xsd:boolean",
+        "minValue": 0,
+        "maxValue": 1
     },
     "description": {
         "en": "@READONLY-FORM"
