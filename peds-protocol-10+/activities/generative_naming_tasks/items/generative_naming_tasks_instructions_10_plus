@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "pictures_4_to_6",
-    "prefLabel": "pictures_4_to_6",
+    "@id": "generative_naming_tasks_instructions_10_plus",
+    "prefLabel": "generative_naming_tasks_instructions_10_plus",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "I'm going to show you some pictures on the screen - if you know what it is, say it out loud so we can hear you! Remember, this time you’re going to tell me the name of the picture, not the sound that it makes."
+        "en": "Next I'm going to ask you to name a bunch of items in different categories. You'll have 30 sec for each question. If you run out of ideas before the timer runs out that's ok."
     },
     "ui": {
         "inputType": "static",

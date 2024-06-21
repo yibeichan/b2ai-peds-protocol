@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "pictures_4_to_6",
-    "prefLabel": "pictures_4_to_6",
+    "@id": "passage_instructions_10_plus",
+    "prefLabel": "passage_instructions_10_plus",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "I'm going to show you some pictures on the screen - if you know what it is, say it out loud so we can hear you! Remember, this time you’re going to tell me the name of the picture, not the sound that it makes."
+        "en": "This last task is a reading passage. It is a story about a roller coaster called The Caterpillar. A sentence or two will appear on the screen - read it aloud as if you were reading any regular story book. If you're not sure about a word, just skip it and keep going."
     },
     "ui": {
         "inputType": "static",

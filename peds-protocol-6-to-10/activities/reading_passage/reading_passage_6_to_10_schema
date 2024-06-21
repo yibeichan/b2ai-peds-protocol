@@ -8,6 +8,7 @@
     "version": "0.0.1",
     "ui": {
         "order": [
+            "items/passage_instructions_6_to_10",
             "items/passage_1_6_to_10",
             "items/passage_2_6_to_10",
             "items/passage_3_6_to_10",
@@ -18,6 +19,11 @@
             "items/passage_8_6_to_10"
         ],
         "addProperties": [
+            {
+                "variableName": "passage_instructions_6_to_10",
+                "isAbout": "items/passage_instructions_6_to_10",
+                "isVis": true
+            },
             {
                 "variableName": "passage_1_6_to_10",
                 "isAbout": "items/passage_1_6_to_10",
