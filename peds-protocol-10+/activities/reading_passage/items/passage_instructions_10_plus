@@ -9,7 +9,8 @@
         "en": "This last task is a reading passage. It is a story about a roller coaster called The Caterpillar. A sentence or two will appear on the screen - read it aloud as if you were reading any regular story book. If you're not sure about a word, just skip it and keep going."
     },
     "ui": {
-        "inputType": "buttonStart"
+        "inputType": "static",
+        "readOnly": true
     },
     "responseOptions": {
         "valueType": "xsd:boolean",
