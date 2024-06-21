@@ -1,0 +1,24 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Item",
+    "@id": "picture_description_4_to_6",
+    "prefLabel": "picture_description_4_to_6",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "The last thing we're going to do today is look at a picture with, you guessed it, lots of silly things that are going wrong. Take a look and tell me what you see happening - there are no right or wrong answers. Whatever you want to tell me about is perfect!"
+    },
+    "ui": {
+        "inputType": "audioImageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 60000
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    },
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/73e7ef3d2413e114dba705b076e5748eba24ecff/peds-protocol-4-to-6/pictures/pic1.png"
+
+}

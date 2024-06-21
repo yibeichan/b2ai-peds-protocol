@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "peds_age_schema",
+    "prefLabel": "peds_age_schema",
+    "description": "Asking how old the participant is",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/peds_age"
+        ],
+        "addProperties": [
+            {
+                "variableName": "peds_age",
+                "isAbout": "items/peds_age",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

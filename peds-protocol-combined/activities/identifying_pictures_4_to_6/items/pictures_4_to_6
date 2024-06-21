@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Item",
+    "@id": "pictures_4_to_6",
+    "prefLabel": "pictures_4_to_6",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "I'm going to show you some pictures on the screen - if you know what it is, say it out loud so we can hear you! Remember, this time you’re going to tell me the name of the picture, not the sound that it makes."
+    },
+    "ui": {
+        "inputType": "radio",
+        "readOnly": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:boolean",
+        "minValue": 0,
+        "maxValue": 1,
+        "choices": [
+            {
+                "name": "I understand",
+                "value": 1
+            }
+        ]
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Item",
+    "@id": "passage_instructions_10_plus",
+    "prefLabel": "passage_instructions_10_plus",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "This last task is a reading passage. It is a story about a roller coaster called The Caterpillar. A sentence or two will appear on the screen - read it aloud as if you were reading any regular story book. If you're not sure about a word, just skip it and keep going."
+    },
+    "ui": {
+        "inputType": "radio",
+        "readOnly": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:boolean",
+        "minValue": 0,
+        "maxValue": 1,
+        "choices": [
+            {
+                "name": "I understand",
+                "value": 1
+            }
+        ]
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    }
+}

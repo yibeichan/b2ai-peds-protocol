@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Item",
+    "@id": "silly_sounds_task_5_6_to_10",
+    "prefLabel": "silly_sounds_task_5_6_to_10",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "If that word seems a little too tricky, you can say 'PATTYCAKE' over and over instead."
+    },
+    "ui": {
+        "inputType": "audioRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 10000
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    }
+}
