@@ -12,7 +12,7 @@
         "isAbout": "../activities/peds_age/peds_age_schema",
         "variableName": "peds_age_schema",
         "prefLabel": "Peds age",
-        "isVis": "Number(peds_age_schema.peds_age) == 1"
+        "isVis": true
       },
       {
         "isAbout": "../activities/conversation_10_plus/conversation_10_plus_schema",
