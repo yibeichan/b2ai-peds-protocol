@@ -20,38 +20,38 @@
             {
                 "variableName": "repeating_sentences_instructions_10_plus",
                 "isAbout": "items/repeating_sentences_instructions_10_plus",
-                "isVis": "peds_age == 3",
+                "isVis": true,
                 "valueRequired": true
             },
             {
                 "variableName": "sentence_1_6_to_10",
                 "isAbout": "items/sentence_1_6_to_10",
-                "isVis": "peds_age == 3"
+                "isVis": true
             },
             {
                 "variableName": "sentence_2_6_to_10",
                 "isAbout": "items/sentence_2_6_to_10",
-                "isVis": "peds_age == 3"
+                "isVis": true
             },
             {
                 "variableName": "sentence_3_6_to_10",
                 "isAbout": "items/sentence_3_6_to_10",
-                "isVis": "peds_age == 3"
+                "isVis": true
             },
             {
                 "variableName": "sentence_4_6_to_10",
                 "isAbout": "items/sentence_4_6_to_10",
-                "isVis": "peds_age == 3"
+                "isVis": true
             },
             {
                 "variableName": "sentence_5_6_to_10",
                 "isAbout": "items/sentence_5_6_to_10",
-                "isVis": "peds_age == 3"
+                "isVis": true
             },
             {
                 "variableName": "sentence_6_6_to_10",
                 "isAbout": "items/sentence_6_6_to_10",
-                "isVis": "peds_age == 3"
+                "isVis": true
             }
         ],
         "shuffle": false

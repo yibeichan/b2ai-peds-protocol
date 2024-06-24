@@ -16,12 +16,12 @@
             {
                 "variableName": "abcs_2_to_4",
                 "isAbout": "items/abcs_2_to_4",
-                "isVis": "peds_age == 1"
+                "isVis": true
             },
             {
                 "variableName": "123s_2_to_4",
                 "isAbout": "items/123s_2_to_4",
-                "isVis": "peds_age == 1"
+                "isVis": true
             }
         ],
         "shuffle": false

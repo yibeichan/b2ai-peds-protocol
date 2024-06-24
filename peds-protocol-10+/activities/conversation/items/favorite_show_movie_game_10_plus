@@ -14,7 +14,7 @@
     "responseOptions": {
         "valueType": "schema:AudioObject",
         "minValue": 0,
-        "maxValue": 60000
+        "maxValue": 300000
     },
     "question": {
         "en": "Do you have a favourite movie, tv show or video game? Tell me about it!"

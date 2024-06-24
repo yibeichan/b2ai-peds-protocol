@@ -18,27 +18,27 @@
             {
                 "variableName": "silly_sounds_task_1_10_plus",
                 "isAbout": "items/silly_sounds_task_1_10_plus",
-                "isVis": "peds_age == 4"
+                "isVis": true
             },
             {
                 "variableName": "silly_sounds_task_2_10_plus",
                 "isAbout": "items/silly_sounds_task_2_10_plus",
-                "isVis": "peds_age == 4"
+                "isVis": true
             },
             {
                 "variableName": "silly_sounds_task_3_10_plus",
                 "isAbout": "items/silly_sounds_task_3_10_plus",
-                "isVis": "peds_age == 4"
+                "isVis": true
             },
             {
                 "variableName": "silly_sounds_task_4_10_plus",
                 "isAbout": "items/silly_sounds_task_4_10_plus",
-                "isVis": "peds_age == 4"
+                "isVis": true
             },
             {
                 "variableName": "silly_sounds_task_5_10_plus",
                 "isAbout": "items/silly_sounds_task_5_10_plus",
-                "isVis": "peds_age == 4"
+                "isVis": true
             }
         ],
         "shuffle": false

@@ -16,12 +16,12 @@
         {
             "variableName": "choose_book_2_to_4",
             "isAbout": "items/choose_book_2_to_4",
-            "isVis": "peds_age == 1"
+            "isVis": true
         },
         {
             "variableName": "pictures_and_doors_2_to_4",
             "isAbout": "items/pictures_and_doors_2_to_4",
-            "isVis": "peds_age == 1"
+            "isVis": true
         }
     ],
     "shuffle": false

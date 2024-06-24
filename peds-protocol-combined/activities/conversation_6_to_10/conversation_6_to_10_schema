@@ -17,22 +17,22 @@
         {
             "variableName": "ready_for_school_6_to_10",
             "isAbout": "items/ready_for_school_6_to_10",
-            "isVis": "peds_age == 3"
+            "isVis": true
         },
         {
             "variableName": "favorite_show_movie_game_6_to_10",
             "isAbout": "items/favorite_show_movie_game_6_to_10",
-            "isVis": "peds_age == 3"
+            "isVis": true
         },
         {
             "variableName": "favorite_food_6_to_10",
             "isAbout": "items/favorite_food_6_to_10",
-            "isVis": "peds_age == 3"
+            "isVis": true
         },
         {
             "variableName": "outside_of_school_6_to_10",
             "isAbout": "items/outside_of_school_6_to_10",
-            "isVis": "peds_age == 3"
+            "isVis": true
         }
     ],
     "shuffle": false

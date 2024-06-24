@@ -17,22 +17,22 @@
         {
             "variableName": "ready_for_school_10_plus",
             "isAbout": "items/ready_for_school_10_plus",
-            "isVis": "peds_age == 4"
+            "isVis": true
         },
         {
             "variableName": "favorite_show_movie_game_10_plus",
             "isAbout": "items/favorite_show_movie_game_10_plus",
-            "isVis": "peds_age == 4"
+            "isVis": true
         },
         {
             "variableName": "favorite_food_10_plus",
             "isAbout": "items/favorite_food_10_plus",
-            "isVis": "peds_age == 4"
+            "isVis": true
         },
         {
             "variableName": "outside_of_school_10_plus",
             "isAbout": "items/outside_of_school_10_plus",
-            "isVis": "peds_age == 4"
+            "isVis": true
         }
     ],
     "shuffle": false

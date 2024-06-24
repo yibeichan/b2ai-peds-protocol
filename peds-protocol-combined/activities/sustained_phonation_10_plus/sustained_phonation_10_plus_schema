@@ -15,12 +15,12 @@
           {
               "variableName": "phonation_task_1_10_plus",
               "isAbout": "items/phonation_task_1_10_plus",
-              "isVis": "peds_age == 4"
+              "isVis": true
           },
           {
               "variableName": "phonation_task_2_10_plus",
               "isAbout": "items/phonation_task_2_10_plus",
-              "isVis": "peds_age == 4"
+              "isVis": true
           }
       ],
       "shuffle": false
