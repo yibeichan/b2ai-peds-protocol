@@ -14,7 +14,7 @@
   "responseOptions": {
     "valueType": "schema:AudioObject",
     "minValue": 0,
-    "maxValue": 60000
+    "maxValue": 300000
   },
   "question": {
     "en": "To start, let's learn a little more about you! Tell me about how you get ready for school in the morning"
