@@ -22,48 +22,48 @@
             {
                 "variableName": "passage_instructions_6_to_10",
                 "isAbout": "items/passage_instructions_6_to_10",
-                "isVis": "peds_age == 3",
+                "isVis": true,
                 "valueRequired": true
             },
             {
                 "variableName": "passage_1_6_to_10",
                 "isAbout": "items/passage_1_6_to_10",
-                "isVis": "peds_age == 3"
+                "isVis": true
             },
             {
                 "variableName": "passage_2_6_to_10",
                 "isAbout": "items/passage_2_6_to_10",
-                "isVis": "peds_age == 3"
+                "isVis": true
             },
             {
                 "variableName": "passage_3_6_to_10",
                 "isAbout": "items/passage_3_6_to_10",
-                "isVis": "peds_age == 3"
+                "isVis": true
             },
             {
                 "variableName": "passage_4_6_to_10",
                 "isAbout": "items/passage_4_6_to_10",
-                "isVis": "peds_age == 3"
+                "isVis": true
             },
             {
                 "variableName": "passage_5_6_to_10",
                 "isAbout": "items/passage_5_6_to_10",
-                "isVis": "peds_age == 3"
+                "isVis": true
             },
             {
                 "variableName": "passage_6_6_to_10",
                 "isAbout": "items/passage_6_6_to_10",
-                "isVis": "peds_age == 3"
+                "isVis": true
             },
             {
                 "variableName": "passage_7_6_to_10",
                 "isAbout": "items/passage_7_6_to_10",
-                "isVis": "peds_age == 3"
+                "isVis": true
             },
             {
                 "variableName": "passage_8_6_to_10",
                 "isAbout": "items/passage_8_6_to_10",
-                "isVis": "peds_age == 3"
+                "isVis": true
             }
         ],
         "shuffle": false

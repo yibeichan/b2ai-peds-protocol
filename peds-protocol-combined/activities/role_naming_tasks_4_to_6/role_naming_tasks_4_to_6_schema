@@ -16,17 +16,17 @@
             {
                 "variableName": "role_naming_tasks_task_1_4_to_6",
                 "isAbout": "items/role_naming_tasks_task_1_4_to_6",
-                "isVis": "peds_age == 2"
+                "isVis": true
             },
             {
                 "variableName": "role_naming_tasks_task_2_4_to_6",
                 "isAbout": "items/role_naming_tasks_task_2_4_to_6",
-                "isVis": "peds_age == 2"
+                "isVis": true
             },
             {
                 "variableName": "role_naming_tasks_task_3_4_to_6",
                 "isAbout": "items/role_naming_tasks_task_3_4_to_6",
-                "isVis": "peds_age == 2"
+                "isVis": true
             }
         ],
         "shuffle": false

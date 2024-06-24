@@ -14,7 +14,7 @@
     "responseOptions": {
         "valueType": "schema:AudioObject",
         "minValue": 0,
-        "maxValue": 30000
+        "maxValue": 300000
     },
     "description": {
         "en": "@READONLY-FORM"
