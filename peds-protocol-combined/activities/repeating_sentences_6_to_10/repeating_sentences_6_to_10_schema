@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "ui": {
         "order": [
-            "items/repeating_sentences_instructions_10_plus",
+            "items/repeating_sentences_instructions_6_to_10",
             "items/sentence_1_6_to_10",
             "items/sentence_2_6_to_10",
             "items/sentence_3_6_to_10",
@@ -18,8 +18,8 @@
         ],
         "addProperties": [
             {
-                "variableName": "repeating_sentences_instructions_10_plus",
-                "isAbout": "items/repeating_sentences_instructions_10_plus",
+                "variableName": "repeating_sentences_instructions_6_to_10",
+                "isAbout": "items/repeating_sentences_instructions_6_to_10",
                 "isVis": true,
                 "valueRequired": true
             },
