@@ -102,7 +102,7 @@
         "isAbout": "../activities/picture_description_6_to_10/picture_description_6_to_10_schema",
         "variableName": "picture_description_6_to_10_schema",
         "prefLabel": "Peds age 6 - 10 picture description",
-        "isVis": "Number(peds_age_schema.peds_age) == 1"
+        "isVis": "Number(peds_age_schema.peds_age) == 3"
       },
       {
         "isAbout": "../activities/reading_passage_6_to_10/reading_passage_6_to_10_schema",
