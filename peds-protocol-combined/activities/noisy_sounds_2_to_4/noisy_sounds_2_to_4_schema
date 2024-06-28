@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "noisy_sounds_2_to_4_schema",
-    "prefLabel": "noisy_sounds_2_to_4",
+    "prefLabel": "Noisy Sounds for Ages 2 to 4",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
