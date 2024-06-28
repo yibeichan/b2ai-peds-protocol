@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "outside_of_school_6_to_10",
-    "prefLabel": "outside_of_school_6_to_10",
+    "prefLabel": "Outside_of School for Ages 6 to 10",
     "description": {
         "en": "outside_of_school"
     },
