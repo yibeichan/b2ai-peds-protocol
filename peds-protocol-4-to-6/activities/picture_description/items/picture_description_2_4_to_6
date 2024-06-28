@@ -1,8 +1,8 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "picture_description_4_to_6",
-    "prefLabel": "picture_description_4_to_6",
+    "@id": "picture_description_2_4_to_6",
+    "prefLabel": "Picture Description 2 for Ages 4 to 6",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {

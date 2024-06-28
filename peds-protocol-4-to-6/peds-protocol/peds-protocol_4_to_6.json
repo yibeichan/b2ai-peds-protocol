@@ -2,7 +2,7 @@
   "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
   "@type": "reproschema:Protocol",
   "@id": "peds-protocol_4_to_6",
-  "prefLabel": "peds protocol_4_to_6",
+  "prefLabel": "Peds Protocol 4 to 6",
   "description": "peds protocol",
   "schemaVersion": "1.0.0-rc1",
   "version": "0.0.1",

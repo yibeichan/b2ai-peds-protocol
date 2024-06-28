@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "silly_sounds_task_4_4_to_6",
-    "prefLabel": "silly_sounds_task_4_4_to_6",
+    "prefLabel": "Silly Sounds Task 4 for Ages 4 to 6",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
