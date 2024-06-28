@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "naming_food_10_plus",
-    "prefLabel": "naming_food_10_plus",
+    "prefLabel": "Naming Food for Ages 10 plus",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {

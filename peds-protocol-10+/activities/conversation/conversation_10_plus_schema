@@ -2,7 +2,7 @@
   "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
   "@type": "reproschema:Activity",
   "@id": "conversation_10_plus_schema",
-  "prefLabel": "conversation_10_plus",
+  "prefLabel": "Conversation Schema 10 Plus",
   "description": "Be mindful of asking open ended questions / prompts to keep the conversation going: - Tell me more about that - Tell me what happened first - What happens next? - What else happens? - Tell me more about what you saw / did - Why was it fun?",
   "schemaVersion": "1.0.0-rc1",
   "version": "0.0.1",
