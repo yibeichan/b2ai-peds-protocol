@@ -27,7 +27,7 @@
         "isVis": "Number(peds_age_schema.peds_age) == 4"
       },
       {
-        "isAbout": "../activities/sustained_phonation_10_plus/sustained_phonation_10_plus/_10_plus_schema",
+        "isAbout": "../activities/sustained_phonation_10_plus/sustained_phonation_10_plus_schema",
         "variableName": "sustained_phonation_10_plus_schema",
         "prefLabel": "Peds age 10+ sustained phonation",
         "isVis": "Number(peds_age_schema.peds_age) == 4"
