@@ -27,7 +27,7 @@
         "isVis": "Number(peds_age_schema.peds_age) == 4"
       },
       {
-        "isAbout": "../activities/sustained_phonation_10_plus/sustained_phonation_10_plus/_10_plus_schema",
+        "isAbout": "../activities/sustained_phonation_10_plus/sustained_phonation_10_plus_schema",
         "variableName": "sustained_phonation_10_plus_schema",
         "prefLabel": "Peds age 10+ sustained phonation",
         "isVis": "Number(peds_age_schema.peds_age) == 4"
@@ -181,7 +181,7 @@
       "../activities/peds_age/peds_age_schema",
       "../activities/conversation_10_plus/conversation_10_plus_schema",
       "../activities/generative_naming_tasks_10_plus/generative_naming_tasks_10_plus_schema",
-      "../activities/sustained_phonation_10_plus/sustained_phonation_10_plus/_10_plus_schema",
+      "../activities/sustained_phonation_10_plus/sustained_phonation_10_plus_schema",
       "../activities/silly_sounds_10_plus/silly_sounds_10_plus_schema",
       "../activities/identifying_pictures_10_plus/identifying_pictures_10_plus_schema",
       "../activities/repeating_sentences_10_plus/repeating_sentences_10_plus_schema",
