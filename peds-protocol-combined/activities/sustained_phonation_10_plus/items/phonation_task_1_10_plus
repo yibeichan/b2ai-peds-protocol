@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "phonation_task_1_10_plus",
-    "prefLabel": "phonation_task_1_10_plus",
+    "prefLabel": "Phonation Task 1 for Ages 10 Plus",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {

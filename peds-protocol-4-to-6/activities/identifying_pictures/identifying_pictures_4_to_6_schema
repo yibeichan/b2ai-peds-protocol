@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "identifying_pictures_4_to_6_schema",
-    "prefLabel": "identifying_pictures_4_to_6",
+    "prefLabel": "Identifying Pictures Schema for Ages 4 to 6",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",

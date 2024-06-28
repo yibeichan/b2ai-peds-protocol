@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcs_and_123s_2_to_4_schema",
-    "prefLabel": "abcs_and_123s_2_to_4",
+    "prefLabel": "Abcs and 123s Schema for age 2 to 4",
     "description": "Communication partner may join for first few letters, numbers, etc to get the child started, but should try to limit verbal commenting whenever possible Accuracy is not important here – our goal is gathering some spontaneous vocalizations/sounds no matter how clear, in order or complete the list might be.",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",

@@ -2,7 +2,7 @@
   "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
   "@type": "reproschema:Item",
   "@id": "ready_for_school_10_plus",
-  "prefLabel": "ready_for_school_10_plus",
+  "prefLabel": "Ready for School for Ages 10 Plus",
   "description": {
     "en": "ready for school"
   },

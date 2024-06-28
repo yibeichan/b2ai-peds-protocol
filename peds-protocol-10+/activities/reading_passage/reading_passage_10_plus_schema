@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "reading_passage_10_plus_schema",
-    "prefLabel": "reading_passage_10_plus",
+    "prefLabel": "Reading Passage Schema 10 Plus",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",

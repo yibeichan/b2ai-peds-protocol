@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "favorite_show_movie_game_10_plus",
-    "prefLabel": "favorite_show_movie_game_10_plus",
+    "prefLabel": "Favorite Show or Movie or Game for Ages 10 Plus",
     "description": {
         "en": "favorite show, movie or game"
     },

@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "pictures_2_to_4",
-    "prefLabel": "pictures_2_to_4",
+    "prefLabel": "Pictures for Ages 2 to 4",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {

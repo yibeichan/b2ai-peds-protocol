@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "favorite_show_movie_game_6_to_10",
-    "prefLabel": "favorite_show_movie_game_6_to_10",
+    "prefLabel": "Favorite Show or Movie or Game for 6 to 10",
     "description": {
         "en": "favorite show, movie or game"
     },

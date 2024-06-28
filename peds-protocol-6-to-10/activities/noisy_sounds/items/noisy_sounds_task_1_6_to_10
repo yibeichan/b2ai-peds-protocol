@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "noisy_sounds_task_1_6_to_10",
-    "prefLabel": "noisy_sounds_task_1_6_to_10",
+    "prefLabel": "Noisy Sounds Task 1 for Ages 6 to 10",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {

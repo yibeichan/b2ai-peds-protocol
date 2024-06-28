@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "peds_age_schema",
-    "prefLabel": "peds_age_schema",
+    "prefLabel": "Peds Age Schema",
     "description": "Asking how old the participant is",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
