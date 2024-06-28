@@ -2,7 +2,7 @@
   "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
   "@type": "reproschema:Protocol",
   "@id": "peds-protocol_2_to_4",
-  "prefLabel": "peds protocol_2_to_4",
+  "prefLabel": "Peds Protocol for Ages 2 to 4",
   "description": "peds protocol",
   "schemaVersion": "1.0.0-rc1",
   "version": "0.0.1",
