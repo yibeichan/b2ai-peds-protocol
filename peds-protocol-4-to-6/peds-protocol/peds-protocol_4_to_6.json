@@ -61,5 +61,9 @@
       "../activities/picture_description/picture_description_4_to_6_schema"
     ]
   },
-  "shuffle": false
+  "shuffle": false,
+  "allow": [
+    "reproschema:AllowExport",
+    "reproschema:AutoAdvance"
+  ]
 }

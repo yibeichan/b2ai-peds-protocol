@@ -68,5 +68,9 @@
       "../activities/reading_passage/reading_passage_6_to_10_schema"
     ]
   },
-  "shuffle": false
+  "shuffle": false,
+  "allow": [
+    "reproschema:AllowExport",
+    "reproschema:AutoAdvance"
+  ]
 }
