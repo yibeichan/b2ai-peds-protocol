@@ -8,12 +8,229 @@
     "version": "0.0.1",
     "ui": {
         "order": [
-            "items/pictures_2_to_4"
+            "items/pictures_2_to_4",
+            "items/picture_1_2_to_4",
+            "items/picture_2_2_to_4",
+            "items/picture_3_2_to_4",
+            "items/picture_4_2_to_4",
+            "items/picture_5_2_to_4",
+            "items/picture_6_2_to_4",
+            "items/picture_7_2_to_4",
+            "items/picture_8_2_to_4",
+            "items/picture_9_2_to_4",
+            "items/picture_10_2_to_4",
+            "items/picture_11_2_to_4",
+            "items/picture_12_2_to_4",
+            "items/picture_13_2_to_4",
+            "items/picture_14_2_to_4",
+            "items/picture_15_2_to_4",
+            "items/picture_16_2_to_4",
+            "items/picture_17_2_to_4",
+            "items/picture_18_2_to_4",
+            "items/picture_19_2_to_4",
+            "items/picture_20_2_to_4",
+            "items/picture_21_2_to_4",
+            "items/picture_22_2_to_4",
+            "items/picture_23_2_to_4",
+            "items/picture_24_2_to_4",
+            "items/picture_25_2_to_4",
+            "items/picture_26_2_to_4",
+            "items/picture_27_2_to_4",
+            "items/picture_28_2_to_4",
+            "items/picture_29_2_to_4",
+            "items/picture_30_2_to_4",
+            "items/picture_31_2_to_4",
+            "items/picture_32_2_to_4",
+            "items/picture_33_2_to_4",
+            "items/picture_34_2_to_4",
+            "items/picture_35_2_to_4",
+            "items/picture_36_2_to_4"
         ],
         "addProperties": [
             {
                 "variableName": "pictures_2_to_4",
                 "isAbout": "items/pictures_2_to_4",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "picture_1_2_to_4",
+                "isAbout": "items/picture_1_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_2_2_to_4",
+                "isAbout": "items/picture_2_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_3_2_to_4",
+                "isAbout": "items/picture_3_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_4_2_to_4",
+                "isAbout": "items/picture_4_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_5_2_to_4",
+                "isAbout": "items/picture_5_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_6_2_to_4",
+                "isAbout": "items/picture_6_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_7_2_to_4",
+                "isAbout": "items/picture_7_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_8_2_to_4",
+                "isAbout": "items/picture_8_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_9_2_to_4",
+                "isAbout": "items/picture_9_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_10_2_to_4",
+                "isAbout": "items/picture_10_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_11_2_to_4",
+                "isAbout": "items/picture_11_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_12_2_to_4",
+                "isAbout": "items/picture_12_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_12_2_to_4",
+                "isAbout": "items/picture_12_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_14_2_to_4",
+                "isAbout": "items/picture_14_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_15_2_to_4",
+                "isAbout": "items/picture_15_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_16_2_to_4",
+                "isAbout": "items/picture_16_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_17_2_to_4",
+                "isAbout": "items/picture_17_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_18_2_to_4",
+                "isAbout": "items/picture_18_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_19_2_to_4",
+                "isAbout": "items/picture_19_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_20_2_to_4",
+                "isAbout": "items/picture_20_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_21_2_to_4",
+                "isAbout": "items/picture_21_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_22_2_to_4",
+                "isAbout": "items/picture_22_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_23_2_to_4",
+                "isAbout": "items/picture_23_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_24_2_to_4",
+                "isAbout": "items/picture_24_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_25_2_to_4",
+                "isAbout": "items/picture_25_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_26_2_to_4",
+                "isAbout": "items/picture_26_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_27_2_to_4",
+                "isAbout": "items/picture_27_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_28_2_to_4",
+                "isAbout": "items/picture_28_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_29_2_to_4",
+                "isAbout": "items/picture_29_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_30_2_to_4",
+                "isAbout": "items/picture_30_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_31_2_to_4",
+                "isAbout": "items/picture_31_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_32_2_to_4",
+                "isAbout": "items/picture_32_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_33_2_to_4",
+                "isAbout": "items/picture_33_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_34_2_to_4",
+                "isAbout": "items/picture_34_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_35_2_to_4",
+                "isAbout": "items/picture_35_2_to_4",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_36_2_to_4",
+                "isAbout": "items/picture_36_2_to_4",
                 "isVis": true
             }
         ],

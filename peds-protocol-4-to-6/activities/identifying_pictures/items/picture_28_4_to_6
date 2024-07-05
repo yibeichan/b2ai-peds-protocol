@@ -1,0 +1,24 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Item",
+    "@id": "picture_28_4_to_6",
+    "prefLabel": "Indentifying pictures 28 for Ages 4 to 6",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Picture 28"
+    },
+    "ui": {
+        "inputType": "audioImageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 300000
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    },
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/identifying-pictures/page28.png"
+
+}

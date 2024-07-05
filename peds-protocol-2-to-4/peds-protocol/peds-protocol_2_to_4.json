@@ -40,5 +40,9 @@
       "../activities/identifying_pictures/identifying_pictures_2_to_4_schema"
     ]
   },
-  "shuffle": false
+  "shuffle": false,
+  "allow": [
+    "reproschema:AllowExport",
+    "reproschema:AutoAdvance"
+  ]
 }
