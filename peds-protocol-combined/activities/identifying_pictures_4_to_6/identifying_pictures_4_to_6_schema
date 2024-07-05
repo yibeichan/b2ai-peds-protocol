@@ -8,12 +8,229 @@
     "version": "0.0.1",
     "ui": {
         "order": [
-            "items/pictures_4_to_6"
+            "items/pictures_4_to_6",
+            "items/picture_1_4_to_6",
+            "items/picture_2_4_to_6",
+            "items/picture_3_4_to_6",
+            "items/picture_4_4_to_6",
+            "items/picture_5_4_to_6",
+            "items/picture_6_4_to_6",
+            "items/picture_7_4_to_6",
+            "items/picture_8_4_to_6",
+            "items/picture_9_4_to_6",
+            "items/picture_10_4_to_6",
+            "items/picture_11_4_to_6",
+            "items/picture_12_4_to_6",
+            "items/picture_13_4_to_6",
+            "items/picture_14_4_to_6",
+            "items/picture_15_4_to_6",
+            "items/picture_16_4_to_6",
+            "items/picture_17_4_to_6",
+            "items/picture_18_4_to_6",
+            "items/picture_19_4_to_6",
+            "items/picture_20_4_to_6",
+            "items/picture_21_4_to_6",
+            "items/picture_22_4_to_6",
+            "items/picture_23_4_to_6",
+            "items/picture_24_4_to_6",
+            "items/picture_25_4_to_6",
+            "items/picture_26_4_to_6",
+            "items/picture_27_4_to_6",
+            "items/picture_28_4_to_6",
+            "items/picture_29_4_to_6",
+            "items/picture_30_4_to_6",
+            "items/picture_31_4_to_6",
+            "items/picture_32_4_to_6",
+            "items/picture_33_4_to_6",
+            "items/picture_34_4_to_6",
+            "items/picture_35_4_to_6",
+            "items/picture_36_4_to_6"
         ],
         "addProperties": [
             {
                 "variableName": "pictures_4_to_6",
                 "isAbout": "items/pictures_4_to_6",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "picture_1_4_to_6",
+                "isAbout": "items/picture_1_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_2_4_to_6",
+                "isAbout": "items/picture_2_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_3_4_to_6",
+                "isAbout": "items/picture_3_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_4_4_to_6",
+                "isAbout": "items/picture_4_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_5_4_to_6",
+                "isAbout": "items/picture_5_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_6_4_to_6",
+                "isAbout": "items/picture_6_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_7_4_to_6",
+                "isAbout": "items/picture_7_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_8_4_to_6",
+                "isAbout": "items/picture_8_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_9_4_to_6",
+                "isAbout": "items/picture_9_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_10_4_to_6",
+                "isAbout": "items/picture_10_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_11_4_to_6",
+                "isAbout": "items/picture_11_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_12_4_to_6",
+                "isAbout": "items/picture_12_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_12_4_to_6",
+                "isAbout": "items/picture_12_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_14_4_to_6",
+                "isAbout": "items/picture_14_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_15_4_to_6",
+                "isAbout": "items/picture_15_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_16_4_to_6",
+                "isAbout": "items/picture_16_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_17_4_to_6",
+                "isAbout": "items/picture_17_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_18_4_to_6",
+                "isAbout": "items/picture_18_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_19_4_to_6",
+                "isAbout": "items/picture_19_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_20_4_to_6",
+                "isAbout": "items/picture_20_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_21_4_to_6",
+                "isAbout": "items/picture_21_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_22_4_to_6",
+                "isAbout": "items/picture_22_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_23_4_to_6",
+                "isAbout": "items/picture_23_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_24_4_to_6",
+                "isAbout": "items/picture_24_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_25_4_to_6",
+                "isAbout": "items/picture_25_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_26_4_to_6",
+                "isAbout": "items/picture_26_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_27_4_to_6",
+                "isAbout": "items/picture_27_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_28_4_to_6",
+                "isAbout": "items/picture_28_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_29_4_to_6",
+                "isAbout": "items/picture_29_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_30_4_to_6",
+                "isAbout": "items/picture_30_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_31_4_to_6",
+                "isAbout": "items/picture_31_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_32_4_to_6",
+                "isAbout": "items/picture_32_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_33_4_to_6",
+                "isAbout": "items/picture_33_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_34_4_to_6",
+                "isAbout": "items/picture_34_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_35_4_to_6",
+                "isAbout": "items/picture_35_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_36_4_to_6",
+                "isAbout": "items/picture_36_4_to_6",
                 "isVis": true
             }
         ],
