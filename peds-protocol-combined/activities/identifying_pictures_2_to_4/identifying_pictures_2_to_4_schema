@@ -50,8 +50,7 @@
             {
                 "variableName": "pictures_2_to_4",
                 "isAbout": "items/pictures_2_to_4",
-                "isVis": true,
-                "valueRequired": true
+                "isVis": true
             },
             {
                 "variableName": "picture_1_2_to_4",
