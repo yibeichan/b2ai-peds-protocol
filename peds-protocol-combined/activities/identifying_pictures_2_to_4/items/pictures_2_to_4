@@ -10,7 +10,7 @@
     },
     "ui": {
         "inputType": "static",
-        "readOnly": true
+        "readonlyValue": true
     },
     "description": {
         "en": "@READONLY-FORM"
