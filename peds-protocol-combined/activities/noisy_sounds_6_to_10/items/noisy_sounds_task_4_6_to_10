@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "“sh” (child sleeping)"
+        "en": "“sh”"
     },
     "ui": {
         "inputType": "audioImageRecord"
