@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Let's see if we can figure out what sound each of these pictures make. “ah” (airplane)"
+        "en": "Let's see if we can figure out what sound each of these pictures make. “ah”"
     },
     "ui": {
         "inputType": "audioImageRecord"
