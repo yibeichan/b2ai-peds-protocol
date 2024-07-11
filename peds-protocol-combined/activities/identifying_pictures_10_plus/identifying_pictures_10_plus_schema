@@ -44,7 +44,8 @@
             "items/picture_33_10_plus",
             "items/picture_34_10_plus",
             "items/picture_35_10_plus",
-            "items/picture_36_10_plus"
+            "items/picture_36_10_plus",
+            "items/picture_37_10_plus"
         ],
         "addProperties": [
             {
@@ -231,6 +232,11 @@
             {
                 "variableName": "picture_36_10_plus",
                 "isAbout": "items/picture_36_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_37_10_plus",
+                "isAbout": "items/picture_37_10_plus",
                 "isVis": true
             }
         ],

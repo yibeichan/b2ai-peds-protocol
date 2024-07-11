@@ -44,7 +44,8 @@
             "items/picture_33_4_to_6",
             "items/picture_34_4_to_6",
             "items/picture_35_4_to_6",
-            "items/picture_36_4_to_6"
+            "items/picture_36_4_to_6",
+            "items/picture_37_4_to_6"
         ],
         "addProperties": [
             {
@@ -231,6 +232,11 @@
             {
                 "variableName": "picture_36_4_to_6",
                 "isAbout": "items/picture_36_4_to_6",
+                "isVis": true
+            },
+            {
+                "variableName": "picture_37_4_to_6",
+                "isAbout": "items/picture_37_4_to_6",
                 "isVis": true
             }
         ],
