@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "picture_25_2_to_4",
-    "prefLabel": "Indentifying pictures 25 for Ages 2 to 4",
+    "@id": "picture_37_10_plus",
+    "prefLabel": "Indentifying pictures 37 for Ages 10+",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Picture 25"
+        "en": "Picture 37"
     },
     "ui": {
         "inputType": "audioImageRecord"
@@ -19,6 +19,6 @@
     "description": {
         "en": "@READONLY-FORM"
     },
-    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/identifying-pictures/25.jpg"
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/identifying-pictures/37.jpg"
 
 }
