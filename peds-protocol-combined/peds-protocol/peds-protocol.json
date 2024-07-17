@@ -71,7 +71,7 @@
       {
         "isAbout": "../activities/role_naming_tasks_6_to_10/role_naming_tasks_6_to_10_schema",
         "variableName": "role_naming_tasks_6_to_10_schema",
-        "prefLabel": "role naming tasks sounds",
+        "prefLabel": "Role naming tasks sounds",
         "isVis": "Number(peds_age_schema.peds_age) == 3"
       },
       {
