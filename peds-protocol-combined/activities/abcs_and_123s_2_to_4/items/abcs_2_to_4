@@ -9,7 +9,7 @@
         "en": "Let’s sing our ABCs together! A,B... When you are ready, press “record"
     },
     "ui": {
-        "inputType": "audioRecord"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
