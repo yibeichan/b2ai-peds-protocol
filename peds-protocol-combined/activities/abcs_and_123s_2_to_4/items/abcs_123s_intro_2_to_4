@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "choose_book_2_to_4",
-    "prefLabel": "Choose Book for Ages 2 to 4",
+    "@id": "abcs_123s_intro_2_to_4",
+    "prefLabel": "abcs and 123s intro for Ages 2 to 4",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "To start, we have a few books for you to choose from – you can choose which book you want to look at."
+        "en": "Wow! You found so many interesting things in that book! You probably know some letters and numbers too."
     },
     "ui": {
         "inputType": "static",

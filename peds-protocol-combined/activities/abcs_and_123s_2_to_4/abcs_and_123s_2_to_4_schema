@@ -9,10 +9,18 @@
     "ui": {
         "order": [
             "items/abcs_2_to_4",
-            "items/123s_2_to_4"
+            "items/123s_2_to_4",
+            "abcs_123s_intro_2_to_4"
             
         ],
         "addProperties": [
+            {
+                "variableName": "abcs_123s_intro_2_to_4",
+                "isAbout": "items/abcs_123s_intro_2_to_4",
+                "isVis": true,
+                "valueRequired": true
+                
+            },
             {
                 "variableName": "abcs_2_to_4",
                 "isAbout": "items/abcs_2_to_4",

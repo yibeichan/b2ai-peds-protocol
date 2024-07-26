@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "choose_book_2_to_4",
-    "prefLabel": "Choose Book for Ages 2 to 4",
+    "@id": "choose_book_4_to_6",
+    "prefLabel": "Choose Book for Ages 4 to 6",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "To start, we have a few books for you to choose from – you can choose which book you want to look at."
+        "en": "Thank you so much for talking with me today – you did such a wonderful job! Have a great day!"
     },
     "ui": {
         "inputType": "static",

@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "choose_book_2_to_4",
-    "prefLabel": "Choose Book for Ages 2 to 4",
+    "@id": "noisy_sounds_intro_2_to_4",
+    "prefLabel": "Noisy Sounds Intro for Ages 2 to 4",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "To start, we have a few books for you to choose from – you can choose which book you want to look at."
+        "en": "What a great job! Do you like making silly sounds? Do you know what sound a ghost or a mouse makes? Let’s see if we can figure out what sound each of these pictures make."
     },
     "ui": {
         "inputType": "static",
