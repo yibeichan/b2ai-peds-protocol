@@ -6,15 +6,11 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "To start, we have a few books for you to choose from – you can choose which book you want to look at."
+        "en": "To start, let’s choose a book to look at together and see if we can figure out what happens in the story We have a few books for you to choose from – you can choose whichever one you think looks the most interesting."
     },
     "ui": {
-        "inputType": "audioRecord"
-    },
-    "responseOptions": {
-        "valueType": "schema:AudioObject",
-        "minValue": 0,
-        "maxValue": 300000
+        "inputType": "static",
+        "readonlyValue": true
     },
     "description": {
         "en": "@READONLY-FORM"

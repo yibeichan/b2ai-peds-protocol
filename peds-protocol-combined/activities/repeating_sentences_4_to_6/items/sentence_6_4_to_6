@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Peter will keep at the park"
+        "en": "Peter will keep at the park. When you are ready, press “record.”"
     },
     "ui": {
         "inputType": "audioRecord"

@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "noisy_sounds_task_5_4_to_6",
-    "prefLabel": "Noisy Sounds Task 5 for Ages 4 to 6",
+    "@id": "noisy_sounds_task_10_4_to_6",
+    "prefLabel": "Noisy Sounds Task 10 for Ages 4 to 6",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Do you know what sound a snake makes? It says ‘ss ss ss’. Can I hear you make that snake sound? When you are ready, press “record.”"
+        "en": "Have you ever seen a kangaroo jumping around? They go ‘jj jj jj’ – you try! When you are ready, press “record.”"
     },
     "ui": {
         "inputType": "audioImageRecord"
@@ -19,5 +19,5 @@
     "description": {
         "en": "@READONLY-FORM"
     },
-    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/noisy-sounds-pictures/snake.png"
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/noisy-sounds-pictures/kangaroo.png"
 }

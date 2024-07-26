@@ -1,15 +1,15 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "sentence_5",
-    "prefLabel": "Sentence 5 for Ages 4 to 6",
+    "@id": "123s_4_to_6",
+    "prefLabel": "123s for Ages 4 to 6",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "My momma makes lemon muffins. When you are ready, press “record.”"
+        "en": "Let’s see how high you can count? Let’s start at 1... When you are ready, press “record.”"
     },
     "ui": {
-        "inputType": "audioRecord"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
@@ -18,5 +18,7 @@
     },
     "description": {
         "en": "@READONLY-FORM"
-    }
+    },
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/abc_123s/123s.png"
+    
 }

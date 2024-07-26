@@ -117,9 +117,9 @@
         "isVis": "Number(peds_age_schema.peds_age) == 2"
       },
       {
-        "isAbout": "../activities/role_naming_tasks_4_to_6/role_naming_tasks_4_to_6_schema",
-        "variableName": "role_naming_tasks_4_to_6_schema",
-        "prefLabel": "Role naming tasks",
+        "isAbout": "../activities/days_and_numbers_4_to_6/days_and_numbers_4_to_6_schema",
+        "variableName": "days_and_numbers_4_to_6_schema",
+        "prefLabel": "days and number naming tasks",
         "isVis": "Number(peds_age_schema.peds_age) == 2"
       },
       {
@@ -202,7 +202,7 @@
       "../activities/picture_description_6_to_10/picture_description_6_to_10_schema",
       "../activities/reading_passage_6_to_10/reading_passage_6_to_10_schema",
       "../activities/conversation_4_to_6/conversation_4_to_6_schema",
-      "../activities/role_naming_tasks_4_to_6/role_naming_tasks_4_to_6_schema",
+      "../activities/days_and_numbers_4_to_6/days_and_numbers_4_to_6_schema",
       "../activities/noisy_sounds_4_to_6/noisy_sounds_4_to_6_schema",
       "../activities/silly_sounds_4_to_6/silly_sounds_4_to_6_schema",
       "../activities/identifying_pictures_4_to_6/identifying_pictures_4_to_6_schema",

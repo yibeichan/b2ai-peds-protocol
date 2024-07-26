@@ -6,10 +6,10 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Fantastic! You did so well with those sounds, let's try to put them together and say PUH TUH KUH over and over until the timer stops."
+        "en": "Fantastic! You did so well with those sounds, let’s try to put them together and say PUH TUH KUH over and over until the timer stops."
     },
     "ui": {
-        "inputType": "audioRecord"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
@@ -18,5 +18,6 @@
     },
     "description": {
         "en": "@READONLY-FORM"
-    }
+    },
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/silly-sounds/puhtuhkuh.png"
 }

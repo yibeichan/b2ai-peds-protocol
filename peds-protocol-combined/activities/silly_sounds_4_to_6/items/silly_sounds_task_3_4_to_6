@@ -6,10 +6,10 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Great! We've got one more to try. Tell me KUH KUH KUH until the timer stops."
+        "en": "Amazing! We’ve got one more to try. Tell me KUH KUH KUH... When you are ready, press “record."
     },
     "ui": {
-        "inputType": "audioRecord"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
@@ -18,5 +18,6 @@
     },
     "description": {
         "en": "@READONLY-FORM"
-    }
+    },
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/silly-sounds/kuh.png"
 }

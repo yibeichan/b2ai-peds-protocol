@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "How hard did he hug him"
+        "en": "How hard did he hug him. When you are ready, press “record.”"
     },
     "ui": {
         "inputType": "audioRecord"
