@@ -3,7 +3,7 @@
     "category": "reproschema:Activity",
     "compute": [
         {
-            "jsExpression": "rounddown((datediff( 'dob' ,'today','y','ymd')),0)",
+            "jsExpression": "rounddown((datediff( dob ,'today','y','ymd')),0)",
             "variableName": "age"
         }
     ],
@@ -19,6 +19,7 @@
             "items/first_name",
             "items/last_name",
             "items/dob",
+            "items/age",
             "items/phone_number",
             "items/email",
             "items/contact_info_stored"
