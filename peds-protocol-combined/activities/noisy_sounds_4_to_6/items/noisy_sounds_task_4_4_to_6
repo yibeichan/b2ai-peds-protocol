@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "“sh”"
+        "en": "Looks like this baby is sleeping, so we have to remind everyone to be quiet by saying ‘sh sh sh’ Now you try! When you are ready, press “record.”"
     },
     "ui": {
         "inputType": "audioImageRecord"
@@ -19,5 +19,5 @@
     "description": {
         "en": "@READONLY-FORM"
     },
-    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/noisy-sounds-pictures/39.jpg"
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/noisy-sounds-pictures/baby.png"
 }

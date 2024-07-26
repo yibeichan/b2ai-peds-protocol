@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "repeating_sentence_instructions_4_to_6",
-    "prefLabel": "Repeating Sentence Instructions for Ages 4_to_6",
+    "@id": "silly_sounds_intro_4_to_6",
+    "prefLabel": "Silly Sounds intro for Ages 4 to 6",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "You are doing a great job! We have only two more tasks to complete before we’re all finished!"
+        "en": "That was great! Let’s try some more sounds"
     },
     "ui": {
         "inputType": "static",

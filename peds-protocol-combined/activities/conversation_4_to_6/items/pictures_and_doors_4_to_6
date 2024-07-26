@@ -4,7 +4,7 @@
   "@id": "pictures_and_doors_4_to_6",
   "prefLabel": "Pictures and Doors for Ages 4 to 6",
   "description": {
-    "en": "pictures and doors"
+    "en": "book description"
   },
   "schemaVersion": "1.0.0-rc1",
   "version": "0.0.1",
@@ -17,6 +17,6 @@
     "maxValue": 300000
   },
   "question": {
-    "en": "There are lots of pictures and doors to open in this book – let’s see what we can find!"
+    "en": "Tell me about some of the things you see in the bookWhen you are ready, press “record.”"
   }
 }

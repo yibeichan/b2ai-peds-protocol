@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "We were away a year ago"
+        "en": "We were away a year ago. When you are ready, press “record.”"
     },
     "ui": {
         "inputType": "audioRecord"

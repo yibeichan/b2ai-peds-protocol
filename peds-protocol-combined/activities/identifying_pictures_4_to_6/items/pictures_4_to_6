@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "I'm going to show you some pictures on the screen - if you know what it is, say it out loud so we can hear you! Remember, this time you’re going to tell me the name of the picture, not the sound that it makes."
+        "en": "That was great! Let’s look at a few more pictures – if you know what it is, say it out loud so we can hear you! Remember, this time you’re going to tell me the name of the picture, not the sound that it makes. If you’re not sure, you can skip it and move on to the next picture. When you are ready, press “record.”"
     },
     "ui": {
         "inputType": "static",

@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "“ee” (mouse)"
+        "en": "Next we have a picture of a little mouse – it makes an ‘ee ee ee’ sound. You try! When you are ready, press “record.”"
     },
     "ui": {
         "inputType": "audioImageRecord"
@@ -19,5 +19,5 @@
     "description": {
         "en": "@READONLY-FORM"
     },
-    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/noisy-sounds-pictures/42.jpg" 
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/noisy-sounds-pictures/mouse.png" 
 }
