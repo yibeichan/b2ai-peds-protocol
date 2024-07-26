@@ -1,8 +1,6 @@
 {
-    
-    "@id": "age",
-    "@type": "reproschema:Item",
-    "schemaVersion": "1.0.0-rc1",
+    "id": "age",
+    "category": "reproschema:Item",
     "prefLabel": {
         "en": "age"
     },
@@ -16,10 +14,7 @@
     },
     "ui": {
         "inputType": "number",
-        "readOnly": true
+        "readonlyValue": true
     },
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
-    "description": {
-        "en": "@READONLY-FORM"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
