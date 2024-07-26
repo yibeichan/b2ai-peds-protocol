@@ -1,12 +1,7 @@
 {
     "id": "subjectparticipant_contact_information_schema",
     "category": "reproschema:Activity",
-    "compute": [
-        {
-            "jsExpression": "rounddown((datediff( dob ,'today','y','ymd')),0)",
-            "variableName": "age"
-        }
-    ],
+ 
     "preamble": {
         "en": "Contact Information"
     },

@@ -258,43 +258,43 @@
         "isAbout": "../activities/conversation_4_to_6/conversation_4_to_6_schema",
         "variableName": "conversation_4_to_6_schema",
         "prefLabel": "Conversation",
-        "isVis": "Number(subjectparticipant_basic_information.age) >= 4 && Number(subjectparticipant_basic_information.age) < 6"
+        "isVis": "Number(subjectparticipant_basic_information.dob) >= 4 && Number(subjectparticipant_basic_information.dob) < 6"
       },
       {
         "isAbout": "../activities/days_and_numbers_4_to_6/days_and_numbers_4_to_6_schema",
         "variableName": "days_and_numbers_4_to_6_schema",
         "prefLabel": "days and number naming tasks",
-        "isVis": "Number(subjectparticipant_basic_information.age) >= 4 && Number(subjectparticipant_basic_information.age) < 6"
+        "isVis": "Number(subjectparticipant_basic_information.dob) >= 4 && Number(subjectparticipant_basic_information.dob) < 6"
       },
       {
         "isAbout": "../activities/noisy_sounds_4_to_6/noisy_sounds_4_to_6_schema",
         "variableName": "noisy_sounds_4_to_6_schema",
         "prefLabel": "Noisy sounds",
-        "isVis": "Number(subjectparticipant_basic_information.age) >= 4 && Number(subjectparticipant_basic_information.age) < 6"
+        "isVis": "Number(subjectparticipant_basic_information.dob) >= 4 && Number(subjectparticipant_basic_information.dob) < 6"
       },
       {
         "isAbout": "../activities/silly_sounds_4_to_6/silly_sounds_4_to_6_schema",
         "variableName": "silly_sounds_4_to_6_schema",
         "prefLabel": "Silly sounds",
-        "isVis": "Number(subjectparticipant_basic_information.age) >= 4 && Number(subjectparticipant_basic_information.age) < 6"
+        "isVis": "Number(subjectparticipant_basic_information.dob) >= 4 && Number(subjectparticipant_basic_information.dob) < 6"
       },
       {
         "isAbout": "../activities/identifying_pictures_4_to_6/identifying_pictures_4_to_6_schema",
         "variableName": "identifying_pictures_4_to_6_schema",
         "prefLabel": "Identifying pictures",
-        "isVis": "Number(subjectparticipant_basic_information.age) >= 4 && Number(subjectparticipant_basic_information.age) < 6"
+        "isVis": "Number(subjectparticipant_basic_information.dob) >= 4 && Number(subjectparticipant_basic_information.dob) < 6"
       },
       {
         "isAbout": "../activities/repeating_sentences_4_to_6/repeating_sentences_4_to_6_schema",
         "variableName": "repeating_sentences_4_to_6_schema",
         "prefLabel": "Repeating sentences",
-        "isVis": "Number(subjectparticipant_basic_information.age) >= 4 && Number(subjectparticipant_basic_information.age) < 6"
+        "isVis": "Number(subjectparticipant_basic_information.dob) >= 4 && Number(subjectparticipant_basic_information.dob) < 6"
       },
       {
         "isAbout": "../activities/picture_description_4_to_6/picture_description_4_to_6_schema",
         "variableName": "picture_description_4_to_6_schema",
         "prefLabel": "Picture description",
-        "isVis": "Number(subjectparticipant_basic_information.age) >= 4 && Number(subjectparticipant_basic_information.age) < 6"
+        "isVis": "Number(subjectparticipant_basic_information.dob) >= 4 && Number(subjectparticipant_basic_information.dob) < 6"
       },
       {
         "isAbout": "../activities/conversation_2_to_4/conversation_2_to_4_schema",
