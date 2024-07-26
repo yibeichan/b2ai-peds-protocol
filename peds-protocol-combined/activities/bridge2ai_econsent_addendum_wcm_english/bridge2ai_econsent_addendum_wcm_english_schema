@@ -1,0 +1,57 @@
+{
+    "id": "bridge2ai_econsent_addendum_wcm_english_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "bridge2ai_econsent_addendum_wcm_english"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/consent_wcm_statement",
+            "items/consent_wcm_permission_1",
+            "items/consent_wcm_permission_2",
+            "items/consent_wcm_statement_2",
+            "items/consent_wcm_signature",
+            "items/consent_wcm_name"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/consent_wcm_statement",
+                "isVis": true,
+                "variableName": "consent_wcm_statement"
+            },
+            {
+                "isAbout": "items/consent_wcm_permission_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_permission_1"
+            },
+            {
+                "isAbout": "items/consent_wcm_permission_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_permission_2"
+            },
+            {
+                "isAbout": "items/consent_wcm_statement_2",
+                "isVis": true,
+                "variableName": "consent_wcm_statement_2"
+            },
+            {
+                "isAbout": "items/consent_wcm_signature",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_signature"
+            },
+            {
+                "isAbout": "items/consent_wcm_name",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_name"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

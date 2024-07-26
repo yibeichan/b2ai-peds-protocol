@@ -1,0 +1,57 @@
+{
+    "id": "d_voice_benign_lesions_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "d_voice_benign_lesions"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/diagnois_bl_gsd",
+            "items/diagnosis_bl_ds",
+            "items/diagnosis_bl_ds_other",
+            "items/diagnosis_bl_etiology",
+            "items/diagnosis_bl_etiology_other",
+            "items/diagnosis_bl_ds_ll"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/diagnois_bl_gsd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnois_bl_gsd"
+            },
+            {
+                "isAbout": "items/diagnosis_bl_ds",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_bl_ds"
+            },
+            {
+                "isAbout": "items/diagnosis_bl_ds_other",
+                "isVis": "diagnosis_bl_ds =='other'",
+                "variableName": "diagnosis_bl_ds_other"
+            },
+            {
+                "isAbout": "items/diagnosis_bl_etiology",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_bl_etiology"
+            },
+            {
+                "isAbout": "items/diagnosis_bl_etiology_other",
+                "isVis": "diagnosis_bl_etiology =='other'",
+                "variableName": "diagnosis_bl_etiology_other"
+            },
+            {
+                "isAbout": "items/diagnosis_bl_ds_ll",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_bl_ds_ll"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

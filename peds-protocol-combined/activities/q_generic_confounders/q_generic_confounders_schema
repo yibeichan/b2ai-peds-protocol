@@ -1,0 +1,161 @@
+{
+    "id": "q_generic_confounders_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_generic_confounders"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/height",
+            "items/weight",
+            "items/unit",
+            "items/symptoms",
+            "items/ear_med_history",
+            "items/nose_med_history",
+            "items/throat_med_history",
+            "items/head_med_history",
+            "items/ear_surgical",
+            "items/nose_surgical",
+            "items/throat_surgical",
+            "items/head_surgical",
+            "items/neurological_history",
+            "items/current_neuro_dx",
+            "items/specify_current_neuro",
+            "items/respiratory_conditions",
+            "items/lung_or_metastatic",
+            "items/covid",
+            "items/covid_past",
+            "items/cpap_conditions",
+            "items/resp_medical_history",
+            "items/cardiac_condition",
+            "items/circulatory_med_history",
+            "items/infection_disease"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/height",
+                "isVis": true,
+                "variableName": "height"
+            },
+            {
+                "isAbout": "items/weight",
+                "isVis": true,
+                "variableName": "weight"
+            },
+            {
+                "isAbout": "items/unit",
+                "isVis": true,
+                "variableName": "unit"
+            },
+            {
+                "isAbout": "items/symptoms",
+                "isVis": true,
+                "variableName": "symptoms"
+            },
+            {
+                "isAbout": "items/ear_med_history",
+                "isVis": true,
+                "variableName": "ear_med_history"
+            },
+            {
+                "isAbout": "items/nose_med_history",
+                "isVis": true,
+                "variableName": "nose_med_history"
+            },
+            {
+                "isAbout": "items/throat_med_history",
+                "isVis": true,
+                "variableName": "throat_med_history"
+            },
+            {
+                "isAbout": "items/head_med_history",
+                "isVis": true,
+                "variableName": "head_med_history"
+            },
+            {
+                "isAbout": "items/ear_surgical",
+                "isVis": true,
+                "variableName": "ear_surgical"
+            },
+            {
+                "isAbout": "items/nose_surgical",
+                "isVis": true,
+                "variableName": "nose_surgical"
+            },
+            {
+                "isAbout": "items/throat_surgical",
+                "isVis": true,
+                "variableName": "throat_surgical"
+            },
+            {
+                "isAbout": "items/head_surgical",
+                "isVis": true,
+                "variableName": "head_surgical"
+            },
+            {
+                "isAbout": "items/neurological_history",
+                "isVis": true,
+                "variableName": "neurological_history"
+            },
+            {
+                "isAbout": "items/current_neuro_dx",
+                "isVis": "neurological_history___1 == '1' || neurological_history___2 == '1' || neurological_history___3 == '1' || neurological_history___4 == '1' || neurological_history___5 == '1' || neurological_history___6 == '1'",
+                "variableName": "current_neuro_dx"
+            },
+            {
+                "isAbout": "items/specify_current_neuro",
+                "isVis": "current_neuro_dx ==2",
+                "variableName": "specify_current_neuro"
+            },
+            {
+                "isAbout": "items/respiratory_conditions",
+                "isVis": true,
+                "variableName": "respiratory_conditions"
+            },
+            {
+                "isAbout": "items/lung_or_metastatic",
+                "isVis": "respiratory_conditions___2 =='1'",
+                "variableName": "lung_or_metastatic"
+            },
+            {
+                "isAbout": "items/covid",
+                "isVis": true,
+                "variableName": "covid"
+            },
+            {
+                "isAbout": "items/covid_past",
+                "isVis": "covid(past_year) =='1'",
+                "variableName": "covid_past"
+            },
+            {
+                "isAbout": "items/cpap_conditions",
+                "isVis": true,
+                "variableName": "cpap_conditions"
+            },
+            {
+                "isAbout": "items/resp_medical_history",
+                "isVis": true,
+                "variableName": "resp_medical_history"
+            },
+            {
+                "isAbout": "items/cardiac_condition",
+                "isVis": "circulatory_conditions___2 =='1'",
+                "variableName": "cardiac_condition"
+            },
+            {
+                "isAbout": "items/circulatory_med_history",
+                "isVis": true,
+                "variableName": "circulatory_med_history"
+            },
+            {
+                "isAbout": "items/infection_disease",
+                "isVis": "circulatory_med_history___3 =='1'",
+                "variableName": "infection_disease"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
