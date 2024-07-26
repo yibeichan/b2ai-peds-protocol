@@ -162,43 +162,43 @@
         "isAbout": "../activities/conversation_10_plus/conversation_10_plus_schema",
         "variableName": "conversation_10_plus_schema",
         "prefLabel": "Conversation",
-        "isVis": "Number(subjectparticipant_basic_information.age) >= 10"
+        "isVis": "Number(subjectparticipant_basic_information.dob) >= 10"
       },
       {
         "isAbout": "../activities/generative_naming_tasks_10_plus/generative_naming_tasks_10_plus_schema",
         "variableName": "generative_naming_tasks_10_plus_schema",
         "prefLabel": "Generative naming tasks",
-        "isVis": "Number(subjectparticipant_basic_information.age) >= 10"
+        "isVis": "Number(subjectparticipant_basic_information.dob) >= 10"
       },
       {
         "isAbout": "../activities/sustained_phonation_10_plus/sustained_phonation_10_plus_schema",
         "variableName": "sustained_phonation_10_plus_schema",
         "prefLabel": "Sustained phonation",
-        "isVis": "Number(subjectparticipant_basic_information.age) >= 10"
+        "isVis": "Number(subjectparticipant_basic_information.dob) >= 10"
       },
       {
         "isAbout": "../activities/silly_sounds_10_plus/silly_sounds_10_plus_schema",
         "variableName": "silly_sounds_10_plus_schema",
         "prefLabel": "Silly sounds",
-        "isVis": "Number(subjectparticipant_basic_information.age) >= 10"
+        "isVis": "Number(subjectparticipant_basic_information.dob) >= 10"
       },
       {
         "isAbout": "../activities/identifying_pictures_10_plus/identifying_pictures_10_plus_schema",
         "variableName": "identifying_pictures_10_plus_schema",
         "prefLabel": "Identifying pictures",
-        "isVis": "Number(subjectparticipant_basic_information.age) >= 10"
+        "isVis": "Number(subjectparticipant_basic_information.dob) >= 10"
       },
       {
         "isAbout": "../activities/repeating_sentences_10_plus/repeating_sentences_10_plus_schema",
         "variableName": "repeating_sentences_10_plus_schema",
         "prefLabel": "Repeating sentences",
-        "isVis": "Number(subjectparticipant_basic_information.age) >= 10"
+        "isVis": "Number(subjectparticipant_basic_information.dob) >= 10"
       },
       {
         "isAbout": "../activities/picture_description_10_plus/picture_description_10_plus_schema",
         "variableName": "picture_description_10_plus_schema",
         "prefLabel": "Picture description",
-        "isVis": "Number(subjectparticipant_basic_information.age) >= 10"
+        "isVis": "Number(subjectparticipant_basic_information.dob) >= 10"
       },
       {
         "isAbout": "../activities/reading_passage_10_plus/reading_passage_10_plus_schema",
