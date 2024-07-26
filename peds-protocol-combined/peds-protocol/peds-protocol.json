@@ -300,25 +300,25 @@
         "isAbout": "../activities/conversation_2_to_4/conversation_2_to_4_schema",
         "variableName": "conversation_2_to_4_schema",
         "prefLabel": "Conversation",
-        "isVis": "Number(peds_age_schema.peds_age) >= 2 && Number(peds_age_schema.peds_age) < 4"
+        "isVis": "Number(subjectparticipant_contact_information_schema.age) >= 2 && Number(subjectparticipant_contact_information_schema.age) < 4"
       },
       {
         "isAbout": "../activities/abcs_and_123s_2_to_4/abcs_and_123s_2_to_4_schema",
         "variableName": "abcs_and_123s_2_to_4_schema",
         "prefLabel": "Abcs and 123s",
-        "isVis": "Number(peds_age_schema.peds_age) >= 2 && Number(peds_age_schema.peds_age) < 4"
+        "isVis": "Number(subjectparticipant_contact_information_schema.age) >= 2 && Number(subjectparticipant_contact_information_schema.age) < 4"
       },
       {
         "isAbout": "../activities/noisy_sounds_2_to_4/noisy_sounds_2_to_4_schema",
         "variableName": "noisy_sounds_2_to_4_schema",
         "prefLabel": "Noisy sounds",
-        "isVis": "Number(peds_age_schema.peds_age) >= 2 && Number(peds_age_schema.peds_age) < 4"
+        "isVis": "Number(subjectparticipant_contact_information_schema.age) >= 2 && Number(subjectparticipant_contact_information_schema.age) < 4"
       },
       {
         "isAbout": "../activities/identifying_pictures_2_to_4/identifying_pictures_2_to_4_schema",
         "variableName": "identifying_pictures_2_to_4_schema",
         "prefLabel": "Identifying pictures",
-        "isVis": "Number(peds_age_schema.peds_age) >= 2 && Number(peds_age_schema.peds_age) < 4"
+        "isVis": "Number(subjectparticipant_contact_information_schema.age) == 1"
       },
       {
         "isAbout": "../activities/conclusion/conclusion_schema",
