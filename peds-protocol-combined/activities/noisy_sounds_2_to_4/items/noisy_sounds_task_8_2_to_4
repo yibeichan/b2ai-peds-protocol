@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "noisy_sounds_task_4_2_to_4",
-    "prefLabel": "Noisy Sounds Task 4 for Ages 2 to 4",
+    "@id": "noisy_sounds_task_8_2_to_4",
+    "prefLabel": "Noisy Sounds Task 8 for Ages 2 to 4",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Looks like this baby is sleeping, so we have to remind everyone to be quiet by saying ‘sh sh sh’ Now you try! When you are ready, press “record.”"
+        "en": "Here’s a little bumble bee buzzing around the garden – ‘zz zz zz’. Let’s hear your bee noise When you are ready, press “record.”"
     },
     "ui": {
         "inputType": "audioImageRecord"
@@ -19,5 +19,5 @@
     "description": {
         "en": "@READONLY-FORM"
     },
-    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/noisy-sounds-pictures/baby.png"
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/noisy-sounds-pictures/bee.png"
 }

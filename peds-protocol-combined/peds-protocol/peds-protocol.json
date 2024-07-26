@@ -175,6 +175,12 @@
         "variableName": "identifying_pictures_2_to_4_schema",
         "prefLabel": "Identifying pictures",
         "isVis": "Number(peds_age_schema.peds_age) == 1"
+      },
+      {
+        "isAbout": "../activities/conclusion/conclusion_schema",
+        "variableName": "conclusion",
+        "prefLabel": "conclusion",
+        "isVis": true
       }
     ],
     "order": [
@@ -205,7 +211,8 @@
       "../activities/conversation_2_to_4/conversation_2_to_4_schema",
       "../activities/abcs_and_123s_2_to_4/abcs_and_123s_2_to_4_schema",
       "../activities/noisy_sounds_2_to_4/noisy_sounds_2_to_4_schema",
-      "../activities/identifying_pictures_2_to_4/identifying_pictures_2_to_4_schema"
+      "../activities/identifying_pictures_2_to_4/identifying_pictures_2_to_4_schema",
+      "../activities/conclusion/conclusion_schema"
     ]
   },
   "shuffle": false,
