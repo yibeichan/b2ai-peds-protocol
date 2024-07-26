@@ -9,7 +9,7 @@
         "en": "Wow that was great! I wonder how high you can count? Let’s start at 1, 2... When you are ready, press “record.”"
     },
     "ui": {
-        "inputType": "audioRecord"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
