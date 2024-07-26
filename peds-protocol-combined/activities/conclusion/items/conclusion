@@ -1,8 +1,8 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "choose_book_4_to_6",
-    "prefLabel": "Choose Book for Ages 4 to 6",
+    "@id": "conclusion",
+    "prefLabel": "conclusion",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
