@@ -63,12 +63,12 @@
             },
             {
                 "isAbout": "items/other_gender_identity",
-                "isVis": "gender_identity =='other'",
+                "isVis": true,
                 "variableName": "other_gender_identity"
             },
             {
                 "isAbout": "items/specify_gender_identity",
-                "isVis": "gender_identity =='female' || gender_identity =='male'",
+                "isVis": true,
                 "variableName": "specify_gender_identity"
             },
             {
@@ -79,7 +79,7 @@
             },
             {
                 "isAbout": "items/other_sex_orientation",
-                "isVis": "sexual_orientation =='other'",
+                "isVis": true,
                 "variableName": "other_sex_orientation"
             },
             {
@@ -89,37 +89,37 @@
             },
             {
                 "isAbout": "items/native_american_race",
-                "isVis": "race___1 == '1'",
+                "isVis": true,
                 "variableName": "native_american_race"
             },
             {
                 "isAbout": "items/asian_race",
-                "isVis": "race___2 =='1'",
+                "isVis": true,
                 "variableName": "asian_race"
             },
             {
                 "isAbout": "items/black_race",
-                "isVis": "race___3 =='1'",
+                "isVis": true,
                 "variableName": "black_race"
             },
             {
                 "isAbout": "items/pacific_islander_race",
-                "isVis": "race___4 =='1'",
+                "isVis": true,
                 "variableName": "pacific_islander_race"
             },
             {
                 "isAbout": "items/white_race",
-                "isVis": "race___5 =='1'",
+                "isVis": true,
                 "variableName": "white_race"
             },
             {
                 "isAbout": "items/canadian_race",
-                "isVis": "race___6 =='1'",
+                "isVis": true,
                 "variableName": "canadian_race"
             },
             {
                 "isAbout": "items/other_race_specify",
-                "isVis": "race___7 == '1'",
+                "isVis": true,
                 "variableName": "other_race_specify"
             },
             {
@@ -129,7 +129,7 @@
             },
             {
                 "isAbout": "items/hispanic_latino_selection",
-                "isVis": "ethnicity == 'yes'",
+                "isVis": true,
                 "variableName": "hispanic_latino_selection"
             },
             {
@@ -140,7 +140,7 @@
             },
             {
                 "isAbout": "items/other_edu_level",
-                "isVis": "edu_level =='11'",
+                "isVis": true,
                 "variableName": "other_edu_level"
             },
             {

@@ -100,12 +100,12 @@
             },
             {
                 "isAbout": "items/current_neuro_dx",
-                "isVis": "neurological_history___1 == '1' || neurological_history___2 == '1' || neurological_history___3 == '1' || neurological_history___4 == '1' || neurological_history___5 == '1' || neurological_history___6 == '1'",
+                "isVis": true,
                 "variableName": "current_neuro_dx"
             },
             {
                 "isAbout": "items/specify_current_neuro",
-                "isVis": "current_neuro_dx ==2",
+                "isVis": true,
                 "variableName": "specify_current_neuro"
             },
             {
@@ -115,7 +115,7 @@
             },
             {
                 "isAbout": "items/lung_or_metastatic",
-                "isVis": "respiratory_conditions___2 =='1'",
+                "isVis": true,
                 "variableName": "lung_or_metastatic"
             },
             {
@@ -125,7 +125,7 @@
             },
             {
                 "isAbout": "items/covid_past",
-                "isVis": "covid(past_year) =='1'",
+                "isVis": true,
                 "variableName": "covid_past"
             },
             {
@@ -140,7 +140,7 @@
             },
             {
                 "isAbout": "items/cardiac_condition",
-                "isVis": "circulatory_conditions___2 =='1'",
+                "isVis": true,
                 "variableName": "cardiac_condition"
             },
             {
@@ -150,7 +150,7 @@
             },
             {
                 "isAbout": "items/infection_disease",
-                "isVis": "circulatory_med_history___3 =='1'",
+                "isVis": true,
                 "variableName": "infection_disease"
             }
         ],
