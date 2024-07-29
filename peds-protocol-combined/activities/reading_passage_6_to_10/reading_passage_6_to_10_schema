@@ -10,6 +10,7 @@
         "order": [
             "items/passage_instructions_6_to_10",
             "items/passage_instructions_2_6_to_10",
+            "items/passage_instructions_3_6_to_10",
             "items/passage_1_6_to_10",
             "items/passage_2_6_to_10",
             "items/passage_3_6_to_10",
@@ -17,7 +18,10 @@
             "items/passage_5_6_to_10",
             "items/passage_6_6_to_10",
             "items/passage_7_6_to_10",
-            "items/passage_8_6_to_10"
+            "items/passage_8_6_to_10",
+            "items/passage_9_6_to_10",
+            "items/passage_10_6_to_10",
+            "items/passage_11_6_to_10"
         ],
         "addProperties": [
             {
@@ -29,6 +33,12 @@
             {
                 "variableName": "passage_instructions_2_6_to_10",
                 "isAbout": "items/passage_instructions_2_6_to_10",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "passage_instructions_3_6_to_10",
+                "isAbout": "items/passage_instructions_3_6_to_10",
                 "isVis": true,
                 "valueRequired": true
             },
@@ -70,6 +80,21 @@
             {
                 "variableName": "passage_8_6_to_10",
                 "isAbout": "items/passage_8_6_to_10",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_9_6_to_10",
+                "isAbout": "items/passage_9_6_to_10",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_10_6_to_10",
+                "isAbout": "items/passage_10_6_to_10",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_11_6_to_10",
+                "isAbout": "items/passage_11_6_to_10",
                 "isVis": true
             }
         ],
