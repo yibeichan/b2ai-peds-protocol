@@ -9,7 +9,7 @@
   "schemaVersion": "1.0.0-rc1",
   "version": "0.0.1",
   "ui": {
-    "inputType": "audioRecord"
+    "inputType": "audioImageRecord"
   },
   "responseOptions": {
     "valueType": "schema:AudioObject",
@@ -18,5 +18,6 @@
   },
   "question": {
     "en": "To start, let's learn a little more about you! Tell me about how you get ready for school in the morning"
-  }
+  },
+  "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/age6-10/1.jpg"
 }

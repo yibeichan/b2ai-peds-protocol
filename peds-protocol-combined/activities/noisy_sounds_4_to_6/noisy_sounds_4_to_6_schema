@@ -8,6 +8,7 @@
     "version": "0.0.1",
     "ui": {
         "order": [
+            "items/noisy_sounds_intro_4_to_6",
             "items/noisy_sounds_task_1_4_to_6",
             "items/noisy_sounds_task_2_4_to_6",
             "items/noisy_sounds_task_3_4_to_6",
@@ -20,6 +21,12 @@
             "items/noisy_sounds_task_10_4_to_6"
         ],
         "addProperties": [
+            {
+                "variableName": "noisy_sounds_intro_4_to_6",
+                "isAbout": "items/noisy_sounds_intro_4_to_6",
+                "isVis": true,
+                "valueRequired": true
+            },
             {
                 "variableName": "noisy_sounds_task_1_4_to_6",
                 "isAbout": "items/noisy_sounds_task_1_4_to_6",

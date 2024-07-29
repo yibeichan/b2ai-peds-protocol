@@ -8,11 +8,17 @@
     "version": "0.0.1",
     "ui": {
         "order": [
+            "items/role_naming_tasks_intro_6_to_10",
             "items/role_naming_tasks_task_1_6_to_10",
             "items/role_naming_tasks_task_2_6_to_10",
             "items/role_naming_tasks_task_3_6_to_10"
         ],
         "addProperties": [
+            {
+                "variableName": "role_naming_tasks_intro_6_to_10",
+                "isAbout": "items/role_naming_tasks_intro_6_to_10",
+                "isVis": true
+            },
             {
                 "variableName": "role_naming_tasks_task_1_6_to_10",
                 "isAbout": "items/role_naming_tasks_task_1_6_to_10",

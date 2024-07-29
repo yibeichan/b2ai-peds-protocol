@@ -318,7 +318,7 @@
         "isAbout": "../activities/identifying_pictures_2_to_4/identifying_pictures_2_to_4_schema",
         "variableName": "identifying_pictures_2_to_4_schema",
         "prefLabel": "Identifying pictures",
-        "isVis": "Number(subjectparticipant_contact_information_schema.age) == 1"
+        "isVis": "Number(subjectparticipant_contact_information_schema.age) >= 2 && Number(subjectparticipant_contact_information_schema.age) < 4"
       },
       {
         "isAbout": "../activities/conclusion/conclusion_schema",

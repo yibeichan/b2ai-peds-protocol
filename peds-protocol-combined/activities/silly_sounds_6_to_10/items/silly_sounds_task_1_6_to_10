@@ -9,7 +9,7 @@
         "en": "First, we're going to say PUH PUH PUH over and over for about 10 seconds. Remember to take a breath if you need one!"
     },
     "ui": {
-        "inputType": "audioRecord"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
@@ -18,5 +18,6 @@
     },
     "description": {
         "en": "@READONLY-FORM"
-    }
+    },
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/age6-10/18.jpg"
 }

@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "silly_sounds_task_5_4_to_6",
-    "prefLabel": "Silly Sounds Task 5 for Ages 4 to 6",
+    "@id": "noisy_sounds_task_9_6_to_10",
+    "prefLabel": "Noisy Sounds Task 9 for Ages 6 to 10",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "If that word seems a little too tricky, you can say PAT-A-CAKE over and over instead. When you are ready, press “record.”"
+        "en": "Bunnies hop around – ‘hh hh hh’ - now you do it! When you are ready, press “record.”"
     },
     "ui": {
         "inputType": "audioImageRecord"
@@ -19,5 +19,5 @@
     "description": {
         "en": "@READONLY-FORM"
     },
-    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/age4-6/18.jpg"
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/age6-10/16.jpg"
 }
