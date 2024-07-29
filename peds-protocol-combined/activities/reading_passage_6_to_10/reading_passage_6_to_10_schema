@@ -9,6 +9,7 @@
     "ui": {
         "order": [
             "items/passage_instructions_6_to_10",
+            "items/passage_instructions_2_6_to_10",
             "items/passage_1_6_to_10",
             "items/passage_2_6_to_10",
             "items/passage_3_6_to_10",
@@ -22,6 +23,12 @@
             {
                 "variableName": "passage_instructions_6_to_10",
                 "isAbout": "items/passage_instructions_6_to_10",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "passage_instructions_2_6_to_10",
+                "isAbout": "items/passage_instructions_2_6_to_10",
                 "isVis": true,
                 "valueRequired": true
             },

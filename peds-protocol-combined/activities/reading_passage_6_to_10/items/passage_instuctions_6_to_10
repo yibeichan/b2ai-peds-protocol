@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Item",
+    "@id": "passage_instructions_6_to_10",
+    "prefLabel": "Passage Instructions for Ages 6 to 10",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Fantastic Job! We only have one more thing to do today"
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    }
+}

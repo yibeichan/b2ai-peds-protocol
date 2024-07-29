@@ -9,7 +9,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {
-        "inputType": "audioRecord"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
@@ -17,6 +17,7 @@
         "maxValue": 300000
     },
     "question": {
-        "en": "Do you have a favourite movie, tv show or video game? Tell me about it!"
-    }
+        "en": "Do You have a favourite movie? Video game? Show? I’d love to hear about it! When you’re ready to share, press “record”."
+    },
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/age6-10/2.jpg"
 }

@@ -8,14 +8,25 @@
     "version": "0.0.1",
     "ui": {
         "order": [
+            "items/noisy_sounds_intro_6_to_10",
             "items/noisy_sounds_task_1_6_to_10",
             "items/noisy_sounds_task_2_6_to_10",
             "items/noisy_sounds_task_3_6_to_10",
             "items/noisy_sounds_task_4_6_to_10",
             "items/noisy_sounds_task_5_6_to_10",
-            "items/noisy_sounds_task_6_6_to_10"
+            "items/noisy_sounds_task_6_6_to_10",
+            "items/noisy_sounds_task_7_6_to_10",
+            "items/noisy_sounds_task_8_6_to_10",
+            "items/noisy_sounds_task_9_6_to_10",
+            "items/noisy_sounds_task_10_6_to_10"
         ],
         "addProperties": [
+            {
+                "variableName": "noisy_sounds_intro_6_to_10",
+                "isAbout": "items/noisy_sounds_intro_6_to_10",
+                "isVis": true,
+                "valueRequired": true
+            },
             {
                 "variableName": "noisy_sounds_task_1_6_to_10",
                 "isAbout": "items/noisy_sounds_task_1_6_to_10",
@@ -44,6 +55,26 @@
             {
                 "variableName": "noisy_sounds_task_6_6_to_10",
                 "isAbout": "items/noisy_sounds_task_6_6_to_10",
+                "isVis": true
+            },
+            {
+                "variableName": "noisy_sounds_task_7_6_to_10",
+                "isAbout": "items/noisy_sounds_task_7_6_to_10",
+                "isVis": true
+            },
+            {
+                "variableName": "noisy_sounds_task_8_6_to_10",
+                "isAbout": "items/noisy_sounds_task_8_6_to_10",
+                "isVis": true
+            },
+            {
+                "variableName": "noisy_sounds_task_9_6_to_10",
+                "isAbout": "items/noisy_sounds_task_9_6_to_10",
+                "isVis": true
+            },
+            {
+                "variableName": "noisy_sounds_task_10_6_to_10",
+                "isAbout": "items/noisy_sounds_task_10_6_to_10",
                 "isVis": true
             }
         ],
