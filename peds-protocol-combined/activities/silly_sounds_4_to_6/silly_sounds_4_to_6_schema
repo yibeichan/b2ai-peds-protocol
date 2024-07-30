@@ -12,8 +12,7 @@
             "items/silly_sounds_task_1_4_to_6",
             "items/silly_sounds_task_2_4_to_6",
             "items/silly_sounds_task_3_4_to_6",
-            "items/silly_sounds_task_4_4_to_6",
-            "items/silly_sounds_task_5_4_to_6"
+            "items/silly_sounds_task_4_4_to_6"
         ],
         "addProperties": [
             {
@@ -40,11 +39,6 @@
             {
                 "variableName": "silly_sounds_task_4_4_to_6",
                 "isAbout": "items/silly_sounds_task_4_4_to_6",
-                "isVis": true
-            },
-            {
-                "variableName": "silly_sounds_task_5_4_to_6",
-                "isAbout": "items/silly_sounds_task_5_4_to_6",
                 "isVis": true
             }
         ],
