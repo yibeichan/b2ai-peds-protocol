@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Next I'm going to ask you to name a bunch of items in different categories. You'll have 30 sec for each question. If you run out of ideas before the timer runs out that's ok."
+        "en": "Thank you for sharing all of that information with me! It’s wonderful to get to know you a little better. Next, I’m going to ask you to name lists of things – if you run out of ideas before the recording stops, that’s ok!"
     },
     "ui": {
         "inputType": "static",

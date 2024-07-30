@@ -6,10 +6,10 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "People were so scared they screamed as we swiftly zoomed fast, fast, and faster along the tracks."
+        "en": "Passage 5 When you are ready, press “record.”"
     },
     "ui": {
-        "inputType": "audioRecord"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
@@ -18,5 +18,6 @@
     },
     "description": {
         "en": "@READONLY-FORM"
-    }
+    },
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/age10+/32.jpg"
 }

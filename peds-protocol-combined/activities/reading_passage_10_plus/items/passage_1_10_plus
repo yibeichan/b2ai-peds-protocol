@@ -6,10 +6,10 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Do you like amusement parks? Well, I sure do. To amuse myself, I went twice last spring."
+        "en": "Passage 1 When you are ready, press “record.”"
     },
     "ui": {
-        "inputType": "audioRecord"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
@@ -18,5 +18,6 @@
     },
     "description": {
         "en": "@READONLY-FORM"
-    }
+    },
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/age10+/28.jpg"
 }

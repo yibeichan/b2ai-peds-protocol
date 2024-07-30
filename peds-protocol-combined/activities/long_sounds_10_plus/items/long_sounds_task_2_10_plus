@@ -1,23 +1,23 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "passage_8_10_plus",
-    "prefLabel": "Passage 8 for Ages 10 Plus",
+    "@id": "long_sounds_task_2_10_plus",
+    "prefLabel": "long sounds Task 2 for Ages 10 Plus",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Passage 8 When you are ready, press “record.”"
+        "en": "Next, say the ‘eeeeee’ sound as steady as you can for about 5 seconds. We’ll do this three times as well. When you are ready, press “record.”"
     },
     "ui": {
         "inputType": "audioImageRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
-        "minValue": 0,
+        "minValue": 60000,
         "maxValue": 300000
     },
     "description": {
         "en": "@READONLY-FORM"
     },
-    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/age10+/35.jpg"
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/age10+/8.jpg"
 }

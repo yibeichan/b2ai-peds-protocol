@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "This last task is a reading passage. It is a story about a roller coaster called The Caterpillar. A sentence or two will appear on the screen - read it aloud as if you were reading any regular story book. If you're not sure about a word, just skip it and keep going."
+        "en": "Fantastic Job! We only have one more thing to do today"
     },
     "ui": {
         "inputType": "static",
