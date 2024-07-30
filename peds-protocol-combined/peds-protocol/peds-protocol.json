@@ -153,12 +153,6 @@
         "variableName": "q_generic_confounders_schema"
       },
       {
-        "isAbout": "../activities/peds_age/peds_age_schema",
-        "variableName": "peds_age_schema",
-        "prefLabel": "Peds age",
-        "isVis": true
-      },
-      {
         "isAbout": "../activities/conversation_10_plus/conversation_10_plus_schema",
         "variableName": "conversation_10_plus_schema",
         "prefLabel": "Conversation",
@@ -346,7 +340,6 @@
       "../activities/d_voice_benign_lesions/d_voice_benign_lesions_schema",
       "../activities/q_generic_demographics/q_generic_demographics_schema",
       "../activities/q_generic_confounders/q_generic_confounders_schema",
-      "../activities/peds_age/peds_age_schema",
       "../activities/conversation_10_plus/conversation_10_plus_schema",
       "../activities/generative_naming_tasks_10_plus/generative_naming_tasks_10_plus_schema",
       "../activities/long_sounds_10_plus/long_sounds_10_plus_schema",
