@@ -1,22 +1,23 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "phonation_task_2_10_plus",
-    "prefLabel": "Phonation Task 2 for Ages 10 Plus",
+    "@id": "passage_9_10_plus",
+    "prefLabel": "Passage 10 for Ages 10 Plus",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Next say the sound 'eeee' as steady as you can for ~5-8sec. we'll do this sound three times as well"
+        "en": "Passage 10 When you are ready, press “record.”"
     },
     "ui": {
-        "inputType": "audioRecord"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
-        "minValue": 60000,
+        "minValue": 0,
         "maxValue": 300000
     },
     "description": {
         "en": "@READONLY-FORM"
-    }
+    },
+    "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/age10+/37.jpg"
 }

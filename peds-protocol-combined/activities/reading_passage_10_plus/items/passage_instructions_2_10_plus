@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Item",
-    "@id": "repeating_sentences_instructions_10_plus",
-    "prefLabel": "Repeating Sentences Instructions for Ages 10 Plus",
+    "@id": "passage_instructions_2_10_plus",
+    "prefLabel": "Passage Instructions 2 for Ages 10 Plus",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "You are doing a great job! We have only two more tasks to complete before we’re all finished!"
+        "en": "Since you did so well reading the sentences earlier, let’s try a few more. We’re going to read a short story about a roller coaster ride called The Caterpillar."
     },
     "ui": {
         "inputType": "static",
