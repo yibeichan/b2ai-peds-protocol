@@ -8,24 +8,12 @@
     "version": "0.0.1",
     "ui": {
         "order": [
-            "items/picture_description_1_10_plus",
-            "items/picture_description_2_10_plus",
-            "items/picture_description_3_10_plus"
+            "items/picture_description_1_10_plus"
         ],
         "addProperties": [
             {
                 "variableName": "picture_description_1_10_plus",
                 "isAbout": "items/picture_description_1_10_plus",
-                "isVis": true
-            },
-            {
-                "variableName": "picture_description_2_10_plus",
-                "isAbout": "items/picture_description_2_10_plus",
-                "isVis": true
-            },
-            {
-                "variableName": "picture_description_3_10_plus",
-                "isAbout": "items/picture_description_3_10_plus",
                 "isVis": true
             }
         ],

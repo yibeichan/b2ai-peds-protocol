@@ -9,6 +9,8 @@
     "ui": {
         "order": [
             "items/passage_instructions_10_plus",
+            "items/passage_instructions_2_10_plus",
+            "items/passage_instructions_3_10_plus",
             "items/passage_1_10_plus",
             "items/passage_2_10_plus",
             "items/passage_3_10_plus",
@@ -16,12 +18,27 @@
             "items/passage_5_10_plus",
             "items/passage_6_10_plus",
             "items/passage_7_10_plus",
-            "items/passage_8_10_plus"
+            "items/passage_8_10_plus",
+            "items/passage_9_10_plus",
+            "items/passage_10_10_plus",
+            "items/passage_11_10_plus"
         ],
         "addProperties": [
             {
                 "variableName": "passage_instructions_10_plus",
                 "isAbout": "items/passage_instructions_10_plus",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "passage_instructions_2_10_plus",
+                "isAbout": "items/passage_instructions_2_10_plus",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "passage_instructions_3_10_plus",
+                "isAbout": "items/passage_instructions_3_10_plus",
                 "isVis": true,
                 "valueRequired": true
             },
@@ -63,6 +80,21 @@
             {
                 "variableName": "passage_8_10_plus",
                 "isAbout": "items/passage_8_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_9_10_plus",
+                "isAbout": "items/passage_9_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_10_10_plus",
+                "isAbout": "items/passage_10_10_plus",
+                "isVis": true
+            },
+            {
+                "variableName": "passage_11_10_plus",
+                "isAbout": "items/passage_11_10_plus",
                 "isVis": true
             }
         ],
