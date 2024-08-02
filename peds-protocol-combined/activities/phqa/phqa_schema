@@ -1,8 +1,8 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "peds_voice_related_phqa_schema",
-    "prefLabel": "peds voice related phqa schema",
+    "@id": "phqa_schema",
+    "prefLabel": "phqa schema",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
