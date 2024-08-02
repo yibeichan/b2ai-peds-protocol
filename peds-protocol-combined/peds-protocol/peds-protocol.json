@@ -17,6 +17,14 @@
         "variableName": "subjectparticipant_basic_information_schema"
       },
       {
+        "isAbout": "../activities/peds_vhi_10/peds_vhi_10_schema",
+        "isVis": true,
+        "prefLabel": {
+          "en": "Pediatric VHI 10 Questionniare"
+        },
+        "variableName": "peds_vhi_10_schema"
+      },
+      {
         "isAbout": "../activities/subjectparticipant_contact_information/subjectparticipant_contact_information_schema",
         "isVis": true,
         "prefLabel": {
@@ -304,6 +312,7 @@
       "../activities/d_voice_benign_lesions/d_voice_benign_lesions_schema",
       "../activities/q_generic_demographics/q_generic_demographics_schema",
       "../activities/q_generic_confounders/q_generic_confounders_schema",
+      "../activities/peds_vhi_10/peds_vhi_10_schema",
       "../activities/conversation_10_plus/conversation_10_plus_schema",
       "../activities/generative_naming_tasks_10_plus/generative_naming_tasks_10_plus_schema",
       "../activities/long_sounds_10_plus/long_sounds_10_plus_schema",
