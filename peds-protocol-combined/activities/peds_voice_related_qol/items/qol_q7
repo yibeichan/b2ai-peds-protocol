@@ -1,0 +1,57 @@
+{
+    "id": "qol_q7",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "Question 7"
+    },
+    "question": {
+        "en": "My child/ I has trouble doing their schoolwork or job (because of their voice)."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None, not a problem"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A small amount"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A moderate amount"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A lot"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Problem is “as bad as it can be”"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "qol_q3",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "Question 3"
+    },
+    "question": {
+        "en": "My child/ I sometimes does not know what will come out when they begin speaking"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None, not a problem"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A small amount"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A moderate amount"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A lot"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Problem is “as bad as it can be”"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
