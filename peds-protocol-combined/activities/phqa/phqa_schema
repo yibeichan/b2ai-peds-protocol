@@ -1,0 +1,76 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "peds_voice_related_qol_schema",
+    "prefLabel": "peds voice related qol schema",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/qol_intro",
+            "items/qol_q1",
+            "items/qol_q2",
+            "items/qol_q3",
+            "items/qol_q4",
+            "items/qol_q5",
+            "items/qol_q6",
+            "items/qol_q7",
+            "items/qol_q8",
+            "items/qol_q9"
+        ],
+        "addProperties": [
+            {
+                "variableName": "qol_intro",
+                "isAbout": "items/qol_intro",
+                "isVis": true
+            },
+            {
+                "variableName": "qol_q1",
+                "isAbout": "items/qol_q1",
+                "isVis": true
+            },
+            {
+                "variableName": "qol_q2",
+                "isAbout": "items/qol_q2",
+                "isVis": true
+            },
+            {
+                "variableName": "qol_q3",
+                "isAbout": "items/qol_q3",
+                "isVis": true
+            },
+            {
+                "variableName": "qol_q4",
+                "isAbout": "items/qol_q4",
+                "isVis": true
+            },
+            {
+                "variableName": "qol_q5",
+                "isAbout": "items/qol_q5",
+                "isVis": true
+            },
+            {
+                "variableName": "qol_q6",
+                "isAbout": "items/qol_q6",
+                "isVis": true
+            },
+            {
+                "variableName": "qol_q7",
+                "isAbout": "items/qol_q7",
+                "isVis": true
+            },
+            {
+                "variableName": "qol_q8",
+                "isAbout": "items/qol_q8",
+                "isVis": true
+            },
+            {
+                "variableName": "qol_q9",
+                "isAbout": "items/qol_q9",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}
