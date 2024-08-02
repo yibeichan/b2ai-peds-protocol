@@ -81,38 +81,6 @@
         "variableName": "bridge2ai_paper_consent_all_sites_english_schema"
       },
       {
-        "isAbout": "../activities/bridge2ai_econsent_addendum_wcm_english/bridge2ai_econsent_addendum_wcm_english_schema",
-        "isVis": true,
-        "prefLabel": {
-          "en": "Bridge2Ai Econsent Addendum Wcm English"
-        },
-        "variableName": "bridge2ai_econsent_addendum_wcm_english_schema"
-      },
-      {
-        "isAbout": "../activities/bridge2ai_econsent_addendum_wcm_researcher_stateme/bridge2ai_econsent_addendum_wcm_researcher_stateme_schema",
-        "isVis": true,
-        "prefLabel": {
-          "en": "Bridge2Ai Econsent Addendum Wcm Researcher Stateme"
-        },
-        "variableName": "bridge2ai_econsent_addendum_wcm_researcher_stateme_schema"
-      },
-      {
-        "isAbout": "../activities/bridge2ai_econsent_combined_pdf_addendum_wcm/bridge2ai_econsent_combined_pdf_addendum_wcm_schema",
-        "isVis": true,
-        "prefLabel": {
-          "en": "Bridge2Ai Econsent Combined Pdf Addendum Wcm"
-        },
-        "variableName": "bridge2ai_econsent_combined_pdf_addendum_wcm_schema"
-      },
-      {
-        "isAbout": "../activities/bridge2ai_econsent_combined_pdf_addendum_mit/bridge2ai_econsent_combined_pdf_addendum_mit_schema",
-        "isVis": true,
-        "prefLabel": {
-          "en": "Bridge2Ai Econsent Combined Pdf Addendum Mit"
-        },
-        "variableName": "bridge2ai_econsent_combined_pdf_addendum_mit_schema"
-      },
-      {
         "isAbout": "../activities/bridge2ai_econsent_addendum_sickkids_english/bridge2ai_econsent_addendum_sickkids_english_schema",
         "isVis": true,
         "prefLabel": {
@@ -327,10 +295,6 @@
       "../activities/subjectparticipant_eligible_studies/subjectparticipant_eligible_studies_schema",
       "../activities/enrollment_form/enrollment_form_schema",
       "../activities/bridge2ai_paper_consent_all_sites_english/bridge2ai_paper_consent_all_sites_english_schema",
-      "../activities/bridge2ai_econsent_addendum_wcm_english/bridge2ai_econsent_addendum_wcm_english_schema",
-      "../activities/bridge2ai_econsent_addendum_wcm_researcher_stateme/bridge2ai_econsent_addendum_wcm_researcher_stateme_schema",
-      "../activities/bridge2ai_econsent_combined_pdf_addendum_wcm/bridge2ai_econsent_combined_pdf_addendum_wcm_schema",
-      "../activities/bridge2ai_econsent_combined_pdf_addendum_mit/bridge2ai_econsent_combined_pdf_addendum_mit_schema",
       "../activities/bridge2ai_econsent_addendum_sickkids_english/bridge2ai_econsent_addendum_sickkids_english_schema",
       "../activities/d_control/d_control_schema",
       "../activities/d_voice_benign_lesions/d_voice_benign_lesions_schema",
