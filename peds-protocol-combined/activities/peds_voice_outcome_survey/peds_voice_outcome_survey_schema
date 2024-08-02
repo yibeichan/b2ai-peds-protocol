@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "peds_voice_outcome_survey_schema",
+    "prefLabel": "peds voice outcome survey schema",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/outcome_survey_q1",
+            "items/outcome_survey_q2",
+            "items/outcome_survey_q3",
+            "items/outcome_survey_q4"
+        ],
+        "addProperties": [
+            {
+                "variableName": "outcome_survey_q1",
+                "isAbout": "items/outcome_survey_q1",
+                "isVis": true
+            },
+            {
+                "variableName": "outcome_survey_q2",
+                "isAbout": "items/outcome_survey_q2",
+                "isVis": true
+            },
+            {
+                "variableName": "outcome_survey_q3",
+                "isAbout": "items/outcome_survey_q3",
+                "isVis": true
+            },
+            {
+                "variableName": "outcome_survey_q4",
+                "isAbout": "items/outcome_survey_q4",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

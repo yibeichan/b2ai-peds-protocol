@@ -1,0 +1,51 @@
+{
+    "id": "outcome_survey_q2",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "Question 2"
+    },
+    "question": {
+        "en": "During the past 2 weeks, to what extent has your child’s voice interfered with his or her normal social activities or with his or her school?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Slightly"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderately"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Quite a bit"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Extremely"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
