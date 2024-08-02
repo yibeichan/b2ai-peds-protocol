@@ -1,0 +1,166 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "peds_vhi_10_schema",
+    "prefLabel": "Pediatric VHI 10 Questionnaire",
+    "description": "Pediatric VHI 10 Questionnaire",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/child_talkativeness",
+            "items/vhi_10_question_1",
+            "items/vhi_10_question_2",
+            "items/vhi_10_question_3",
+            "items/vhi_10_question_4",
+            "items/vhi_10_question_5",
+            "items/vhi_10_question_6",
+            "items/vhi_10_question_7",
+            "items/vhi_10_question_8",
+            "items/vhi_10_question_9",
+            "items/vhi_10_question_10",
+            "items/vhi_10_question_11",
+            "items/vhi_10_question_12",
+            "items/vhi_10_question_13",
+            "items/vhi_10_question_14",
+            "items/vhi_10_question_15",
+            "items/vhi_10_question_16",
+            "items/vhi_10_question_17",
+            "items/vhi_10_question_18",
+            "items/vhi_10_question_19",
+            "items/vhi_10_question_20",
+            "items/vhi_10_question_21",
+            "items/vhi_10_question_22",
+            "items/vhi_10_question_23",
+            "items/voice_severity_rating"
+        ],
+        "addProperties": [
+            {
+                "variableName": "child_talkativeness",
+                "isAbout": "items/child_talkativeness",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_1",
+                "isAbout": "items/vhi_10_question_1",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_2",
+                "isAbout": "items/vhi_10_question_2",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_3",
+                "isAbout": "items/vhi_10_question_3",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_4",
+                "isAbout": "items/vhi_10_question_4",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_5",
+                "isAbout": "items/vhi_10_question_5",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_6",
+                "isAbout": "items/vhi_10_question_6",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_7",
+                "isAbout": "items/vhi_10_question_7",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_8",
+                "isAbout": "items/vhi_10_question_8",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_9",
+                "isAbout": "items/vhi_10_question_9",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_10",
+                "isAbout": "items/vhi_10_question_10",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_11",
+                "isAbout": "items/vhi_10_question_11",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_12",
+                "isAbout": "items/vhi_10_question_12",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_13",
+                "isAbout": "items/vhi_10_question_13",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_14",
+                "isAbout": "items/vhi_10_question_14",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_15",
+                "isAbout": "items/vhi_10_question_15",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_16",
+                "isAbout": "items/vhi_10_question_16",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_17",
+                "isAbout": "items/vhi_10_question_17",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_18",
+                "isAbout": "items/vhi_10_question_18",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_19",
+                "isAbout": "items/vhi_10_question_19",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_20",
+                "isAbout": "items/vhi_10_question_20",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_21",
+                "isAbout": "items/vhi_10_question_21",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_22",
+                "isAbout": "items/vhi_10_question_22",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_10_question_23",
+                "isAbout": "items/vhi_10_question_23",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_severity_rating",
+                "isAbout": "items/voice_severity_rating",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}
