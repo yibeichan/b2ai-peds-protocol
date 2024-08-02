@@ -1,0 +1,14 @@
+{
+    "id": "voice_severity_rating",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "Overall Severity Rating of Voice "
+    },
+    "question": {
+        "en": "Please place “X” mark anywhere along this line to indicate the severity of your child’s voice problem"
+    },
+    "ui": {
+        "inputType": "slider"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
