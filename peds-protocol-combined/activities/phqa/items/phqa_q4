@@ -1,0 +1,45 @@
+{
+    "id": "phqa_q4",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "Question 4"
+    },
+    "question": {
+        "en": "Poor appetite, weight loss, or overeating?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Several Days"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "More than half the days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Nearly every day"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

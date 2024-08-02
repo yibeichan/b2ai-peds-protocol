@@ -36,9 +36,17 @@
         "isAbout": "../activities/peds_voice_related_qol/peds_voice_related_qol_schema",
         "isVis": true,
         "prefLabel": {
-          "en": "Pediatric Voice outcome Survey"
+          "en": "Pediatric Voice Related QOL Survey"
         },
         "variableName": "peds_voice_related_qol_schema"
+      },
+      {
+        "isAbout": "../activities/phqa/phqa_schema",
+        "isVis": true,
+        "prefLabel": {
+          "en": "PHQA Questionnare"
+        },
+        "variableName": "phqa_schema"
       },
       {
         "isAbout": "../activities/subjectparticipant_contact_information/subjectparticipant_contact_information_schema",
@@ -331,6 +339,7 @@
       "../activities/peds_vhi_10/peds_vhi_10_schema",
       "../activities/peds_voice_outcome_survey/peds_voice_outcome_survey_schema",
       "../activities/peds_voice_related_qol/peds_voice_related_qol_schema",
+      "../activities/phqa/phqa_schema",
       "../activities/conversation_10_plus/conversation_10_plus_schema",
       "../activities/generative_naming_tasks_10_plus/generative_naming_tasks_10_plus_schema",
       "../activities/long_sounds_10_plus/long_sounds_10_plus_schema",
