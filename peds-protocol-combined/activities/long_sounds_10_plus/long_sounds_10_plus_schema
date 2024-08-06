@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "@type": "reproschema:Activity",
     "@id": "long_sounds_10_plus_schema",
     "prefLabel": "Sustained long_sounds Schema for Ages 10 Plus",
     "description": "Try to have the child produce the sound at a habitual pitch – some tend to use a higher “note” or create vibrato if they have any singing background. The sound produced should be as steady/consistent as possible.",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
       "order": [

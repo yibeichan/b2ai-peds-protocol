@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "@type": "reproschema:Item",
     "@id": "noisy_sounds_intro_4_to_6",
     "prefLabel": "Noisy Sounds Intro for Ages 4 to 6",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": {
         "en": "What a great job! Do you like making silly sounds? Do you know what sound a ghost or a mouse makes? Let’s see if we can figure out what sound each of these pictures make."

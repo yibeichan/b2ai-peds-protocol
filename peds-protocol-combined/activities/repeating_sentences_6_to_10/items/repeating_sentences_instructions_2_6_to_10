@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "@type": "reproschema:Item",
     "@id": "repeating_sentences_instructions_2_6_to_10",
     "prefLabel": "Repeating Sentences Instructions 2 for Ages 6 to 10",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": {
         "en": "Next we have some sentences to look at. They don’t exactly make sense – but that’s what makes them silly! If you can read them on your own go right ahead! Or you can have someone else say the sentence first and you just repeat it after them (just be sure to only record when you are talking)"

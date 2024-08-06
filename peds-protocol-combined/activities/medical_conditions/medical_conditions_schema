@@ -1,16 +1,44 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "@type": "reproschema:Activity",
     "@id": "medical_conditions_schema",
     "prefLabel": "medical conditions schema",
     "description": "Default description",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
         "order": [
             "items/voice_disorders",
             "items/psychological_disorders",
-            "items/psychological_disorders_other"
+            "items/psychological_disorders_other",
+            "items/airway_conditions",
+            "items/sleep_apnea",
+            "items/tonsillectomy",
+            "items/tonsillectomy_date",
+            "items/adenoidectomy",
+            "items/adenoidectomy_date",
+            "items/lingual_tonsillectomy",
+            "items/lingual_tonsillectomy_date",
+            "items/hearing_loss",
+            "items/thyroglossal_duct_cyst",
+            "items/thyroglossal_duct_cyst_surgery",
+            "items/thyroglossal_duct_cyst_date",
+            "items/branchial_cleft_cyst",
+            "items/branchial_cleft_cyst_surgery",
+            "items/branchial_cleft_cyst_date",
+            "items/dermoid_cyst",
+            "items/dermoid_cyst_surgery",
+            "items/dermoid_cyst_date",
+            "items/thyroid_nodule_or_cancer",
+            "items/thyroid_nodule_or_cancer_surgery",
+            "items/thyroid_nodule_or_cancer_date",
+            "items/enlarged_lymph_node",
+            "items/enlarged_lymph_node_surgery",
+            "items/enlarged_lymph_node_date",
+            "items/neck_mass_other",
+            "items/conditions",
+            "items/conditions_other",
+            "issues_2_weeks"
         ],
         "addProperties": [
             {
@@ -26,7 +54,157 @@
             {
                 "variableName": "psychological_disorders_other",
                 "isAbout": "items/psychological_disorders_other",
-                "isVis": "Number(psychological_disorders) == 9"
+                "isVis": true
+            },
+            {
+                "variableName": "airway_conditions",
+                "isAbout": "items/airway_conditions",
+                "isVis": true
+            },
+            {
+                "variableName": "sleep_apnea",
+                "isAbout": "items/sleep_apnea",
+                "isVis": true
+            },
+            {
+                "variableName": "tonsillectomy",
+                "isAbout": "items/tonsillectomy",
+                "isVis": true
+            },
+            {
+                "variableName": "tonsillectomy_date",
+                "isAbout": "items/tonsillectomy_date",
+                "isVis": "Number(tonsillectomy) == 1"
+            },
+            {
+                "variableName": "adenoidectomy",
+                "isAbout": "items/adenoidectomy",
+                "isVis": true
+            },
+            {
+                "variableName": "adenoidectomy_date",
+                "isAbout": "items/adenoidectomy_date",
+                "isVis": "Number(adenoidectomy) == 1"
+            },
+            {
+                "variableName": "tongue_reduction",
+                "isAbout": "items/tongue_reduction",
+                "isVis": true
+            },
+            {
+                "variableName": "tongue_reduction_date",
+                "isAbout": "items/tongue_reduction_date",
+                "isVis": "Number(tongue_reduction) == 1"
+            },
+            {
+                "variableName": "lingual_tonsillectomy",
+                "isAbout": "items/lingual_tonsillectomy",
+                "isVis": true
+            },
+            {
+                "variableName": "lingual_tonsillectomy_date",
+                "isAbout": "items/lingual_tonsillectomy_date",
+                "isVis": "Number(lingual_tonsillectomy) == 1"
+            },
+            {
+                "variableName": "hearing_loss",
+                "isAbout": "items/hearing_loss",
+                "isVis": true
+            },
+            {
+                "variableName": "thyroglossal_duct_cyst",
+                "isAbout": "items/thyroglossal_duct_cyst",
+                "isVis": true
+            },
+            {
+                "variableName": "thyroglossal_duct_cyst_surgery",
+                "isAbout": "items/thyroglossal_duct_cyst_surgery",
+                "isVis": "Number(thyroglossal_duct_cyst) == 1"
+            },
+            {
+                "variableName": "thyroglossal_duct_cyst_date",
+                "isAbout": "items/thyroglossal_duct_cyst_date",
+                "isVis": "Number(thyroglossal_duct_cyst) == 1 && Number(thyroglossal_duct_cyst_surgery) == 1"
+            },
+            {
+                "variableName": "branchial_cleft_cyst",
+                "isAbout": "items/branchial_cleft_cyst",
+                "isVis": true
+            },
+            {
+                "variableName": "branchial_cleft_cyst_surgery",
+                "isAbout": "items/branchial_cleft_cyst_surgery",
+                "isVis": "Number(branchial_cleft_cyst) == 1"
+            },
+            {
+                "variableName": "branchial_cleft_cyst_date",
+                "isAbout": "items/branchial_cleft_cyst_date",
+                "isVis": "Number(branchial_cleft_cyst) == 1 && Number(branchial_cleft_cyst_surgery) == 1"
+            },
+            {
+                "variableName": "dermoid_cyst",
+                "isAbout": "items/dermoid_cyst",
+                "isVis": true
+            },
+            {
+                "variableName": "dermoid_cyst_surgery",
+                "isAbout": "items/dermoid_cyst_surgery",
+                "isVis": "Number(dermoid_cyst) == 1"
+            },
+            {
+                "variableName": "dermoid_cyst_date",
+                "isAbout": "items/dermoid_cyst_date",
+                "isVis": "Number(dermoid_cyst) == 1 && Number(dermoid_cyst_surgery) == 1"
+            },
+            {
+                "variableName": "thyroid_nodule_or_cancer",
+                "isAbout": "items/thyroid_nodule_or_cancer",
+                "isVis": true
+            },
+            {
+                "variableName": "thyroid_nodule_or_cancer_surgery",
+                "isAbout": "items/thyroid_nodule_or_cancer_surgery",
+                "isVis": "Number(thyroid_nodule_or_cancer) == 1"
+            },
+            {
+                "variableName": "thyroid_nodule_or_cancer_date",
+                "isAbout": "items/thyroid_nodule_or_cancer_date",
+                "isVis": "Number(thyroid_nodule_or_cancer) == 1 && Number(thyroid_nodule_or_cancer_surgery) == 1"
+            },
+            {
+                "variableName": "enlarged_lymph_node",
+                "isAbout": "items/enlarged_lymph_node",
+                "isVis": true
+            },
+            {
+                "variableName": "enlarged_lymph_node_surgery",
+                "isAbout": "items/enlarged_lymph_node_surgery",
+                "isVis": "Number(enlarged_lymph_node) == 1"
+            },
+            {
+                "variableName": "enlarged_lymph_node_date",
+                "isAbout": "items/enlarged_lymph_node_date",
+                "isVis": "Number(enlarged_lymph_node) == 1 && Number(enlarged_lymph_node_surgery) == 1"
+            },
+            {
+                "variableName": "neck_mass_other",
+                "isAbout": "items/neck_mass_other",
+                "isVis": true
+            },
+            {
+                "variableName": "conditions",
+                "isAbout": "items/conditions",
+                "isVis": true
+            },
+            {
+                "variableName": "conditions_other",
+                "isAbout": "items/conditions_other",
+                "isVis": true
+            },
+            {
+                "variableName": "issues_2_weeks",
+                "isAbout": "items/issues_2_weeks",
+                "isVis": true
             }
         ],
         "shuffle": false

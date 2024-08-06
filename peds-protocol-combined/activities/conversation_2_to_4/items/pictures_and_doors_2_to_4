@@ -1,12 +1,12 @@
 {
-  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
   "@type": "reproschema:Item",
   "@id": "pictures_and_doors_2_to_4",
   "prefLabel": "Pictures and Doors for Ages 2 to 4",
   "description": {
     "en": "pictures and doors"
   },
-  "schemaVersion": "1.0.0-rc1",
+  "schemaVersion": "1.0.0",
   "version": "0.0.1",
   "ui": {
     "inputType": "audioRecord"

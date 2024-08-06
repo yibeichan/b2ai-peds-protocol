@@ -1,0 +1,33 @@
+{
+    "id": "adenoidectomy",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "adenoidectomy"
+    },
+    "question": {
+        "en": "Have they had an adenoidectomy?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

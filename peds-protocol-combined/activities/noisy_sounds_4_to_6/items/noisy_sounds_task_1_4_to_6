@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "@type": "reproschema:Item",
     "@id": "noisy_sounds_task_1_4_to_6",
     "prefLabel": "Noisy Sounds Task 1 for Ages 4 to 6",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": {
         "en": "Here’s a picture of an airplane – it makes an ‘ah’ sound as it flies high in the air – let’s say that three times – ‘ah ah ah’ When you are ready, press “record.”"

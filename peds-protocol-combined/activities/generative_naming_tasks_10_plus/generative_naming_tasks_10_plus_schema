@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "@type": "reproschema:Activity",
     "@id": "generative_naming_task_10_plus_schema",
     "prefLabel": "Generative Naming Task Schema for Ages 10 plus",
     "description": "Accuracy is not important here – our goal is gathering some spontaneous vocalizations/sounds no matter how clear, in order or complete the list might be",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
         "order": [

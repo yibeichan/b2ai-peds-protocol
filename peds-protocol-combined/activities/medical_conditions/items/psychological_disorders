@@ -60,16 +60,16 @@
             ,
             {
                 "name": {
-                    "en": "Social Anxiety Disorder "
+                    "en": "Social Anxiety Disorder"
                 },
-                "value": 8
+                "value": 9
             }
             ,
             {
                 "name": {
                     "en": "Other psychiatric disorders"
                 },
-                "value": 9
+                "value": 10
             }
         ],
         "multipleChoice": true,
