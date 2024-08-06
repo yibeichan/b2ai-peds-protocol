@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "medical_conditions_schema",
+    "prefLabel": "medical conditions schema",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/voice_disorders",
+            "items/psychological_disorders",
+            "items/psychological_disorders_other"
+        ],
+        "addProperties": [
+            {
+                "variableName": "voice_disorders",
+                "isAbout": "items/voice_disorders",
+                "isVis": true
+            },
+            {
+                "variableName": "psychological_disorders",
+                "isAbout": "items/psychological_disorders",
+                "isVis": true
+            },
+            {
+                "variableName": "psychological_disorders_other",
+                "isAbout": "items/psychological_disorders_other",
+                "isVis": "Number(psychological_disorders) == 9"
+            }
+        ],
+        "shuffle": false
+    }
+}

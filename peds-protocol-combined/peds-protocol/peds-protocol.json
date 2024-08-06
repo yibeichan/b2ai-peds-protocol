@@ -121,6 +121,14 @@
         "variableName": "q_generic_confounders_schema"
       },
       {
+        "isAbout": "../activities/medical_conditions/medical_conditions_schema",
+        "isVis": true,
+        "prefLabel": {
+          "en": "medical conditions"
+        },
+        "variableName": "medical_conditions_schema"
+      },
+      {
         "isAbout": "../activities/conversation_10_plus/conversation_10_plus_schema",
         "variableName": "conversation_10_plus_schema",
         "prefLabel": "Conversation",
@@ -304,6 +312,7 @@
       "../activities/peds_voice_outcome_survey/peds_voice_outcome_survey_schema",
       "../activities/peds_voice_related_qol/peds_voice_related_qol_schema",
       "../activities/phqa/phqa_schema",
+      "../activities/medical_conditions/medical_conditions_schema",
       "../activities/conversation_10_plus/conversation_10_plus_schema",
       "../activities/generative_naming_tasks_10_plus/generative_naming_tasks_10_plus_schema",
       "../activities/long_sounds_10_plus/long_sounds_10_plus_schema",
