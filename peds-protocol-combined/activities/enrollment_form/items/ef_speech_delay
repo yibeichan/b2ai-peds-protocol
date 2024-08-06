@@ -11,13 +11,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "Unchecked"
+                    "en": "No"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Checked"
+                    "en": "Yes"
                 },
                 "value": 1
             }
