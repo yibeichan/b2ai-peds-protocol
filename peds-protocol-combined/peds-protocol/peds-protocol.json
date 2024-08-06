@@ -12,7 +12,7 @@
         "isAbout": "../activities/subjectparticipant_basic_information/subjectparticipant_basic_information_schema",
         "isVis": true,
         "prefLabel": {
-          "en": "Subjectparticipant Basic Information"
+          "en": "Basic Information"
         },
         "variableName": "subjectparticipant_basic_information_schema"
       },
@@ -52,7 +52,7 @@
         "isAbout": "../activities/subjectparticipant_contact_information/subjectparticipant_contact_information_schema",
         "isVis": true,
         "prefLabel": {
-          "en": "Subjectparticipant Contact Information"
+          "en": "Contact Information"
         },
         "variableName": "subjectparticipant_contact_information_schema"
       },
@@ -60,7 +60,7 @@
         "isAbout": "../activities/subjectparticipant_eligible_studies/subjectparticipant_eligible_studies_schema",
         "isVis": true,
         "prefLabel": {
-          "en": "Subjectparticipant Eligible Studies"
+          "en": "Eligible Studies"
         },
         "variableName": "subjectparticipant_eligible_studies_schema"
       },
@@ -76,7 +76,7 @@
         "isAbout": "../activities/bridge2ai_paper_consent_all_sites_english/bridge2ai_paper_consent_all_sites_english_schema",
         "isVis": true,
         "prefLabel": {
-          "en": "Bridge2Ai Paper Consent All Sites English"
+          "en": "Bridge2AI Paper Consent (English)"
         },
         "variableName": "bridge2ai_paper_consent_all_sites_english_schema"
       },
@@ -84,7 +84,7 @@
         "isAbout": "../activities/bridge2ai_econsent_addendum_sickkids_english/bridge2ai_econsent_addendum_sickkids_english_schema",
         "isVis": true,
         "prefLabel": {
-          "en": "Bridge2Ai Econsent Addendum Sickkids English"
+          "en": "Bridge2AI eConsent Addendum (English)"
         },
         "variableName": "bridge2ai_econsent_addendum_sickkids_english_schema"
       },
@@ -92,7 +92,7 @@
         "isAbout": "../activities/d_control/d_control_schema",
         "isVis": true,
         "prefLabel": {
-          "en": "D Control"
+          "en": "Clinical diagnosis"
         },
         "variableName": "d_control_schema"
       },
@@ -100,7 +100,7 @@
         "isAbout": "../activities/d_voice_benign_lesions/d_voice_benign_lesions_schema",
         "isVis": true,
         "prefLabel": {
-          "en": "D Voice Benign Lesions"
+          "en": "Benign lesions"
         },
         "variableName": "d_voice_benign_lesions_schema"
       },
@@ -108,7 +108,7 @@
         "isAbout": "../activities/q_generic_demographics/q_generic_demographics_schema",
         "isVis": true,
         "prefLabel": {
-          "en": "Q Generic Demographics"
+          "en": "Demographics"
         },
         "variableName": "q_generic_demographics_schema"
       },
@@ -116,7 +116,7 @@
         "isAbout": "../activities/q_generic_confounders/q_generic_confounders_schema",
         "isVis": true,
         "prefLabel": {
-          "en": "Q Generic Confounders"
+          "en": "Voice confounders"
         },
         "variableName": "q_generic_confounders_schema"
       },
@@ -124,7 +124,7 @@
         "isAbout": "../activities/medical_conditions/medical_conditions_schema",
         "isVis": true,
         "prefLabel": {
-          "en": "medical conditions"
+          "en": "Medical conditions"
         },
         "variableName": "medical_conditions_schema"
       },
@@ -143,7 +143,7 @@
       {
         "isAbout": "../activities/long_sounds_10_plus/long_sounds_10_plus_schema",
         "variableName": "long_sounds_10_plus_schema",
-        "prefLabel": "Long Sounds",
+        "prefLabel": "Long sounds",
         "isVis": "Number(subjectparticipant_contact_information_schema.age) >= 10"
       },
       {
@@ -293,7 +293,7 @@
       {
         "isAbout": "../activities/conclusion/conclusion_schema",
         "variableName": "conclusion",
-        "prefLabel": "conclusion",
+        "prefLabel": "Conclusion",
         "isVis": true
       }
     ],
