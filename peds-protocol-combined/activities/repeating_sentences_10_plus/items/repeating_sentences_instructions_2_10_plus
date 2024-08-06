@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "@type": "reproschema:Item",
     "@id": "repeating_sentences_instructions_2_10_plus",
     "prefLabel": "Repeating Sentences Instructions 2 for Ages 10 Plus",

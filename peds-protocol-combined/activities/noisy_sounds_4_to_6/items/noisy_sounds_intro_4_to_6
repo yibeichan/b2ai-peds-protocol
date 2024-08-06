@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "@type": "reproschema:Item",
     "@id": "noisy_sounds_intro_4_to_6",
     "prefLabel": "Noisy Sounds Intro for Ages 4 to 6",

@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "@type": "reproschema:Activity",
     "@id": "abcs_and_123s_2_to_4_schema",
     "prefLabel": "Abcs and 123s Schema for Ages 2 to 4",
