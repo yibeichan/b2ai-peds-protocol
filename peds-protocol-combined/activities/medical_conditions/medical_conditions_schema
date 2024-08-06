@@ -35,7 +35,10 @@
             "items/enlarged_lymph_node",
             "items/enlarged_lymph_node_surgery",
             "items/enlarged_lymph_node_date",
-            "items/neck_mass_other"
+            "items/neck_mass_other",
+            "items/conditions",
+            "items/conditions_other",
+            "issues_2_weeks"
         ],
         "addProperties": [
             {
@@ -186,6 +189,21 @@
             {
                 "variableName": "neck_mass_other",
                 "isAbout": "items/neck_mass_other",
+                "isVis": true
+            },
+            {
+                "variableName": "conditions",
+                "isAbout": "conditions",
+                "isVis": true
+            },
+            {
+                "variableName": "conditions_other",
+                "isAbout": "items/conditions_other",
+                "isVis": true
+            },
+            {
+                "variableName": "issues_2_weeks",
+                "isAbout": "items/issues_2_weeks",
                 "isVis": true
             }
         ],

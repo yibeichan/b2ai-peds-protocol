@@ -1,11 +1,11 @@
 {
-    "id": "neck_mass_other",
+    "id": "conditions_other",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "neck mass other"
+        "en": "conditions other"
     },
     "question": {
-        "en": "Other – please write condition here:"
+        "en": "Other (Please list here):"
     },
     "responseOptions": {
         "valueType": [
