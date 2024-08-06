@@ -26,7 +26,7 @@
             {
                 "variableName": "psychological_disorders_other",
                 "isAbout": "items/psychological_disorders_other",
-                "isVis": "psychological_disorders.includes(10)"
+                "isVis": "Number(psychological_disorders) == 10"
             }
         ],
         "shuffle": false
