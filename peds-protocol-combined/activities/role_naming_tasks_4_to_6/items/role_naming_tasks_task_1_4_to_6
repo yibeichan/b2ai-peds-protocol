@@ -4,7 +4,7 @@
     "@id": "role_naming_tasks_task_1_4_to_6",
     "prefLabel": "Role Naming Tasks Task 1 for Ages 4 to 6",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "question": {
         "en": "Let’s see how high you can count! We can start at 1, 2…"
     },

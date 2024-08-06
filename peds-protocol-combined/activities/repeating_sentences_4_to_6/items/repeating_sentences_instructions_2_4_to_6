@@ -4,7 +4,7 @@
     "@id": "repeating_sentence_instructions_2_4_to_6",
     "prefLabel": "Repeating Sentence Instructions pt 2 for Ages 4 to 6",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "question": {
         "en": "Next we have some silly sentences to look at. They don’t exactly make sense – but that’s what makes them silly! If you can read them on your own go right ahead! Or you can have someone else say the sentence first and you just repeat it after them (just be sure to only record when you are talking)"
     },

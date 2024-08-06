@@ -4,7 +4,7 @@
     "@id": "long_sounds_task_2_10_plus",
     "prefLabel": "long sounds Task 2 for Ages 10 Plus",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "question": {
         "en": "Next, say the ‘eeeeee’ sound as steady as you can for about 5 seconds. We’ll do this three times as well. When you are ready, press “record.”"
     },

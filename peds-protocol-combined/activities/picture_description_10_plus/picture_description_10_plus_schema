@@ -5,7 +5,7 @@
     "prefLabel": "Picture Description Schema for Ages 10 Plus",
     "description": "Default description",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "ui": {
         "order": [
             "items/picture_description_1_10_plus"

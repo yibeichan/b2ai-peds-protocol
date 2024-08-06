@@ -5,7 +5,7 @@
     "prefLabel": "Silly Sounds Schema for Ages 10 Plus",
     "description": "Default description",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "ui": {
         "order": [
             "items/sill_sounds_intro_10_plus",

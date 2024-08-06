@@ -5,7 +5,7 @@
     "prefLabel": "Total Score for QOL",
     "description": "total score of voice related QOL survey",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "ui": {
         "inputType": "xsd:integer",
         "readonlyValue": true

@@ -4,7 +4,7 @@
     "@id": "sentence_2_4_to_6",
     "prefLabel": "Sentence 2 for Ages 4 to 6",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "question": {
         "en": "How hard did he hug him. When you are ready, press “record.”"
     },

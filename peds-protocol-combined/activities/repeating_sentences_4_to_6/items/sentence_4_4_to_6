@@ -4,7 +4,7 @@
     "@id": "sentence_4",
     "prefLabel": "Sentence 4 for Ages 4 to 6",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "question": {
         "en": "We eat eggs every eve. When you are ready, press “record.”"
     },

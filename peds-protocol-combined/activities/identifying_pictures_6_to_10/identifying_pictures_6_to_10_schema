@@ -5,7 +5,7 @@
     "prefLabel": "Identifying Pictures Schema for Ages 6 to 10",
     "description": "Pictures presented one at a time on the screen – option to swipe/click to “next” once the child has named the item or if it is an unknown for the child it may be skipped.",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "ui": {
         "order": [
             "items/pictures_6_to_10",

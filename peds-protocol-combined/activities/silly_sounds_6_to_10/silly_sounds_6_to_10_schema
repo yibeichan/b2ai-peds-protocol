@@ -5,7 +5,7 @@
     "prefLabel": "Silly Sounds Schema for Ages 6 to 10",
     "description": "Default description",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "ui": {
         "order": [
             "items/silly_sounds_intro_6_to_10",

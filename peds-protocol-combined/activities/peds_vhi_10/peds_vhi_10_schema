@@ -5,7 +5,7 @@
     "prefLabel": "Pediatric VHI 10 Questionnaire",
     "description": "Pediatric VHI 10 Questionnaire",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "ui": {
         "order": [
             "items/child_talkativeness",

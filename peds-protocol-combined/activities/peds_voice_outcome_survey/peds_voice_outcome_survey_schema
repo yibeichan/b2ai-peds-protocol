@@ -5,7 +5,7 @@
     "prefLabel": "peds voice outcome survey schema",
     "description": "Default description",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "ui": {
         "order": [
             "items/outcome_survey_q1",

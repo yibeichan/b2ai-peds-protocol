@@ -4,7 +4,7 @@
     "@id": "repeating_sentences_instructions_10_plus",
     "prefLabel": "Repeating Sentences Instructions for Ages 10 Plus",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "question": {
         "en": "You are doing a great job! We have only two more tasks to complete before we’re all finished!"
     },
