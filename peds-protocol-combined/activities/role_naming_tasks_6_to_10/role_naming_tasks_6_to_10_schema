@@ -5,7 +5,7 @@
     "prefLabel": "Role Naming Tasks Schema for Ages 6 to 10",
     "description": "Communication partner may prompt to get the child started, but should try to limit verbal commenting whenever possible. Accuracy is not important here –our goal is gathering some spontaneous vocalizations/sounds no matter how clear, in order or complete the list might be",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "ui": {
         "order": [
             "items/role_naming_tasks_intro_6_to_10",

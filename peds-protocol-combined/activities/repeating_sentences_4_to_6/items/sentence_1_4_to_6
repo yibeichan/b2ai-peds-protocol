@@ -4,7 +4,7 @@
     "@id": "sentence_1_4_to_6",
     "prefLabel": "Sentence 1 for Ages 4 to 6",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "question": {
         "en": "The blue spot is on the key again. When you are ready, press “record.”"
     },

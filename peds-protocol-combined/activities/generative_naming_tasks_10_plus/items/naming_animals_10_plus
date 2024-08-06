@@ -4,7 +4,7 @@
     "@id": "naming_animals_10_plus",
     "prefLabel": "Naming Animals for Ages 10 Plus",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "question": {
         "en": "First, I want you to name as many animals you can think of. When you are ready, press “record.”"
     },

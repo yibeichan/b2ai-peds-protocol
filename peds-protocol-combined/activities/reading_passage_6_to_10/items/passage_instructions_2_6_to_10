@@ -4,7 +4,7 @@
     "@id": "passage_instructions_2_6_to_10",
     "prefLabel": "Passage Instructions for Ages 6 to 10",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "question": {
         "en": "Since you did so well reading the sentences earlier, let’s try a few more. We’re going to read a short story about a roller coaster ride called The Caterpillar."
     },

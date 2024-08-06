@@ -5,7 +5,7 @@
     "prefLabel": "Sustained long_sounds Schema for Ages 10 Plus",
     "description": "Try to have the child produce the sound at a habitual pitch – some tend to use a higher “note” or create vibrato if they have any singing background. The sound produced should be as steady/consistent as possible.",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "ui": {
       "order": [
           "items/long_sounds_task_1_10_plus",   

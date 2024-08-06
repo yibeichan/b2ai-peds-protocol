@@ -4,7 +4,7 @@
     "@id": "naming_food_10_plus",
     "prefLabel": "Naming Food for Ages 10 Plus",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "question": {
         "en": "Next I want you to name as many food items you can think of. When you are ready, press “record.”"
     },

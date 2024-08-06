@@ -4,7 +4,7 @@
     "@id": "noisy_sounds_task_3_6_to_10",
     "prefLabel": "Noisy Sounds Task 3 for Ages 6 to 10",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "question": {
         "en": "Here’s a little ghost – he says ‘oo oo oo’ – your turn! When you are ready, press “record.”"
     },

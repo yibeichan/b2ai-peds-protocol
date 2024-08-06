@@ -4,7 +4,7 @@
     "@id": "passage_instructions_3_6_to_10",
     "prefLabel": "Passage Instructions for Ages 6 to 10",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "question": {
         "en": "A sentence or two will appear on the screen – read it aloud as if you were reading any regular story book. If you’re not sure about a word, just skip it and keep going. When you are ready, press “record.”"
     },

@@ -4,7 +4,7 @@
     "@id": "picture_description_1_6_to_10",
     "prefLabel": "Picture Description 1 for Ages 6 to 10",
     "schemaVersion": "1.0.0",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "question": {
         "en": "You’re almost done! Now let’s look at a picture that has a lot of things happening. Take a look and describe what you see – there are no right or wrong answers. Whatever you want to tell me about is perfect! When you are ready, press “record.”"
     },
