@@ -121,7 +121,7 @@
             {
                 "variableName": "thyroglossal_duct_cyst_date",
                 "isAbout": "items/thyroglossal_duct_cyst_date",
-                "isVis": "Number(thyroglossal_duct_cyst_surgery) == 1"
+                "isVis": "Number(thyroglossal_duct_cyst) == 1 && Number(thyroglossal_duct_cyst_surgery) == 1"
             },
             {
                 "variableName": "branchial_cleft_cyst",
@@ -136,7 +136,7 @@
             {
                 "variableName": "branchial_cleft_cyst_date",
                 "isAbout": "items/branchial_cleft_cyst_date",
-                "isVis": "Number(branchial_cleft_cyst_surgery) == 1"
+                "isVis": "Number(branchial_cleft_cyst) == 1 && Number(branchial_cleft_cyst_surgery) == 1"
             },
             {
                 "variableName": "dermoid_cyst",
@@ -151,7 +151,7 @@
             {
                 "variableName": "dermoid_cyst_date",
                 "isAbout": "items/dermoid_cyst_date",
-                "isVis": "Number(dermoid_cyst_surgery) == 1"
+                "isVis": "Number(dermoid_cyst) == 1 && Number(dermoid_cyst_surgery) == 1"
             },
             {
                 "variableName": "thyroid_nodule_or_cancer",
@@ -166,7 +166,7 @@
             {
                 "variableName": "thyroid_nodule_or_cancer_date",
                 "isAbout": "items/thyroid_nodule_or_cancer_date",
-                "isVis": "Number(thyroid_nodule_or_cancer_surgery) == 1"
+                "isVis": "Number(thyroid_nodule_or_cancer) == 1 && Number(thyroid_nodule_or_cancer_surgery) == 1"
             },
             {
                 "variableName": "enlarged_lymph_node",
@@ -181,7 +181,7 @@
             {
                 "variableName": "enlarged_lymph_node_date",
                 "isAbout": "items/enlarged_lymph_node_date",
-                "isVis": "Number(enlarged_lymph_node_surgery) == 1"
+                "isVis": "Number(enlarged_lymph_node) == 1 && Number(enlarged_lymph_node_surgery) == 1"
             },
             {
                 "variableName": "neck_mass_other",
