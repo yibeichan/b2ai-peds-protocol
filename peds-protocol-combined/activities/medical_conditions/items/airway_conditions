@@ -1,73 +1,71 @@
 {
-    "id": "psychological_disorders",
+    "id": "airway_conditions",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "psychological disorders"
+        "en": "airway conditions"
     },
     "question": {
-        "en": "Does your child have a history of a psychological disorders or mood problems (check all that apply):"
+        "en": "Does your child have a history of a breathing or airway conditions (check all that apply): "
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Anxiety disorder "
+                    "en": "Asthma"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "ADHD"
+                    "en": "Recurrent Croup (>3 episodes per year)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Autism Spectrum Disorder (ASD)"
+                    "en": "Bronchiolitis"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Depression or Major Depressive Disorder"
+                    "en": "RSV"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Eating Disorder (ED)"
+                    "en": "Chronic cough"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Insomnia/sleep disorder"
+                    "en": "Subglottic stenosis"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Obsessive-Compulsive Disorder (OCD)"
+                    "en": "Vocal cord webs"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Panic Disorder"
+                    "en": "Has your child ever had airway surgery?"
                 },
                 "value": 8
-            }
-            ,
+            },
             {
                 "name": {
-                    "en": "Social Anxiety Disorder"
+                    "en": "Has your child ever been intubated?"
                 },
                 "value": 9
-            }
-            ,
+            },
             {
                 "name": {
-                    "en": "Other psychiatric disorders"
+                    "en": "Does your child have a tracheostomy?"
                 },
                 "value": 10
             }

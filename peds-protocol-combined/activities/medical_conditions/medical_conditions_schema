@@ -10,7 +10,14 @@
         "order": [
             "items/voice_disorders",
             "items/psychological_disorders",
-            "items/psychological_disorders_other"
+            "items/psychological_disorders_other",
+            "items/airway_conditions",
+            "items/sleep_apnea",
+            "items/tonsillectomy",
+            "items/tonsillectomy_date",
+            "items/adenoidectomy",
+            "items/adenoidectomy_date"
+
         ],
         "addProperties": [
             {
@@ -26,7 +33,59 @@
             {
                 "variableName": "psychological_disorders_other",
                 "isAbout": "items/psychological_disorders_other",
-                "isVis": "Number(psychological_disorders) == 10"
+                "isVis": true
+            },
+            {
+                "variableName": "airway_conditions",
+                "isAbout": "items/airway_conditions",
+                "isVis": true
+            },
+            {
+                "variableName": "sleep_apnea",
+                "isAbout": "items/sleep_apnea",
+                "isVis": true
+            },
+            {
+                "variableName": "tonsillectomy",
+                "isAbout": "items/tonsillectomy",
+                "isVis": true
+            },
+            {
+                "variableName": "tonsillectomy_date",
+                "isAbout": "items/tonsillectomy_date",
+                "isVis": "Number(tonsillectomy) == 1"
+            },
+            {
+                "variableName": "adenoidectomy",
+                "isAbout": "items/adenoidectomy",
+                "isVis": true
+            },
+            {
+                "variableName": "adenoidectomy_date",
+                "isAbout": "items/adenoidectomy_date",
+                "isVis": "Number(adenoidectomy) == 1"
+            },
+            
+            {
+                "variableName": "tongue_reduction",
+                "isAbout": "items/tongue_reduction",
+                "isVis": true
+            },
+            {
+                "variableName": "tongue_reduction_date",
+                "isAbout": "items/tongue_reduction_date",
+                "isVis": "Number(tongue_reduction) == 1"
+            },
+
+            {
+                "variableName": "lingual_tonsillectomy",
+                "isAbout": "items/lingual_tonsillectomy",
+                "isVis": true
+            },
+            {
+                "variableName": "lingual_tonsillectomy_date",
+                "isAbout": "items/lingual_tonsillectomy_date",
+                "isVis": "Number(lingual_tonsillectomy) == 1"
             }
         ],
         "shuffle": false

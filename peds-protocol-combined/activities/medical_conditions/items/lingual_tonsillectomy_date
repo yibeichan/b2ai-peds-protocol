@@ -1,0 +1,19 @@
+{
+    "id": "lingual_tonsillectomy_date",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "lingual tonsillectomy date"
+    },
+    "question": {
+        "en": "What was the date of the surgery?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
