@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "noisy_sounds_task_9_2_to_4",
     "prefLabel": "Noisy Sounds Task 9 for Ages 2 to 4",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": {
         "en": "Sometimes I see bunnies hopping in my garden too – ‘hh hh hh’. Can you make a bunny hopping noise too? When you are ready, press “record.”"

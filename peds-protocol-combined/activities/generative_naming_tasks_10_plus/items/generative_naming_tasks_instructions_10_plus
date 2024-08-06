@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "generative_naming_tasks_instructions_10_plus",
     "prefLabel": "Generative Naming Tasks Instructions for Ages 10 Plus",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": {
         "en": "Thank you for sharing all of that information with me! It’s wonderful to get to know you a little better. Next, I’m going to ask you to name lists of things – if you run out of ideas before the recording stops, that’s ok!"

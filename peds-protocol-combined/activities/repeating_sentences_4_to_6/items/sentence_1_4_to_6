@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "sentence_1_4_to_6",
     "prefLabel": "Sentence 1 for Ages 4 to 6",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": {
         "en": "The blue spot is on the key again. When you are ready, press “record.”"

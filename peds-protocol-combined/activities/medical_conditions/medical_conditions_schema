@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "medical_conditions_schema",
     "prefLabel": "medical conditions schema",
     "description": "Default description",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
         "order": [
@@ -193,7 +193,7 @@
             },
             {
                 "variableName": "conditions",
-                "isAbout": "conditions",
+                "isAbout": "items/conditions",
                 "isVis": true
             },
             {

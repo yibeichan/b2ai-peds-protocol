@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "noisy_sounds_task_7_6_to_10",
     "prefLabel": "Noisy Sounds Task 7 for Ages 6 to 10",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": {
         "en": "Uh oh! Looks like the baby has been colouring on the walls. We should tell him to stop – “nuh nuh nuh”. You tell him too! When you are ready, press “record.”"

@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "noisy_sounds_task_4_2_to_4",
     "prefLabel": "Noisy Sounds Task 4 for Ages 2 to 4",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": {
         "en": "Looks like this baby is sleeping, so we have to remind everyone to be quiet by saying ‘sh sh sh’ Now you try! When you are ready, press “record.”"

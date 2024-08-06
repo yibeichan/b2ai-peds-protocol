@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "identifying_pictures_2_to_4_schema",
     "prefLabel": "Identifying Pictures Schema for Ages 2 to 4",
     "description": "If the child makes a sound effect vs naming the picture that’s ok! We’re not actually using this task as an evaluation of articulation. Pictures presented one at a time on the screen – option to swipe/click to “next” once the child has named the item or if it is an unknown for the child it may be skipped.",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
         "order": [

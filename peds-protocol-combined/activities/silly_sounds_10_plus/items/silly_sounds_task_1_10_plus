@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "silly_sounds_task_1_10_plus",
     "prefLabel": "Silly Sounds Task 1 for Ages 10 Plus",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": {
         "en": "First, we’re going to say PUH PUH PUH over and over for about 5 seconds. Remember to take a breath if you need one! When you are ready, press “record.”"

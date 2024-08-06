@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "noisy_sounds_task_8_4_to_6",
     "prefLabel": "Noisy Sounds Task 8 for Ages 4 to 6",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": {
         "en": "Here’s a little bumble bee buzzing around the garden – ‘zz zz zz’. Let’s hear your bee noise When you are ready, press “record.”"

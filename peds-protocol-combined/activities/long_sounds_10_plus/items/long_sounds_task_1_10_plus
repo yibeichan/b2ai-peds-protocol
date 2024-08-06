@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "long_sounds_task_1_10_plus",
     "prefLabel": "long sounds Task 1 for Ages 10 Plus",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": {
         "en": "First, let’s start by saying ‘ahhhhh’ for around 5 seconds. We’re going to repeat this three times during one recording. Try to have the child produce the sound at a habitual pitch – some tend to use a higher “note” or create vibrato if they have any singing background The sound produced should be as steady/consistent as possible Re-record if you perceive the child is using a higher pitch when sustaining the vowel (in comparison to speaking) When you are ready, press “record.”"

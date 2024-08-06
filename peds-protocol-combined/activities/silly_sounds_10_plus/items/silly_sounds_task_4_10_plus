@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
     "@type": "reproschema:Item",
     "@id": "silly_sounds_task_4_10_plus",
     "prefLabel": "Silly Sounds Task 4 for Ages 10 Plus",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": {
         "en": "Fantastic! You did so well with those sounds, let’s try to put them together and say PUH TUH KUH over and over until the timer stops. If that word seems a little too tricky, you can say PAT-A-CAKE over and over instead When you are ready, press “record.”"
