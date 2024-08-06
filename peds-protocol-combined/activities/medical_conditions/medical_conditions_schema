@@ -38,7 +38,7 @@
             "items/neck_mass_other",
             "items/conditions",
             "items/conditions_other",
-            "issues_2_weeks"
+            "items/issues_2_weeks"
         ],
         "addProperties": [
             {
