@@ -10,7 +10,6 @@
             "items/ef_select_language",
             "items/ef_primary_language",
             "items/ef_primary_language_other",
-            "items/ef_dob",
             "items/ef_voc_fold_paralysis",
             "items/ef_gad",
             "items/ef_add_adhd",
@@ -62,12 +61,6 @@
                 "isAbout": "items/ef_primary_language_other",
                 "isVis": "ef_primary_language == '4'",
                 "variableName": "ef_primary_language_other"
-            },
-            {
-                "isAbout": "items/ef_dob",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ef_dob"
             },
             {
                 "isAbout": "items/ef_voc_fold_paralysis",

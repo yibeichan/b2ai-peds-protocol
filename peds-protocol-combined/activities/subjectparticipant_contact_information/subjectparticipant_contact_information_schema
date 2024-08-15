@@ -12,7 +12,6 @@
         "order": [
             "items/first_name",
             "items/last_name",
-            "items/dob",
             "items/age",
             "items/phone_number",
             "items/email",
@@ -30,12 +29,6 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "last_name"
-            },
-            {
-                "isAbout": "items/dob",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "dob"
             },
             {
                 "isAbout": "items/age",
