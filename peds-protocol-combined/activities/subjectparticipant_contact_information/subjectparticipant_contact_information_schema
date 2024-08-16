@@ -10,26 +10,11 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/first_name",
-            "items/last_name",
             "items/age",
             "items/phone_number",
-            "items/email",
             "items/contact_info_stored"
         ],
         "addProperties": [
-            {
-                "isAbout": "items/first_name",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "first_name"
-            },
-            {
-                "isAbout": "items/last_name",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "last_name"
-            },
             {
                 "isAbout": "items/age",
                 "isVis": true,
@@ -41,12 +26,6 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "phone_number"
-            },
-            {
-                "isAbout": "items/email",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "email"
             },
             {
                 "isAbout": "items/contact_info_stored",
