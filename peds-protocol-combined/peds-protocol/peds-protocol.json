@@ -57,68 +57,12 @@
         "variableName": "subjectparticipant_contact_information_schema"
       },
       {
-        "isAbout": "../activities/subjectparticipant_eligible_studies/subjectparticipant_eligible_studies_schema",
-        "isVis": true,
-        "prefLabel": {
-          "en": "Eligible Studies"
-        },
-        "variableName": "subjectparticipant_eligible_studies_schema"
-      },
-      {
-        "isAbout": "../activities/enrollment_form/enrollment_form_schema",
-        "isVis": true,
-        "prefLabel": {
-          "en": "Enrollment Form"
-        },
-        "variableName": "enrollment_form_schema"
-      },
-      {
-        "isAbout": "../activities/bridge2ai_paper_consent_all_sites_english/bridge2ai_paper_consent_all_sites_english_schema",
-        "isVis": true,
-        "prefLabel": {
-          "en": "Bridge2AI Paper Consent (English)"
-        },
-        "variableName": "bridge2ai_paper_consent_all_sites_english_schema"
-      },
-      {
-        "isAbout": "../activities/bridge2ai_econsent_addendum_sickkids_english/bridge2ai_econsent_addendum_sickkids_english_schema",
-        "isVis": true,
-        "prefLabel": {
-          "en": "Bridge2AI eConsent Addendum (English)"
-        },
-        "variableName": "bridge2ai_econsent_addendum_sickkids_english_schema"
-      },
-      {
-        "isAbout": "../activities/d_control/d_control_schema",
-        "isVis": true,
-        "prefLabel": {
-          "en": "Clinical diagnosis"
-        },
-        "variableName": "d_control_schema"
-      },
-      {
-        "isAbout": "../activities/d_voice_benign_lesions/d_voice_benign_lesions_schema",
-        "isVis": true,
-        "prefLabel": {
-          "en": "Benign lesions"
-        },
-        "variableName": "d_voice_benign_lesions_schema"
-      },
-      {
         "isAbout": "../activities/q_generic_demographics/q_generic_demographics_schema",
         "isVis": true,
         "prefLabel": {
           "en": "Demographics"
         },
         "variableName": "q_generic_demographics_schema"
-      },
-      {
-        "isAbout": "../activities/q_generic_confounders/q_generic_confounders_schema",
-        "isVis": true,
-        "prefLabel": {
-          "en": "Voice confounders"
-        },
-        "variableName": "q_generic_confounders_schema"
       },
       {
         "isAbout": "../activities/medical_conditions/medical_conditions_schema",
@@ -300,14 +244,7 @@
     "order": [
       "../activities/subjectparticipant_basic_information/subjectparticipant_basic_information_schema",
       "../activities/subjectparticipant_contact_information/subjectparticipant_contact_information_schema",
-      "../activities/subjectparticipant_eligible_studies/subjectparticipant_eligible_studies_schema",
-      "../activities/enrollment_form/enrollment_form_schema",
-      "../activities/bridge2ai_paper_consent_all_sites_english/bridge2ai_paper_consent_all_sites_english_schema",
-      "../activities/bridge2ai_econsent_addendum_sickkids_english/bridge2ai_econsent_addendum_sickkids_english_schema",
-      "../activities/d_control/d_control_schema",
-      "../activities/d_voice_benign_lesions/d_voice_benign_lesions_schema",
       "../activities/q_generic_demographics/q_generic_demographics_schema",
-      "../activities/q_generic_confounders/q_generic_confounders_schema",
       "../activities/peds_vhi_10/peds_vhi_10_schema",
       "../activities/peds_voice_outcome_survey/peds_voice_outcome_survey_schema",
       "../activities/peds_voice_related_qol/peds_voice_related_qol_schema",
