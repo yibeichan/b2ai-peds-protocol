@@ -10,7 +10,6 @@
             "items/ef_select_language",
             "items/ef_primary_language",
             "items/ef_primary_language_other",
-            "items/ef_dob",
             "items/ef_voc_fold_paralysis",
             "items/ef_gad",
             "items/ef_add_adhd",
@@ -30,10 +29,7 @@
             "items/ef_speech_delay",
             "items/ef_learn_about_this_study",
             "items/ef_learn_about_this_study_other",
-            "items/ef_first_name",
-            "items/ef_last_name",
             "items/ef_phone_number",
-            "items/ef_email",
             "items/ef_contact_info_stored",
             "items/ef_enrollment",
             "items/ef_reason_decline_enroll",
@@ -62,12 +58,6 @@
                 "isAbout": "items/ef_primary_language_other",
                 "isVis": "ef_primary_language == '4'",
                 "variableName": "ef_primary_language_other"
-            },
-            {
-                "isAbout": "items/ef_dob",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ef_dob"
             },
             {
                 "isAbout": "items/ef_voc_fold_paralysis",
@@ -182,27 +172,9 @@
                 "variableName": "ef_learn_about_this_study_other"
             },
             {
-                "isAbout": "items/ef_first_name",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ef_first_name"
-            },
-            {
-                "isAbout": "items/ef_last_name",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ef_last_name"
-            },
-            {
                 "isAbout": "items/ef_phone_number",
                 "isVis": true,
                 "variableName": "ef_phone_number"
-            },
-            {
-                "isAbout": "items/ef_email",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ef_email"
             },
             {
                 "isAbout": "items/ef_contact_info_stored",
