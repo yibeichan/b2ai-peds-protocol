@@ -11,29 +11,14 @@
     "ui": {
         "order": [
             "items/record_id",
-            "items/selected_language",
             "items/consent_status",
-            "items/contact_participant",
-            "items/consent_method",
-            "items/withdrawn_consent_reason",
-            "items/withdrawn_consent_date",
-            "items/is_feasibility_participant",
-            "items/enrolled",
-            "items/enrollment_reason",
-            "items/enrollment_institution",
-            "items/researcher_email"
+            "items/contact_participant"
         ],
         "addProperties": [
             {
                 "isAbout": "items/record_id",
                 "isVis": true,
                 "variableName": "record_id"
-            },
-            {
-                "isAbout": "items/selected_language",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "selected_language"
             },
             {
                 "isAbout": "items/consent_status",
@@ -46,51 +31,6 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "contact_participant"
-            },
-            {
-                "isAbout": "items/consent_method",
-                "isVis": "consent_status == '2'",
-                "valueRequired": true,
-                "variableName": "consent_method"
-            },
-            {
-                "isAbout": "items/withdrawn_consent_reason",
-                "isVis": "consent_status == 3",
-                "variableName": "withdrawn_consent_reason"
-            },
-            {
-                "isAbout": "items/withdrawn_consent_date",
-                "isVis": "consent_status == 3",
-                "variableName": "withdrawn_consent_date"
-            },
-            {
-                "isAbout": "items/is_feasibility_participant",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "is_feasibility_participant"
-            },
-            {
-                "isAbout": "items/enrolled",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "enrolled"
-            },
-            {
-                "isAbout": "items/enrollment_reason",
-                "isVis": "enrolled == 1",
-                "variableName": "enrollment_reason"
-            },
-            {
-                "isAbout": "items/enrollment_institution",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "enrollment_institution"
-            },
-            {
-                "isAbout": "items/researcher_email",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "researcher_email"
             }
         ],
         "shuffle": false

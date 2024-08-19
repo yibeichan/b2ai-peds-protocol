@@ -10,9 +10,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/age",
-            "items/phone_number",
-            "items/contact_info_stored"
+            "items/age"
         ],
         "addProperties": [
             {
@@ -20,18 +18,6 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "age"
-            },
-            {
-                "isAbout": "items/phone_number",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "phone_number"
-            },
-            {
-                "isAbout": "items/contact_info_stored",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "contact_info_stored"
             }
         ],
         "shuffle": false
