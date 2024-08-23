@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0",
     "version": "1.0.0",
     "question": {
-        "en": "First, we’re going to say PUH PUH PUH over and over for about 5 seconds. Remember to take a breath if you need one! When you are ready, press “record.”"
+        "en": "First, we're going to say PUH PUH PUH over and over for about 5 seconds. Remember to take a breath if you need one! When you are ready, press \"record\"."
     },
     "ui": {
         "inputType": "audioImageRecord"
