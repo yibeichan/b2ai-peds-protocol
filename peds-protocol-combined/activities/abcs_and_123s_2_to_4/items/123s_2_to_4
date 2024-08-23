@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0",
     "version": "1.0.0",
     "question": {
-        "en": "Wow that was great! I wonder how high you can count? Let’s start at 1, 2... When you are ready, press “record.”"
+        "en": "Wow that was great! I wonder how high you can count? Let's start at 1, 2... When you are ready, press \"record\"."
     },
     "ui": {
         "inputType": "audioImageRecord"
