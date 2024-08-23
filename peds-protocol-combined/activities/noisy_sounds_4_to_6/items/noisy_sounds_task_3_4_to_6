@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0",
     "version": "1.0.0",
     "question": {
-        "en": "Here’s a little ghost – he says ‘oo oo oo’ – your turn! When you are ready, press “record.”"
+        "en": "Here's a little ghost – he says 'oo oo oo' – your turn! When you are ready, press \"record\"."
     },
     "ui": {
         "inputType": "audioImageRecord"

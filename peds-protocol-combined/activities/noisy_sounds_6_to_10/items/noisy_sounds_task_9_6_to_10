@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0",
     "version": "1.0.0",
     "question": {
-        "en": "Bunnies hop around – ‘hh hh hh’ - now you do it! When you are ready, press “record.”"
+        "en": "Bunnies hop around – 'hh hh hh' - now you do it! When you are ready, press \"record\"."
     },
     "ui": {
         "inputType": "audioImageRecord"
