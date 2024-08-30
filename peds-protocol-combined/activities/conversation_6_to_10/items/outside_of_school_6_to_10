@@ -17,7 +17,7 @@
         "maxValue": 300000
     },
     "question": {
-        "en": "What do you like to do when you’re not at school? Tell me about any activities you do like sports, dance, karate, art, etc. When you’re ready to share, press “record”."
+        "en": "What do you like to do when you're not at school? Tell me about any activities you do like sports, dance, karate, art, etc. When you're ready to share, press \"record\"."
     },
     "image":  "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/age6-10/4.jpg"
 }

@@ -17,7 +17,7 @@
     "maxValue": 300000
   },
   "question": {
-    "en": "To start, let’s learn a little more about you! Tell me about how you get ready for school in the morning"
+    "en": "To start, let's learn a little more about you! Tell me about how you get ready for school in the morning."
   },
   "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/age10+/1.jpg"
 }

@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0",
     "version": "1.0.0",
     "question": {
-        "en": "What a great job! Do you like making silly sounds? Do you know what sound a ghost or a mouse makes? Let’s see if we can figure out what sound each of these pictures make."
+        "en": "What a great job! Do you like making silly sounds? Do you know what sound a ghost or a mouse makes? Let's see if we can figure out what sound each of these pictures make."
     },
     "ui": {
         "inputType": "static",

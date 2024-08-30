@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "@type": "reproschema:Item",
     "@id": "picture_37_4_to_6",
-    "prefLabel": "Indentifying pictures 37 for Ages 4 to 6",
+    "prefLabel": "Identifying pictures 37 for Ages 4 to 6",
     "schemaVersion": "1.0.0",
     "version": "1.0.0",
     "question": {

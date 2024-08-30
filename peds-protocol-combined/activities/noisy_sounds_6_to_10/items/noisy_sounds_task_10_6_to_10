@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0",
     "version": "1.0.0",
     "question": {
-        "en": "Have you ever seen a kangaroo jumping around? They go ‘jj jj jj’ – you try! When you are ready, press “record.”"
+        "en": "Have you ever seen a kangaroo jumping around? They go 'jj jj jj' – you try! When you are ready, press \"record\"."
     },
     "ui": {
         "inputType": "audioImageRecord"

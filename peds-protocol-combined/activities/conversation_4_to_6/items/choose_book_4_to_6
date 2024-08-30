@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0",
     "version": "1.0.0",
     "question": {
-        "en": "To start, let’s choose a book to look at together and see if we can figure out what happens in the story We have a few books for you to choose from – you can choose whichever one you think looks the most interesting."
+        "en": "To start, let's choose a book to look at together and see if we can figure out what happens in the story. We have a few books for you to choose from – you can choose whichever one you think looks the most interesting."
     },
     "ui": {
         "inputType": "static",

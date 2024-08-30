@@ -6,7 +6,7 @@
     "schemaVersion": "1.0.0",
     "version": "1.0.0",
     "question": {
-        "en": "Thank you for sharing all of that information with me! It was super interesting Let’s try some different questions – if you’re not sure what the answer is, you can just move on to the next question."
+        "en": "Thank you for sharing all of that information with me! It was super interesting Let's try some different questions - if you're not sure what the answer is, you can just move on to the next question."
     },
     "ui": {
         "inputType": "static",

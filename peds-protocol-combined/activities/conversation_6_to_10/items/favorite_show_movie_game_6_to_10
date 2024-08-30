@@ -17,7 +17,7 @@
         "maxValue": 300000
     },
     "question": {
-        "en": "Do You have a favourite movie? Video game? Show? I’d love to hear about it! When you’re ready to share, press “record”."
+        "en": "Do you have a favourite movie? Video game? Show? I'd love to hear about it! When you're ready to share, press \"record\"."
     },
     "image": "https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/pictures/age6-10/2.jpg"
 }
