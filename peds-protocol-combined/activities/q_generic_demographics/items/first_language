@@ -2,7 +2,7 @@
     "id": "first_language",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "first Language"
+        "en": "First Language"
     },
     "prefLabel": {
         "en": "first_language"
