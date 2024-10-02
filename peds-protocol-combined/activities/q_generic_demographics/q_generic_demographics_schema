@@ -13,7 +13,6 @@
             "items/country",
             "items/gender_identity",
             "items/other_gender_identity",
-            "items/specify_gender_identity",
             "items/race",
             "items/other_race_specify",
             "items/edu_level",
@@ -55,11 +54,6 @@
                 "isAbout": "items/other_gender_identity",
                 "isVis": true,
                 "variableName": "other_gender_identity"
-            },
-            {
-                "isAbout": "items/specify_gender_identity",
-                "isVis": true,
-                "variableName": "specify_gender_identity"
             },
             {
                 "isAbout": "items/race",
