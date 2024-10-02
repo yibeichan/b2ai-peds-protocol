@@ -46,7 +46,6 @@
             {
                 "isAbout": "items/country",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "country"
             },
             {
