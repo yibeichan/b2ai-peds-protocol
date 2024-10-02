@@ -15,6 +15,7 @@
             "items/other_gender_identity",
             "items/specify_gender_identity",
             "items/race",
+            "items/other_race_specify",
             "items/edu_level",
             "items/other_edu_level",
             "items/hearing",
@@ -61,65 +62,14 @@
                 "variableName": "specify_gender_identity"
             },
             {
-                "isAbout": "items/sexual_orientation",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "sexual_orientation"
-            },
-            {
-                "isAbout": "items/other_sex_orientation",
-                "isVis": true,
-                "variableName": "other_sex_orientation"
-            },
-            {
                 "isAbout": "items/race",
                 "isVis": true,
                 "variableName": "race"
             },
             {
-                "isAbout": "items/native_american_race",
-                "isVis": true,
-                "variableName": "native_american_race"
-            },
-            {
-                "isAbout": "items/asian_race",
-                "isVis": true,
-                "variableName": "asian_race"
-            },
-            {
-                "isAbout": "items/black_race",
-                "isVis": true,
-                "variableName": "black_race"
-            },
-            {
-                "isAbout": "items/pacific_islander_race",
-                "isVis": true,
-                "variableName": "pacific_islander_race"
-            },
-            {
-                "isAbout": "items/white_race",
-                "isVis": true,
-                "variableName": "white_race"
-            },
-            {
-                "isAbout": "items/canadian_race",
-                "isVis": true,
-                "variableName": "canadian_race"
-            },
-            {
                 "isAbout": "items/other_race_specify",
                 "isVis": true,
                 "variableName": "other_race_specify"
-            },
-            {
-                "isAbout": "items/ethnicity",
-                "isVis": true,
-                "variableName": "ethnicity"
-            },
-            {
-                "isAbout": "items/hispanic_latino_selection",
-                "isVis": true,
-                "variableName": "hispanic_latino_selection"
             },
             {
                 "isAbout": "items/edu_level",
