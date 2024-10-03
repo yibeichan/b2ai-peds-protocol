@@ -1,0 +1,39 @@
+{
+    "id": "outcome_survey_q1",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "Question 1"
+    },
+    "question": {
+        "en": "To what extent does you child’s voice limit his or her ability to be understood in a noisy area?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Limited a lot"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Limited a little"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not limited at all"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

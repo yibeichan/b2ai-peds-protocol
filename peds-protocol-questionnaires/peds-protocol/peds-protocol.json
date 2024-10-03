@@ -1,0 +1,92 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "@type": "reproschema:Protocol",
+  "@id": "peds-protocol_combined",
+  "prefLabel": "Peds Protocol Combined",
+  "description": "peds protocol",
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "addProperties": [
+      {
+        "isAbout": "../activities/subjectparticipant_basic_information/subjectparticipant_basic_information_schema",
+        "isVis": true,
+        "prefLabel": {
+          "en": "Basic Information"
+        },
+        "variableName": "subjectparticipant_basic_information_schema"
+      },
+      {
+        "isAbout": "../activities/peds_vhi_10/peds_vhi_10_schema",
+        "isVis": true,
+        "prefLabel": {
+          "en": "Pediatric VHI 10 Questionniare"
+        },
+        "variableName": "peds_vhi_10_schema"
+      },
+      {
+        "isAbout": "../activities/peds_voice_outcome_survey/peds_voice_outcome_survey_schema",
+        "isVis": true,
+        "prefLabel": {
+          "en": "Pediatric Voice outcome Survey"
+        },
+        "variableName": "peds_voice_outcome_survey_schema"
+      },
+      {
+        "isAbout": "../activities/peds_voice_related_qol/peds_voice_related_qol_schema",
+        "isVis": true,
+        "prefLabel": {
+          "en": "Pediatric Voice Related QOL Survey"
+        },
+        "variableName": "peds_voice_related_qol_schema"
+      },
+      {
+        "isAbout": "../activities/phqa/phqa_schema",
+        "isVis": true,
+        "prefLabel": {
+          "en": "PHQA Questionnare"
+        },
+        "variableName": "phqa_schema"
+      },
+      {
+        "isAbout": "../activities/subjectparticipant_contact_information/subjectparticipant_contact_information_schema",
+        "isVis": true,
+        "prefLabel": {
+          "en": "Contact Information"
+        },
+        "variableName": "subjectparticipant_contact_information_schema"
+      },
+      {
+        "isAbout": "../activities/q_generic_demographics/q_generic_demographics_schema",
+        "isVis": true,
+        "prefLabel": {
+          "en": "Demographics"
+        },
+        "variableName": "q_generic_demographics_schema"
+      },
+      {
+        "isAbout": "../activities/medical_conditions/medical_conditions_schema",
+        "isVis": true,
+        "prefLabel": {
+          "en": "Medical conditions"
+        },
+        "variableName": "medical_conditions_schema"
+      }
+    ],
+    "order": [
+      "../activities/subjectparticipant_basic_information/subjectparticipant_basic_information_schema",
+      "../activities/subjectparticipant_contact_information/subjectparticipant_contact_information_schema",
+      "../activities/q_generic_demographics/q_generic_demographics_schema",
+      "../activities/peds_vhi_10/peds_vhi_10_schema",
+      "../activities/peds_voice_outcome_survey/peds_voice_outcome_survey_schema",
+      "../activities/peds_voice_related_qol/peds_voice_related_qol_schema",
+      "../activities/phqa/phqa_schema",
+      "../activities/medical_conditions/medical_conditions_schema"
+    ]
+  },
+  "shuffle": false,
+  "allow": [
+    "reproschema:AllowExport",
+    "reproschema:AutoAdvance"
+  ]
+}

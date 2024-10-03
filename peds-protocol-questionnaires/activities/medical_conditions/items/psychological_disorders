@@ -1,0 +1,84 @@
+{
+    "id": "psychological_disorders",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "psychological disorders"
+    },
+    "question": {
+        "en": "Does your child have a history of a psychological disorders or mood problems (check all that apply):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Anxiety disorder "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "ADHD"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Autism Spectrum Disorder (ASD)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Depression or Major Depressive Disorder"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Eating Disorder (ED)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Insomnia/sleep disorder"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Obsessive-Compulsive Disorder (OCD)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Panic Disorder"
+                },
+                "value": 8
+            }
+            ,
+            {
+                "name": {
+                    "en": "Social Anxiety Disorder"
+                },
+                "value": 9
+            }
+            ,
+            {
+                "name": {
+                    "en": "Other psychiatric disorders"
+                },
+                "value": 10
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

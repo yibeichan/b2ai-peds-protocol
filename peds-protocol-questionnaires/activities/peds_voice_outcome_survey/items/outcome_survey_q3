@@ -1,0 +1,51 @@
+{
+    "id": "outcome_survey_q3",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "Question 3"
+    },
+    "question": {
+        "en": "How often does you child have trouble with food or liquids “going down the wrong pipe” when he or she eats food or drinks liquid and begins to cough after eating or drinking?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "All the time"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Most of the time"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

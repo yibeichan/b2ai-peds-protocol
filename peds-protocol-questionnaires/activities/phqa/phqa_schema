@@ -1,0 +1,76 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "@type": "reproschema:Activity",
+    "@id": "phqa_schema",
+    "prefLabel": "phqa schema",
+    "description": "Default description",
+    "schemaVersion": "1.0.0",
+    "version": "1.0.0",
+    "ui": {
+        "order": [
+            "items/phqa_intro",
+            "items/phqa_q1",
+            "items/phqa_q2",
+            "items/phqa_q3",
+            "items/phqa_q4",
+            "items/phqa_q5",
+            "items/phqa_q6",
+            "items/phqa_q7",
+            "items/phqa_q8",
+            "items/phqa_q9"
+        ],
+        "addProperties": [
+            {
+                "variableName": "phqa_intro",
+                "isAbout": "items/phqa_intro",
+                "isVis": true
+            },
+            {
+                "variableName": "phqa_q1",
+                "isAbout": "items/phqa_q1",
+                "isVis": true
+            },
+            {
+                "variableName": "phqa_q2",
+                "isAbout": "items/phqa_q2",
+                "isVis": true
+            },
+            {
+                "variableName": "phqa_q3",
+                "isAbout": "items/phqa_q3",
+                "isVis": true
+            },
+            {
+                "variableName": "phqa_q4",
+                "isAbout": "items/phqa_q4",
+                "isVis": true
+            },
+            {
+                "variableName": "phqa_q5",
+                "isAbout": "items/phqa_q5",
+                "isVis": true
+            },
+            {
+                "variableName": "phqa_q6",
+                "isAbout": "items/phqa_q6",
+                "isVis": true
+            },
+            {
+                "variableName": "phqa_q7",
+                "isAbout": "items/phqa_q7",
+                "isVis": true
+            },
+            {
+                "variableName": "phqa_q8",
+                "isAbout": "items/phqa_q8",
+                "isVis": true
+            },
+            {
+                "variableName": "phqa_q9",
+                "isAbout": "items/phqa_q9",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}
