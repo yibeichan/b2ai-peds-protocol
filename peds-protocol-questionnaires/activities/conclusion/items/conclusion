@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "@type": "reproschema:Item",
+    "@id": "conclusion",
+    "prefLabel": "conclusion",
+    "schemaVersion": "1.0.0",
+    "version": "1.0.0",
+    "question": {
+        "en": "Thank you so much for filling out theses questionnaires. Have a great day!"
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    }
+}

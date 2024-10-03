@@ -63,6 +63,12 @@
           "en": "Medical conditions"
         },
         "variableName": "medical_conditions_schema"
+      },
+      {
+        "isAbout": "../activities/conclusion/conclusion_schema",
+        "variableName": "conclusion",
+        "prefLabel": "Conclusion",
+        "isVis": true
       }
     ],
     "order": [
@@ -72,7 +78,8 @@
       "../activities/peds_voice_outcome_survey/peds_voice_outcome_survey_schema",
       "../activities/peds_voice_related_qol/peds_voice_related_qol_schema",
       "../activities/phqa/phqa_schema",
-      "../activities/medical_conditions/medical_conditions_schema"
+      "../activities/medical_conditions/medical_conditions_schema",
+      "../activities/conclusion/conclusion_schema"
     ]
   },
   "shuffle": false,
