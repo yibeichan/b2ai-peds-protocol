@@ -1,0 +1,88 @@
+{
+    "id": "conditions",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "conditions"
+    },
+    "question": {
+        "en": "Does your child have any of the following conditions (check all that apply):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Osteogenesis imperfecta"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Trisomy 21 (Down’s Syndrome)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Prematurity"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Congenital heart disease"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Tracheoesophageal fistula"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Esophageal atresia"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Cystic fibrosis"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Rheumatoid arthritis"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Granulomatosis with polyangitis"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Mucopolysaccharidosis"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 11
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

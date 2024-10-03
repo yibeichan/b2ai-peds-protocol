@@ -1,0 +1,57 @@
+{
+    "id": "voice_severity_rating",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "Overall Severity Rating of Voice "
+    },
+    "question": {
+        "en": "Please place “X” mark anywhere along this line to indicate the severity of your child’s voice problem"
+    },
+    "ui": {
+        "inputType": "slider"
+    },
+
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 10,
+        "choices": [
+            {
+                "name": "Normal",
+                "value": 0
+            },
+            {
+                "value": 1
+            },
+            {
+                "value": 2
+            },
+            {
+                "value": 3
+            },
+            {
+                "value": 4
+            },
+            {
+                "value": 5
+            },
+            {
+                "value": 6
+            },
+            {
+                "value": 7
+            },
+            {
+                "value": 8
+            },
+            {
+                "value": 9
+            },
+            {
+                "name": "Severe",
+                "value": 10
+            }
+        ]
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

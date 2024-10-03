@@ -1,0 +1,84 @@
+{
+    "id": "primary_language",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Primary Language"
+    },
+    "prefLabel": {
+        "en": "primary_language"
+    },
+    "question": {
+        "en": "What language do you primarily speak?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "English"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "French"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Mandarin Chinese"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Punjabi"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Spanish"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Arabic"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Tagalog"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Italian"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "German"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Other, Please Specify"
+                },
+                "value": 10
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
