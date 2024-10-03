@@ -49,14 +49,6 @@
         "variableName": "phqa_schema"
       },
       {
-        "isAbout": "../activities/subjectparticipant_contact_information/subjectparticipant_contact_information_schema",
-        "isVis": true,
-        "prefLabel": {
-          "en": "Contact Information"
-        },
-        "variableName": "subjectparticipant_contact_information_schema"
-      },
-      {
         "isAbout": "../activities/q_generic_demographics/q_generic_demographics_schema",
         "isVis": true,
         "prefLabel": {
