@@ -17,6 +17,14 @@
         "variableName": "subjectparticipant_basic_information_schema"
       },
       {
+        "isAbout": "../activities/subjectparticipant_contact_information/subjectparticipant_contact_information_schema",
+        "isVis": true,
+        "prefLabel": {
+          "en": "Contact Information"
+        },
+        "variableName": "subjectparticipant_contact_information_schema"
+      },
+      {
         "isAbout": "../activities/peds_vhi_10/peds_vhi_10_schema",
         "isVis": true,
         "prefLabel": {
@@ -73,6 +81,7 @@
     ],
     "order": [
       "../activities/subjectparticipant_basic_information/subjectparticipant_basic_information_schema",
+      "../activities/subjectparticipant_contact_information/subjectparticipant_contact_information_schema",
       "../activities/q_generic_demographics/q_generic_demographics_schema",
       "../activities/peds_vhi_10/peds_vhi_10_schema",
       "../activities/peds_voice_outcome_survey/peds_voice_outcome_survey_schema",
