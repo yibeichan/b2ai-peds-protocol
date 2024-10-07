@@ -38,42 +38,6 @@
             },
             {
                 "name": {
-                    "en": "Some college education"
-                },
-                "value": 5
-            },
-            {
-                "name": {
-                    "en": "Associate's or technical degree complete"
-                },
-                "value": 6
-            },
-            {
-                "name": {
-                    "en": "College or baccalaureate degree complete"
-                },
-                "value": 7
-            },
-            {
-                "name": {
-                    "en": "Some post-baccalaureate education"
-                },
-                "value": 8
-            },
-            {
-                "name": {
-                    "en": "Graduate or professional degree complete"
-                },
-                "value": 9
-            },
-            {
-                "name": {
-                    "en": "Doctoral or post graduate education"
-                },
-                "value": 10
-            },
-            {
-                "name": {
                     "en": "Other"
                 },
                 "value": 11

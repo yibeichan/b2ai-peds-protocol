@@ -2,10 +2,10 @@
     "id": "zipcode",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "zipcode"
+        "en": "zipcode/postal code"
     },
     "question": {
-        "en": "Zipcode"
+        "en": "Zipcode/Postal Code"
     },
     "responseOptions": {
         "valueType": [
