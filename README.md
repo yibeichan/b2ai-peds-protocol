@@ -6,9 +6,9 @@ A structured protocol for pediatric data collection using ReproSchema. [Read mor
 
 Quick links to ReproSchema-UI rendering the current draft protocol:
 
-* [Protocol - Combined](https://www.repronim.org/reproschema-ui/#/activities/0?url=https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/2.2.1/peds-protocol-combined/peds-protocol/peds-protocol.json)
+* [Protocol - Combined](https://www.repronim.org/reproschema-ui/#/activities/0?url=https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/2.2.2/peds-protocol-combined/peds-protocol/peds-protocol.json)
 
-* [Protocol - Questionnaires](https://www.repronim.org/reproschema-ui/#/activities/0?url=https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/2.2.1/peds-protocol-questionnaires/peds-protocol/peds-protocol.json)
+* [Protocol - Questionnaires](https://www.repronim.org/reproschema-ui/#/activities/0?url=https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/2.2.2/peds-protocol-questionnaires/peds-protocol/peds-protocol.json)
 
 
 
