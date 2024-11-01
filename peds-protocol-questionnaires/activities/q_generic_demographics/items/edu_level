@@ -8,7 +8,7 @@
         "en": "edu_level"
     },
     "question": {
-        "en": "What is your highest level of education?"
+        "en": "What is your child's highest level of education?"
     },
     "responseOptions": {
         "choices": [
