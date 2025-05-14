@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "@type": "reproschema:Item",
+    "@id": "repeat_words_12",
+    "prefLabel": "Repeat Words task 12 Ages 4 and up",
+    "schemaVersion": "1.0.0",
+    "version": "1.0.0",
+    "question": {
+        "en": "Say the following word 3 times: five"
+    },
+    "ui": {
+        "inputType": "audioImageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 300000
+    },
+    "description": {
+        "en": "@READONLY-FORM"
+    }
+}

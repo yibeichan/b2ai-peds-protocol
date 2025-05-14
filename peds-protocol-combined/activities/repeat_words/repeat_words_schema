@@ -1,0 +1,166 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "@type": "reproschema:Activity",
+    "@id": "repeat_wrods_schema",
+    "prefLabel": "Repeating Words Schema for Ages 4 and up",
+    "description": "Repeat words",
+    "schemaVersion": "1.0.0",
+    "version": "1.0.0",
+    "ui": {
+        "order": [
+            "items/repeat_words_1",
+            "items/repeat_words_2",
+            "items/repeat_words_3",
+            "items/repeat_words_4",
+            "items/repeat_words_5",
+            "items/repeat_words_6",
+            "items/repeat_words_7",
+            "items/repeat_words_8",
+            "items/repeat_words_9",
+            "items/repeat_words_10",
+            "items/repeat_words_11",
+            "items/repeat_words_12",
+            "items/repeat_words_13",
+            "items/repeat_words_14",
+            "items/repeat_words_15",
+            "items/repeat_words_16",
+            "items/repeat_words_17",
+            "items/repeat_words_18",
+            "items/repeat_words_19",
+            "items/repeat_words_20",
+            "items/repeat_words_21",
+            "items/repeat_words_22",
+            "items/repeat_words_23",
+            "items/repeat_words_24",
+            "items/repeat_words_25"
+        ],
+        "addProperties": [
+            {
+                "variableName": "repeat_words_1",
+                "isAbout": "items/repeat_words_1",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_2",
+                "isAbout": "items/repeat_words_2",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_3",
+                "isAbout": "items/repeat_words_3",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_4",
+                "isAbout": "items/repeat_words_4",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_5",
+                "isAbout": "items/repeat_words_5",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_6",
+                "isAbout": "items/repeat_words_6",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_7",
+                "isAbout": "items/repeat_words_7",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_8",
+                "isAbout": "items/repeat_words_8",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_9",
+                "isAbout": "items/repeat_words_9",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_10",
+                "isAbout": "items/repeat_words_10",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_11",
+                "isAbout": "items/repeat_words_11",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_12",
+                "isAbout": "items/repeat_words_12",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_13",
+                "isAbout": "items/repeat_words_13",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_14",
+                "isAbout": "items/repeat_words_14",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_15",
+                "isAbout": "items/repeat_words_15",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_16",
+                "isAbout": "items/repeat_words_16",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_17",
+                "isAbout": "items/repeat_words_17",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_18",
+                "isAbout": "items/repeat_words_18",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_19",
+                "isAbout": "items/repeat_words_19",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_20",
+                "isAbout": "items/repeat_words_20",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_21",
+                "isAbout": "items/repeat_words_21",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_22",
+                "isAbout": "items/repeat_words_22",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_23",
+                "isAbout": "items/repeat_words_23",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_24",
+                "isAbout": "items/repeat_words_24",
+                "isVis": true
+            },
+            {
+                "variableName": "repeat_words_25",
+                "isAbout": "items/repeat_words_25",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}
