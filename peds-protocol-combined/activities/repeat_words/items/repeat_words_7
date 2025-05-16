@@ -9,7 +9,7 @@
         "en": "Say the following word 3 times: pinch"
     },
     "ui": {
-        "inputType": "audioImageRecord"
+        "inputType": "audioRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
