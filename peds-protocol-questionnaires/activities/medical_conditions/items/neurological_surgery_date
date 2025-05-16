@@ -1,0 +1,19 @@
+{
+    "id": "neurological_surgery_date",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "neurological surgery date"
+    },
+    "question": {
+        "en": "If yes, please specify which procedure and the date of the procedure"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

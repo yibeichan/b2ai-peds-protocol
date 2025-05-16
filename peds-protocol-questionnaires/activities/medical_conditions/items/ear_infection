@@ -1,0 +1,33 @@
+{
+    "id": "ear_infection",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ear_infection"
+    },
+    "question": {
+        "en": "Has your child had any ear infections requiring antibiotics in the past year?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

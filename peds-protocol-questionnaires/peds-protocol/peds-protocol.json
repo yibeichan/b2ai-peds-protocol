@@ -73,6 +73,14 @@
         "variableName": "medical_conditions_schema"
       },
       {
+        "isAbout": "../activities/peds_medical_history/peds_medical_history_schema",
+        "isVis": true,
+        "prefLabel": {
+          "en": "Peds Medical History"
+        },
+        "variableName": "peds_medical_history_schema"
+      },
+      {
         "isAbout": "../activities/conclusion/conclusion_schema",
         "variableName": "conclusion",
         "prefLabel": "Conclusion",
@@ -88,6 +96,7 @@
       "../activities/peds_voice_related_qol/peds_voice_related_qol_schema",
       "../activities/phqa/phqa_schema",
       "../activities/medical_conditions/medical_conditions_schema",
+      "../activities/peds_medical_history/peds_medical_history_schema",
       "../activities/conclusion/conclusion_schema"
     ]
   },

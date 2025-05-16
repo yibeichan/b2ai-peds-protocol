@@ -1,0 +1,33 @@
+{
+    "id": "pediatric_medication",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pediatric_medication"
+    },
+    "question": {
+        "en": "Is your child currently taking any medications that could affect voice, breathing, or swallowing? If so, please list them."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

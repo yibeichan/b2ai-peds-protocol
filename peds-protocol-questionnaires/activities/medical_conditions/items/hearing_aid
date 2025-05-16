@@ -1,0 +1,33 @@
+{
+    "id": "hearing_aid",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "hearing_aid"
+    },
+    "question": {
+        "en": "Has your child ever been diagnosed with hearing loss or required hearing aids?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

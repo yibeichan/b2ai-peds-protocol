@@ -1,0 +1,33 @@
+{
+    "id": "neurological_surgery",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "neurological_surgery"
+    },
+    "question": {
+        "en": "Has your child ever had any neurological or orthopedic surgeries that could affect breathing or speech?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

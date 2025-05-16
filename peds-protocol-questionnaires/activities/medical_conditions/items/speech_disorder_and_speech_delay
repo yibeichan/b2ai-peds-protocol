@@ -1,0 +1,33 @@
+{
+    "id": "speech_disorder_and_speech_delay",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "speech_disorder_and_speech_delay"
+    },
+    "question": {
+        "en": "Has your child ever been diagnosed with a voice disorder or speech delay?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

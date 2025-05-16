@@ -1,0 +1,19 @@
+{
+    "id": "oAHI",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "oAHI"
+    },
+    "question": {
+        "en": "What was the oAHI on the sleep study (to be competed by research assistant)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
