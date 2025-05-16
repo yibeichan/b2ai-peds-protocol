@@ -1,0 +1,19 @@
+{
+    "id": "pediatric_medication_specify",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pediatric_medication_specify"
+    },
+    "question": {
+        "en": "If yes, please specify:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

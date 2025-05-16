@@ -2,7 +2,7 @@
   "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
   "@type": "reproschema:Protocol",
   "@id": "peds-protocol_combined",
-  "prefLabel": "Peds Protocol Combined v2.2.3",
+  "prefLabel": "Peds Protocol Combined v2.3.0",
   "description": "peds protocol",
   "schemaVersion": "1.0.0",
   "version": "1.0.0",
@@ -53,6 +53,12 @@
         "variableName": "identifying_pictures_10_plus_schema",
         "prefLabel": "Identifying pictures",
         "isVis": "Number(subjectparticipant_contact_information_schema.age) >= 10"
+      },
+      {
+        "isAbout": "../activities/repeat_words/repeat_words_schema",
+        "variableName": "repeat_words_schema",
+        "prefLabel": "Repeating words",
+        "isVis": "Number(subjectparticipant_contact_information_schema.age) >= 4"
       },
       {
         "isAbout": "../activities/repeating_sentences_10_plus/repeating_sentences_10_plus_schema",
@@ -201,6 +207,7 @@
       "../activities/long_sounds_10_plus/long_sounds_10_plus_schema",
       "../activities/silly_sounds_10_plus/silly_sounds_10_plus_schema",
       "../activities/identifying_pictures_10_plus/identifying_pictures_10_plus_schema",
+      "../activities/repeat_words/repeat_words_schema",
       "../activities/repeating_sentences_10_plus/repeating_sentences_10_plus_schema",
       "../activities/picture_description_10_plus/picture_description_10_plus_schema",
       "../activities/reading_passage_10_plus/reading_passage_10_plus_schema",

@@ -44,6 +44,12 @@
                     "en": "Airway stenosis (bilateral vocal fold paralysis laryngeal stenosis)"
                 },
                 "value": 6
+            },
+            {
+                "name": {
+                    "en": "Vocal cord webs"
+                },
+                "value": 7
             }
         ],
         "multipleChoice": true,

@@ -1,0 +1,33 @@
+{
+    "id": "nasal_fracture",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "nasal fracture"
+    },
+    "question": {
+        "en": "Does your child have a history of nasal fractures?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

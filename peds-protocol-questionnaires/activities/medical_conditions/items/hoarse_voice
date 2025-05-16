@@ -1,0 +1,33 @@
+{
+    "id": "hoarse_voice",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "hoarse_voice"
+    },
+    "question": {
+        "en": "Has your child ever had a hoarse or weak voice for more than two weeks?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "hospitalize_medical_conditions",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "hospitalize_medical_conditions"
+    },
+    "question": {
+        "en": "Has your child ever been hospitalized for a medical condition?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

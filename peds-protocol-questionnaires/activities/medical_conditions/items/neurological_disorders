@@ -1,0 +1,33 @@
+{
+    "id": "neurological disorders",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "neurological_disorders"
+    },
+    "question": {
+        "en": "Does your child have any history of neurological disorders (e.g., cerebral palsy, muscular dystrophy)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

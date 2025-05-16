@@ -1,0 +1,19 @@
+{
+    "id": "vocal_strain_specify",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "vocal_strain_specify"
+    },
+    "question": {
+        "en": "If yes, please specify how many:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

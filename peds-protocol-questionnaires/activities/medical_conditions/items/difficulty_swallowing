@@ -1,0 +1,33 @@
+{
+    "id": "difficulty_swallowing",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "difficulty_swallowing"
+    },
+    "question": {
+        "en": "Has your child ever had difficulty swallowing liquids or solids?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
