@@ -53,7 +53,7 @@
             "items/ear_infection",
             "items/ear_infection_specify",
             "items/ear_tube",
-            "items/ear_tubes_specify",
+            "items/ear_tube_specify",
             "items/ent_evaluation",
             "items/ent_evaluation_specify",
             "items/feeding_tube",
@@ -339,8 +339,8 @@
                 "isVis": true
             },
             {
-                "variableName": "ear_tubes_specify",
-                "isAbout": "items/ear_tubes_specify",
+                "variableName": "ear_tube_specify",
+                "isAbout": "items/ear_tube_specify",
                 "isVis": true
             },
             {
