@@ -5,7 +5,7 @@
         "en": "genetic_disorders"
     },
     "question": {
-        "en": "Does your child have any history of neurological disorders (e.g., cerebral palsy, muscular dystrophy)?"
+        "en": "Has your child been diagnosed with any genetic syndromes?"
     },
     "responseOptions": {
         "choices": [
