@@ -26,21 +26,9 @@
             },
             {
                 "name": {
-                    "en": "Non-binary or genderqueer gender identity"
-                },
-                "value": " nonBinary"
-            },
-            {
-                "name": {
                     "en": "Other"
                 },
                 "value": " other"
-            },
-            {
-                "name": {
-                    "en": "Prefer not to answer"
-                },
-                "value": " noAnswer"
             }
         ],
         "valueType": [
