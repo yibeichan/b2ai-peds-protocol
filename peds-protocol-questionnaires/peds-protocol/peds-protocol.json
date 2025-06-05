@@ -2,7 +2,7 @@
   "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
   "@type": "reproschema:Protocol",
   "@id": "peds-protocol_combined",
-  "prefLabel": "Peds Protocol Combined v2.3.3",
+  "prefLabel": "Peds Protocol Combined v2.3.4",
   "description": "peds protocol",
   "schemaVersion": "1.0.0",
   "version": "1.0.0",
@@ -73,14 +73,6 @@
         "variableName": "medical_conditions_schema"
       },
       {
-        "isAbout": "../activities/peds_medical_history/peds_medical_history_schema",
-        "isVis": true,
-        "prefLabel": {
-          "en": "Peds Medical History"
-        },
-        "variableName": "peds_medical_history_schema"
-      },
-      {
         "isAbout": "../activities/conclusion/conclusion_schema",
         "variableName": "conclusion",
         "prefLabel": "Conclusion",
@@ -96,7 +88,6 @@
       "../activities/peds_voice_related_qol/peds_voice_related_qol_schema",
       "../activities/phqa/phqa_schema",
       "../activities/medical_conditions/medical_conditions_schema",
-      "../activities/peds_medical_history/peds_medical_history_schema",
       "../activities/conclusion/conclusion_schema"
     ]
   },
