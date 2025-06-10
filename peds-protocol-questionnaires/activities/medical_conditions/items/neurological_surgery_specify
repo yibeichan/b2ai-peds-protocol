@@ -1,11 +1,11 @@
 {
-    "id": "vocal_strain_specify",
+    "id": "neurological_surgery_specify",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "vocal_strain_specify"
+        "en": "neurological_surgery_specify"
     },
     "question": {
-        "en": "If yes, please specify:"
+        "en": "If yes, please specify which procedure:"
     },
     "responseOptions": {
         "valueType": [

@@ -13,6 +13,7 @@
             "items/psychological_disorders_other",
             "items/airway_conditions",
             "items/sleep_apnea",
+            "items/oAHI",
             "items/tonsillectomy",
             "items/tonsillectomy_date",
             "items/adenoidectomy",
@@ -54,6 +55,7 @@
             "items/ear_infection_specify",
             "items/ear_tube",
             "items/ear_tube_specify",
+            "items/ear_tube_date",
             "items/ent_evaluation",
             "items/ent_evaluation_specify",
             "items/feeding_tube",
@@ -68,7 +70,6 @@
             "items/neurological_surgery_date",
             "items/noisy_breathing",
             "items/noisy_breathing_specify",
-            "items/oAHI",
             "items/oxygen",
             "items/oxygen_specify",
             "items/pediatric_medication",
@@ -342,6 +343,11 @@
                 "variableName": "ear_tube_specify",
                 "isAbout": "items/ear_tube_specify",
                 "isVis": true
+            },
+            {
+                "variableName": "ear_tube_date",
+                "isAbout": "items/ear_tube_date",
+                "isVis": "Number(ear_tube) == 1"
             },
             {
                 "variableName": "ent_evaluation",
