@@ -21,6 +21,8 @@
             "items/lingual_tonsillectomy",
             "items/lingual_tonsillectomy_date",
             "items/hearing_loss",
+            "items/neck_mass",
+            "items/neck_mass_other",
             "items/thyroglossal_duct_cyst",
             "items/thyroglossal_duct_cyst_surgery",
             "items/thyroglossal_duct_cyst_date",
@@ -36,7 +38,6 @@
             "items/enlarged_lymph_node",
             "items/enlarged_lymph_node_surgery",
             "items/enlarged_lymph_node_date",
-            "items/neck_mass_other",
             "items/epistaxis",
             "items/nasal_fracture",
             "items/chronic_medical_conditions",
@@ -161,9 +162,14 @@
                 "isVis": true
             },
             {
+                "variableName": "neck_mass",
+                "isAbout": "items/neck_mass",
+                "isVis": true
+            },
+            {
                 "variableName": "thyroglossal_duct_cyst",
                 "isAbout": "items/thyroglossal_duct_cyst",
-                "isVis": true
+                "isVis": "Number(neck_mass) == 1"
             },
             {
                 "variableName": "thyroglossal_duct_cyst_surgery",
@@ -178,7 +184,7 @@
             {
                 "variableName": "branchial_cleft_cyst",
                 "isAbout": "items/branchial_cleft_cyst",
-                "isVis": true
+                "isVis": "Number(neck_mass) == 1"
             },
             {
                 "variableName": "branchial_cleft_cyst_surgery",
@@ -193,7 +199,7 @@
             {
                 "variableName": "dermoid_cyst",
                 "isAbout": "items/dermoid_cyst",
-                "isVis": true
+                "isVis": "Number(neck_mass) == 1"
             },
             {
                 "variableName": "dermoid_cyst_surgery",
@@ -223,7 +229,7 @@
             {
                 "variableName": "enlarged_lymph_node",
                 "isAbout": "items/enlarged_lymph_node",
-                "isVis": true
+                "isVis": "Number(neck_mass) == 1"
             },
             {
                 "variableName": "enlarged_lymph_node_surgery",
@@ -238,7 +244,7 @@
             {
                 "variableName": "neck_mass_other",
                 "isAbout": "items/neck_mass_other",
-                "isVis": true
+                "isVis": "Number(neck_mass) == 1"
             },
             {
                 "variableName": "conditions",

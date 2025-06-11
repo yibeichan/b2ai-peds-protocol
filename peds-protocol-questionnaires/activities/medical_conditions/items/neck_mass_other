@@ -5,7 +5,7 @@
         "en": "neck mass other"
     },
     "question": {
-        "en": "Other – please write condition here:"
+        "en": "If Yes, Please specify:"
     },
     "responseOptions": {
         "valueType": [
