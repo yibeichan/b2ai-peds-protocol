@@ -1,19 +1,19 @@
 {
-    "id": "vocal_strain_specify",
+    "id": "ear_tube_date",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "vocal_strain_specify"
+        "en": "ear tube surgery date"
     },
     "question": {
-        "en": "If yes, please specify:"
+        "en": "What was the date of the surgery?"
     },
     "responseOptions": {
         "valueType": [
-            "xsd:string"
+            "xsd:date"
         ]
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "date"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

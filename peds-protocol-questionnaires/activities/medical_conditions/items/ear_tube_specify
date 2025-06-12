@@ -5,7 +5,7 @@
         "en": "ear_tube_specify"
     },
     "question": {
-        "en": "If yes, please specify:"
+        "en": "If yes, please specify which procedure:"
     },
     "responseOptions": {
         "valueType": [

@@ -13,6 +13,7 @@
             "items/psychological_disorders_other",
             "items/airway_conditions",
             "items/sleep_apnea",
+            "items/oAHI",
             "items/tonsillectomy",
             "items/tonsillectomy_date",
             "items/adenoidectomy",
@@ -20,6 +21,8 @@
             "items/lingual_tonsillectomy",
             "items/lingual_tonsillectomy_date",
             "items/hearing_loss",
+            "items/neck_mass",
+            "items/neck_mass_other",
             "items/thyroglossal_duct_cyst",
             "items/thyroglossal_duct_cyst_surgery",
             "items/thyroglossal_duct_cyst_date",
@@ -35,7 +38,6 @@
             "items/enlarged_lymph_node",
             "items/enlarged_lymph_node_surgery",
             "items/enlarged_lymph_node_date",
-            "items/neck_mass_other",
             "items/epistaxis",
             "items/nasal_fracture",
             "items/chronic_medical_conditions",
@@ -54,6 +56,7 @@
             "items/ear_infection_specify",
             "items/ear_tube",
             "items/ear_tube_specify",
+            "items/ear_tube_date",
             "items/ent_evaluation",
             "items/ent_evaluation_specify",
             "items/feeding_tube",
@@ -65,10 +68,10 @@
             "items/hoarse_voice",
             "items/hoarse_voice_specify",
             "items/neurological_surgery",
+            "items/neurological_surgery_specify",
             "items/neurological_surgery_date",
             "items/noisy_breathing",
             "items/noisy_breathing_specify",
-            "items/oAHI",
             "items/oxygen",
             "items/oxygen_specify",
             "items/pediatric_medication",
@@ -159,6 +162,11 @@
                 "isVis": true
             },
             {
+                "variableName": "neck_mass",
+                "isAbout": "items/neck_mass",
+                "isVis": true
+            },
+            {
                 "variableName": "thyroglossal_duct_cyst",
                 "isAbout": "items/thyroglossal_duct_cyst",
                 "isVis": true
@@ -236,7 +244,7 @@
             {
                 "variableName": "neck_mass_other",
                 "isAbout": "items/neck_mass_other",
-                "isVis": true
+                "isVis": "Number(neck_mass) == 1"
             },
             {
                 "variableName": "conditions",
@@ -344,6 +352,11 @@
                 "isVis": true
             },
             {
+                "variableName": "ear_tube_date",
+                "isAbout": "items/ear_tube_date",
+                "isVis": "Number(ear_tube) == 1"
+            },
+            {
                 "variableName": "ent_evaluation",
                 "isAbout": "items/ent_evaluation",
                 "isVis": true
@@ -396,6 +409,11 @@
             {
                 "variableName": "neurological_surgery",
                 "isAbout": "items/neurological_surgery",
+                "isVis": true
+            },
+            {
+                "variableName": "neurological_surgery_specify",
+                "isAbout": "items/neurological_surgery_specify",
                 "isVis": true
             },
             {

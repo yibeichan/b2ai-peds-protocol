@@ -5,7 +5,7 @@
         "en": "Overall Severity Rating of Voice "
     },
     "question": {
-        "en": "Please place “X” mark anywhere along this line to indicate the severity of your child’s voice problem"
+        "en": "Please indicate the severity of your child’s voice problem"
     },
     "ui": {
         "inputType": "slider"
