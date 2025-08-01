@@ -1,7 +1,7 @@
 {
   "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
   "@type": "reproschema:Protocol",
-  "@id": "peds-protocol_combined",
+  "@id": "peds-protocol",
   "prefLabel": "Peds Protocol Combined v2.3.5",
   "description": "peds protocol",
   "schemaVersion": "1.0.0",
