@@ -60,9 +60,9 @@ jobs:
       run: |
         # Validate both protocol schemas
         reproschema -l DEBUG validate ${PROTOCOL_COMBINED_SLUG}/activities
-        reproschema -l DEBUG validate ${PROTOCOL_COMBINED_SLUG}/peds-protocol/peds-protocol.json
+        reproschema -l DEBUG validate ${PROTOCOL_COMBINED_SLUG}/peds-protocol/peds-protocol
         reproschema -l DEBUG validate ${PROTOCOL_QUESTIONNAIRES_SLUG}/activities
-        reproschema -l DEBUG validate ${PROTOCOL_QUESTIONNAIRES_SLUG}/peds-protocol/peds-protocol.json
+        reproschema -l DEBUG validate ${PROTOCOL_QUESTIONNAIRES_SLUG}/peds-protocol/peds-protocol
 
     - name: Build Combined Protocol UI
       run: |
