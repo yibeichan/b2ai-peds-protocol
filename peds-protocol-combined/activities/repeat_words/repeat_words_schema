@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "@type": "reproschema:Activity",
-    "@id": "repeat_wrods_schema",
+    "@id": "repeat_words_schema",
     "prefLabel": "Repeating Words Schema for Ages 4 and up",
     "description": "Repeat words",
     "schemaVersion": "1.0.0",

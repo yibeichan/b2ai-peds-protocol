@@ -2,21 +2,48 @@
 
 A structured protocol for pediatric data collection using ReproSchema. [Read more about ReproSchema here](https://www.repronim.org/reproschema/).
 
-## Draft protocol
+## Access the Protocols
 
-Quick links to ReproSchema-UI rendering the current draft protocol:
+The B2AI Pediatric Protocols are deployed via GitHub Pages with two versions available:
 
-* [Protocol - Combined](https://www.repronim.org/reproschema-ui/#/activities/0?url=https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/2.3.5/peds-protocol-combined/peds-protocol/peds-protocol.json)
+### 🌐 Live Deployment
 
-* [Protocol - Questionnaires](https://www.repronim.org/reproschema-ui/#/activities/0?url=https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/2.3.5/peds-protocol-questionnaires/peds-protocol/peds-protocol.json)
+* **[Main Landing Page](https://kind-lab.github.io/b2ai-peds-protocol/)** - Choose between protocol versions
+* **[Combined Protocol](https://kind-lab.github.io/b2ai-peds-protocol/combined/)** - Complete protocol including speech tasks and assessments  
+* **[Questionnaires Only](https://kind-lab.github.io/b2ai-peds-protocol/questionnaires/)** - Questionnaire-based assessments and forms
+
+### 📋 Protocol Versions
+
+- **Combined Protocol**: Includes all speech tasks, assessments, and questionnaires
+- **Questionnaires Protocol**: Contains only the questionnaire-based components for streamlined data collection
+
+## 🚀 Automated Deployment
+
+This repository uses GitHub Actions for continuous integration and deployment:
+- Validates both protocols using `reproschema validate`
+- Builds separate UIs for each protocol
+- Automatically deploys to GitHub Pages on merge to main branch
 
 
 
+## 🛠️ Development & Testing
 
-## ReproSchema-UI
+### Using ReproSchema-UI Directly
 
-ReproSchema UI is a tool which renders a ReproSchema protocol. This tool can be used locally, and an online demo of the UI is available. The above draft protocols are rendered using ReproSchema-UI by providing protocol URLs in the following format:
+For development and testing, you can use the ReproSchema-UI tool to render protocols directly from GitHub:
 
-`https://www.repronim.org/reproschema-ui/#/?url=url-to-your-protocol_schema`
+#### Quick Testing Links
+* [Test Combined Protocol](https://www.repronim.org/reproschema-ui/#/activities/0?url=https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/peds-protocol/peds-protocol)
+* [Test Questionnaires Protocol](https://www.repronim.org/reproschema-ui/#/activities/0?url=https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-questionnaires/peds-protocol/peds-protocol)
 
-Read more about this at the [ReproSchema-UI GitHub repository](https://github.com/ReproNim/reproschema-ui).
+#### Custom Protocol Testing
+You can test any protocol by using the following URL format:
+```
+https://www.repronim.org/reproschema-ui/#/?url=url-to-your-protocol_schema
+```
+
+### Local Development
+
+1. Clone this repository
+2. Validate schemas: `reproschema validate [protocol-folder]/activities`
+3. Test locally with reproschema-ui (see [ReproSchema-UI GitHub repository](https://github.com/ReproNim/reproschema-ui))
