@@ -6,8 +6,17 @@ on:
   pull_request:
     branches: [ main ]
 
+# Allow deployment to GitHub Pages
+permissions:
+  contents: read
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     env:
       PROTOCOL_COMBINED_SLUG: peds-protocol-combined
@@ -21,12 +30,12 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '21.x' # Updated to a more recent LTS version
+        node-version: '21.x'
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.10' # Updated to Python 3.10
+        python-version: '3.10'
 
     - name: Install system dependencies
       run: sudo apt-get install jq
@@ -110,10 +119,27 @@ jobs:
         # Add .nojekyll to prevent Jekyll processing
         touch deploy/.nojekyll
 
-    - name: Deploy to GitHub Pages 🚀
-      if: github.ref == 'refs/heads/main'
-      uses: JamesIves/github-pages-deploy-action@v4
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        branch: gh-pages
-        folder: deploy
+        path: deploy
+
+  deploy:
+    # Only run deploy job on main branch
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
