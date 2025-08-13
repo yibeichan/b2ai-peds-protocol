@@ -8,7 +8,7 @@
     "version": "1.0.0",
     "ui": {
         "order": [
-            "items/sill_sounds_intro_10_plus",
+            "items/silly_sounds_intro_10_plus",
             "items/silly_sounds_task_1_10_plus",
             "items/silly_sounds_task_2_10_plus",
             "items/silly_sounds_task_3_10_plus",
@@ -16,8 +16,8 @@
         ],
         "addProperties": [
             {
-                "variableName": "sill_sounds_intro_10_plus",
-                "isAbout": "items/sill_sounds_intro_10_plus",
+                "variableName": "silly_sounds_intro_10_plus",
+                "isAbout": "items/silly_sounds_intro_10_plus",
                 "isVis": true
             },
             {
