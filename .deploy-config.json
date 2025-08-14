@@ -1,0 +1,5 @@
+{
+  "mode": "auto",
+  "manualCommit": "4fb0ce9",
+  "comment": "Deployment configuration for protocol version. Set mode to 'manual' to use manualCommit, 'auto' for current commit during deployment."
+}
