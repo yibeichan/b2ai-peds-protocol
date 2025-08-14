@@ -119,27 +119,10 @@ jobs:
         # Add .nojekyll to prevent Jekyll processing
         touch deploy/.nojekyll
 
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
+    - name: Deploy to GitHub Pages 🚀
+      if: github.ref == 'refs/heads/main'
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        path: deploy
-
-  deploy:
-    # Only run deploy job on main branch
-    if: github.ref == 'refs/heads/main'
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    permissions:
-      pages: write
-      id-token: write
-
-    steps:
-    - name: Setup Pages
-      uses: actions/configure-pages@v4
-
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages
+        folder: deploy
