@@ -1,16 +1,16 @@
-name: Continuous Integration and Deployment of B2AI Peds Protocol
+name: Build and deploy pediatric protocol to GitHub pages
 
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  release:
+    types: [published]
 
 # Allow deployment to GitHub Pages
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: read
 
 # Allow only one concurrent deployment
 concurrency:
@@ -121,10 +121,27 @@ jobs:
         # Add .nojekyll to prevent Jekyll processing
         touch deploy/.nojekyll
 
-    - name: Deploy to GitHub Pages 🚀
-      if: github.ref == 'refs/heads/main'
-      uses: JamesIves/github-pages-deploy-action@v4
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        branch: pages
-        folder: deploy
+        path: deploy
+
+  deploy:
+    # Only run deploy job on main branch
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
