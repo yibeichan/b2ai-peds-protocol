@@ -32,15 +32,14 @@ This repository uses GitHub Actions for continuous integration and deployment:
 
 For development and testing, you can use the ReproSchema-UI tool to render protocols directly from GitHub:
 
-#### Quick Testing Links
-* [Test Combined Protocol](https://www.repronim.org/reproschema-ui/#/activities/0?url=https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/peds-protocol/peds-protocol)
-* [Test Questionnaires Protocol](https://www.repronim.org/reproschema-ui/#/activities/0?url=https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-questionnaires/peds-protocol/peds-protocol)
-
-#### Custom Protocol Testing
 You can test any protocol by using the following URL format:
 ```
 https://www.repronim.org/reproschema-ui/#/?url=url-to-your-protocol_schema
 ```
+
+#### Quick Testing Links
+* [Test Combined Protocol](https://www.repronim.org/reproschema-ui/#/activities/0?url=https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-combined/peds-protocol/peds-protocol)
+* [Test Questionnaires Protocol](https://www.repronim.org/reproschema-ui/#/activities/0?url=https://raw.githubusercontent.com/kind-lab/b2ai-peds-protocol/main/peds-protocol-questionnaires/peds-protocol/peds-protocol)
 
 ### Local Development
 
