@@ -2,10 +2,16 @@
   "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
   "@type": "reproschema:Protocol",
   "@id": "peds-protocol",
-  "prefLabel": "Peds Protocol Combined v2.3.6",
+  "prefLabel": "Peds Protocol Combined v2.3.7",
   "description": "peds protocol",
   "schemaVersion": "1.0.0",
-  "version": "2.3.6",
+  "version": "2.3.7",
+  "landingPage": [
+      {
+          "@id": "README.md",
+          "inLanguage": "en"
+      }
+  ],
   "ui": {
     "addProperties": [
       {
