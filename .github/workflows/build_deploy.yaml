@@ -8,117 +8,111 @@ on:
   release:
     types: [published]
 
-# Allow deployment to GitHub Pages
 permissions:
   contents: read
 
-# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env:
+  PROTOCOL_COMBINED_SLUG: peds-protocol-combined
+  PROTOCOL_QUESTIONNAIRES_SLUG: peds-protocol-questionnaires
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      PROTOCOL_COMBINED_SLUG: peds-protocol-combined
-      PROTOCOL_QUESTIONNAIRES_SLUG: peds-protocol-questionnaires
-
-    steps:
     
+    steps:
     - name: Check out repository
       uses: actions/checkout@v4
 
-    - name: Set up Node.js
+    - name: Setup environment
       uses: actions/setup-node@v4
       with:
         node-version: '21.x'
-
-    - name: Set up Python
-      uses: actions/setup-python@v4
+        
+    - uses: actions/setup-python@v4
       with:
         python-version: '3.10'
 
-    - name: Install system dependencies
-      run: sudo apt-get install jq
-
-    - name: Read Checksum from config.env
+    - name: Install dependencies
       run: |
+        # System dependencies
+        sudo apt-get install -y jq
+        
+        # Node dependencies
+        npm install -g jsonlint
+        
+        # Python dependencies
+        python -m pip install --upgrade pip setuptools
+        pip install reproschema>=0.1.0 requests_cache>=1.0.0 pre-commit>=3.0.0
+
+    - name: Load configuration
+      run: |
+        # Load reproschema-ui version
         source config.env
         echo "LATEST_COMMIT_HASH=${REPROSCHEMA_UI_CHECKSUM}" >> $GITHUB_ENV
 
-    - name: Install Node dependencies and validate JSON
+    - name: Update protocol commit in config files
       run: |
-        npm install -g jsonlint
-        # Validate JSON files for both protocols
+        chmod +x .github/scripts/update-protocol-commit.sh
+        PR_HEAD_SHA="${{ github.event.pull_request.head.sha }}" \
+        GITHUB_SHA="${{ github.sha }}" \
+        GITHUB_EVENT_NAME="${{ github.event_name }}" \
+        .github/scripts/update-protocol-commit.sh
+
+    - name: Validate protocols
+      run: |
+        # Validate JSON syntax
         find . -name "*.json" -path "./peds-protocol-*" | xargs -I {} jsonlint -q {}
+        
+        # Validate with reproschema
+        for protocol in ${PROTOCOL_COMBINED_SLUG} ${PROTOCOL_QUESTIONNAIRES_SLUG}; do
+          echo "Validating $protocol..."
+          reproschema -l DEBUG validate ${protocol}/activities
+          reproschema -l DEBUG validate ${protocol}/peds-protocol/peds-protocol
+        done
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip setuptools
-        pip install reproschema>=0.1.0 requests_cache>=1.0.0 pre-commit>=3.0.0
-    
-    - name: Test with pyshacl
-      run: |
-        # Validate both protocol schemas
-        reproschema -l DEBUG validate ${PROTOCOL_COMBINED_SLUG}/activities
-        reproschema -l DEBUG validate ${PROTOCOL_COMBINED_SLUG}/peds-protocol/peds-protocol
-        reproschema -l DEBUG validate ${PROTOCOL_QUESTIONNAIRES_SLUG}/activities
-        reproschema -l DEBUG validate ${PROTOCOL_QUESTIONNAIRES_SLUG}/peds-protocol/peds-protocol
-
-    - name: Cache reproschema-ui zip
+    - name: Cache reproschema-ui
       id: ui-cache
       uses: actions/cache@v4
       with:
         path: ${{ env.LATEST_COMMIT_HASH }}.zip
         key: reproschema-ui-${{ env.LATEST_COMMIT_HASH }}
 
-    - name: Download reproschema-ui zip if not cached
+    - name: Download reproschema-ui
       if: steps.ui-cache.outputs.cache-hit != 'true'
       run: |
         curl -O -sSL https://github.com/ReproNim/reproschema-ui/archive/${LATEST_COMMIT_HASH}.zip
 
-    - name: Build Combined Protocol UI
+    - name: Build protocols
       run: |
-        # Setup UI for combined protocol
-        unzip ${LATEST_COMMIT_HASH}.zip
-        mv reproschema-ui-* ui-combined
-        cd ui-combined
-        cp -r ../${PROTOCOL_COMBINED_SLUG}/ui-changes/. .
-        # Modify the title in index.html
-        sed -i 's/<title>.*<\/title>/<title>B2AI Peds Protocol - Combined<\/title>/' public/index.html
-        npm install
-        npm run build
-        cd ..
-
-    - name: Build Questionnaires Protocol UI
-      run: |
-        # Setup UI for questionnaires protocol  
-        unzip ${LATEST_COMMIT_HASH}.zip
-        mv reproschema-ui-* ui-questionnaires
-        cd ui-questionnaires
-        cp -r ../${PROTOCOL_QUESTIONNAIRES_SLUG}/ui-changes/. .
-        # Modify the title in index.html
-        sed -i 's/<title>.*<\/title>/<title>B2AI Peds Protocol - Questionnaires<\/title>/' public/index.html
-        npm install
-        npm run build
-        cd ..
-
-    - name: Prepare deployment folder
-      run: |
-        # Create deployment folder structure
-        mkdir -p deploy
-        mkdir -p deploy/combined
-        mkdir -p deploy/questionnaires
+        chmod +x .github/scripts/build-protocol.sh
         
-        # Copy built UIs to respective folders
-        cp -r ui-combined/dist/* deploy/combined/
-        cp -r ui-questionnaires/dist/* deploy/questionnaires/
+        # Build combined protocol
+        .github/scripts/build-protocol.sh \
+          "${PROTOCOL_COMBINED_SLUG}" \
+          "B2AI Peds Protocol - Combined" \
+          "${LATEST_COMMIT_HASH}"
         
-        # Copy landing page
+        # Build questionnaires protocol
+        .github/scripts/build-protocol.sh \
+          "${PROTOCOL_QUESTIONNAIRES_SLUG}" \
+          "B2AI Peds Protocol - Questionnaires" \
+          "${LATEST_COMMIT_HASH}"
+
+    - name: Prepare deployment
+      run: |
+        # Create deployment structure
+        mkdir -p deploy/{combined,questionnaires}
+        
+        # Copy built UIs
+        cp -r ui-${PROTOCOL_COMBINED_SLUG}/dist/* deploy/combined/
+        cp -r ui-${PROTOCOL_QUESTIONNAIRES_SLUG}/dist/* deploy/questionnaires/
+        
+        # Copy landing page and add Jekyll bypass
         cp index.html deploy/
-        
-        # Add .nojekyll to prevent Jekyll processing
         touch deploy/.nojekyll
 
     - name: Upload artifact
@@ -127,13 +121,14 @@ jobs:
         path: deploy
 
   deploy:
-    # Only run deploy job on main branch
     if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
+    
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+      
     permissions:
       pages: write
       id-token: write
